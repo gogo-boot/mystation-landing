@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Option A - Carousel</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4f8; }
+        h2 { text-align: center; padding: 2rem; color: #1a237e; }
+
+        /* Carousel */
+        .carousel {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+            background: #fff;
+        }
+        .carousel-track {
+            display: flex;
+            transition: transform 0.4s ease;
+        }
+        .carousel-slide {
+            min-width: 100%;
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e8edf3;
+            color: #666;
+            font-size: 1.1rem;
+        }
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.9);
+            border: none;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 2;
+        }
+        .carousel-btn:hover { background: #fff; }
+        .carousel-btn.prev { left: 12px; }
+        .carousel-btn.next { right: 12px; }
+        .carousel-dots {
+            text-align: center;
+            padding: 1rem;
+            background: #fff;
+        }
+        .carousel-dots .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ccc;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .carousel-dots .dot.active { background: #1565c0; }
+    </style>
+</head>
+<body>
+
+<h2>Option A: Carousel / Slider</h2>
+
+<div class="carousel">
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">&#8249;</button>
+    <button class="carousel-btn next" onclick="moveSlide(1)">&#8250;</button>
+    <div class="carousel-track" id="track">
+        <div class="carousel-slide">
+            <!-- Replace with: <img src="img/product-front.jpg" alt="MyStation Front"> -->
+            📷 Product Front View
+        </div>
+        <div class="carousel-slide">
+            <!-- Replace with: <img src="img/product-angle.jpg" alt="MyStation Angle"> -->
+            📷 Product Angle View
+        </div>
+        <div class="carousel-slide">
+            <!-- Replace with: <img src="img/product-display.jpg" alt="MyStation Display"> -->
+            📷 Display Close-up
+        </div>
+        <div class="carousel-slide">
+            <!-- Replace with: <img src="img/product-wall.jpg" alt="MyStation on Wall"> -->
+            📷 Mounted on Wall
+        </div>
+    </div>
+    <div class="carousel-dots" id="dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+        <span class="dot" onclick="goToSlide(3)"></span>
+    </div>
+</div>
+
+<script>
+let current = 0;
+const track = document.getElementById('track');
+const dots = document.querySelectorAll('.dot');
+const total = dots.length;
+
+function goToSlide(n) {
+    current = n;
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+}
+
+function moveSlide(dir) {
+    goToSlide((current + dir + total) % total);
+}
+
+// Auto-advance every 4 seconds
+setInterval(() => moveSlide(1), 4000);
+</script>
+
+</body>
+</html>

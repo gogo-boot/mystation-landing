@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Option B - Grid</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4f8; }
+        h2 { text-align: center; padding: 2rem; color: #1a237e; }
+
+        /* Grid Gallery */
+        .gallery {
+            max-width: 900px;
+            margin: 0 auto 3rem;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 8px;
+        }
+        .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+            background: #e8edf3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-item.main {
+            grid-row: 1 / 3;
+            aspect-ratio: 3/4;
+        }
+        .gallery-item.side {
+            aspect-ratio: 4/3;
+        }
+        .gallery-bottom {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+        .gallery-bottom .gallery-item {
+            aspect-ratio: 4/3;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .lightbox.active { display: flex; }
+        .lightbox-content {
+            max-width: 90vw;
+            max-height: 90vh;
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 2rem;
+        }
+        .lightbox-content img {
+            max-width: 90vw;
+            max-height: 85vh;
+            object-fit: contain;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+            .gallery-item.main {
+                grid-row: auto;
+                grid-column: 1 / -1;
+                aspect-ratio: 16/9;
+            }
+            .gallery-bottom {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Option B: Grid Gallery with Lightbox</h2>
+
+<div class="gallery">
+    <div class="gallery-item main" onclick="openLightbox(0)">
+        <!-- Replace with: <img src="img/product-front.jpg" alt="MyStation Front"> -->
+        📷 Product Front View (Hero)
+    </div>
+    <div class="gallery-item side" onclick="openLightbox(1)">
+        <!-- Replace with: <img src="img/product-angle.jpg" alt="MyStation Angle"> -->
+        📷 Angle View
+    </div>
+    <div class="gallery-item side" onclick="openLightbox(2)">
+        <!-- Replace with: <img src="img/product-display.jpg" alt="MyStation Display"> -->
+        📷 Display Close-up
+    </div>
+</div>
+<div class="gallery-bottom">
+    <div class="gallery-item" onclick="openLightbox(3)">
+        <!-- Replace with: <img src="img/product-wall.jpg" alt="On Wall"> -->
+        📷 Mounted on Wall
+    </div>
+    <div class="gallery-item" onclick="openLightbox(4)">
+        <!-- Replace with: <img src="img/product-weather.jpg" alt="Weather Mode"> -->
+        📷 Weather Mode
+    </div>
+    <div class="gallery-item" onclick="openLightbox(5)">
+        <!-- Replace with: <img src="img/product-box.jpg" alt="Packaging"> -->
+        📷 Packaging
+    </div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-content" id="lightbox-content">
+        <!-- Image shown here when clicked -->
+    </div>
+</div>
+
+<script>
+const captions = [
+    '📷 Product Front View',
+    '📷 Angle View',
+    '📷 Display Close-up',
+    '📷 Mounted on Wall',
+    '📷 Weather Mode',
+    '📷 Packaging'
+];
+
+function openLightbox(index) {
+    document.getElementById('lightbox-content').textContent = captions[index] + ' (full size)';
+    document.getElementById('lightbox').classList.add('active');
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+});
+</script>
+
+</body>
+</html>
