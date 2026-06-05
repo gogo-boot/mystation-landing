@@ -1,0 +1,102 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+    title: 'MyStation',
+    tagline: 'Deine Abfahrtstafel und Wetterstation fuer Zuhause',
+    favicon: 'img/favicon.ico',
+
+    url: 'https://gogo-boot.github.io',
+    baseUrl: '/mystation-landing/',
+
+    organizationName: 'gogo-boot',
+    projectName: 'mystation-landing',
+    deploymentBranch: 'gh-pages',
+    trailingSlash: false,
+
+    onBrokenLinks: 'warn',
+    onBrokenMarkdownLinks: 'warn',
+    onBrokenAnchors: 'warn',
+
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'de'],
+        localeConfigs: {
+            en: {label: 'English'},
+            de: {label: 'Deutsch'},
+        },
+    },
+
+    themes: [],
+    markdown: {
+        mermaid: false,
+        hooks: {
+            onBrokenMarkdownImages: 'warn',
+        },
+    },
+
+    presets: [
+        [
+            'classic',
+            ({
+                docs: {
+                    path: '../docs',
+                    routeBasePath: 'docs',
+                    sidebarPath: './sidebars.js',
+                },
+                blog: false,
+                theme: {
+                    customCss: './src/css/custom.css',
+                },
+            }),
+        ],
+    ],
+
+    themeConfig: ({
+        navbar: {
+            title: 'MyStation',
+            items: [
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'userSidebar',
+                    position: 'left',
+                    label: 'User Guide',
+                },
+                {
+                    href: 'https://github.com/gogo-boot/mystation',
+                    label: 'GitHub',
+                    position: 'right',
+                },
+                {
+                    type: 'localeDropdown',
+                    position: 'right',
+                },
+            ],
+        },
+        footer: {
+            style: 'dark',
+            links: [
+                {
+                    title: 'Documentation',
+                    items: [
+                        {label: 'Quick Start', to: '/docs/user-guide/quick-start'},
+                        {label: 'Troubleshooting', to: '/docs/user-guide/troubleshooting'},
+                    ],
+                },
+                {
+                    title: 'More',
+                    items: [
+                        {label: 'GitHub', href: 'https://github.com/gogo-boot/mystation'},
+                    ],
+                },
+            ],
+            copyright: `Copyright © ${new Date().getFullYear()} MyStation. Built with Docusaurus.`,
+        },
+        prism: {
+            theme: prismThemes.github,
+            darkTheme: prismThemes.dracula,
+        },
+    }),
+};
+
+export default config;
