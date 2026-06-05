@@ -1,0 +1,34 @@
+{
+  "sidebar.userSidebar.doc.Welcome": {
+    "message": "Willkommen",
+    "description": "The label for the doc item Welcome in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.Quick Start": {
+    "message": "Schnellstart",
+    "description": "The label for the doc item Quick Start in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.WiFi & Network": {
+    "message": "WLAN & Netzwerk",
+    "description": "The label for the doc item WiFi & Network in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.How to Change Settings": {
+    "message": "Einstellungen ändern",
+    "description": "The label for the doc item How to Change Settings in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.Settings Guide": {
+    "message": "Einstellungen",
+    "description": "The label for the doc item Settings Guide in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.What's on the Display": {
+    "message": "Was zeigt das Display",
+    "description": "The label for the doc item What's on the Display in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.Using the Buttons": {
+    "message": "Tasten verwenden",
+    "description": "The label for the doc item Using the Buttons in sidebar userSidebar"
+  },
+  "sidebar.userSidebar.doc.Troubleshooting": {
+    "message": "Fehlerbehebung",
+    "description": "The label for the doc item Troubleshooting in sidebar userSidebar"
+  }
+}
