@@ -19,8 +19,8 @@ const config = {
     onBrokenAnchors: 'warn',
 
     i18n: {
-        defaultLocale: 'en',
-        locales: ['en', 'de'],
+        defaultLocale: 'de',
+        locales: ['de', 'en'],
         localeConfigs: {
             en: {label: 'English'},
             de: {label: 'Deutsch'},
