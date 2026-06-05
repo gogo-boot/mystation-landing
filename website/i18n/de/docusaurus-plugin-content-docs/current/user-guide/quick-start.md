@@ -62,6 +62,8 @@ MyStation wird:
 Die Konfigurationsseite zeigt jetzt alle Einstellungen. Dein Standort und nahegelegene Haltestellen wurden bereits
 erkannt.
 
+![Konfigurationsseite](/img/user-guide/config-screenshot-frankfurt.png)
+
 ### Anzeigemodus
 
 Wähle, was auf dem Bildschirm angezeigt wird:

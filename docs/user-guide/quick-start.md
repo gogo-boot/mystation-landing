@@ -66,6 +66,8 @@ MyStation will:
 The configuration page loads quickly. Your location and nearby stops will be detected automatically
 after a few seconds (a loading indicator is shown while this happens).
 
+![Configuration page screenshot](/img/user-guide/config-screenshot-frankfurt.png)
+
 ### Display Mode
 
 Choose what to show on the screen:
