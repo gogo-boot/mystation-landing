@@ -27,9 +27,9 @@ const config = {
         },
     },
 
-    themes: [],
+    themes: ['@docusaurus/theme-mermaid'],
     markdown: {
-        mermaid: false,
+        mermaid: true,
         hooks: {
             onBrokenMarkdownImages: 'warn',
         },
