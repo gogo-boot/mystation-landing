@@ -2,7 +2,7 @@
 
 In ca. 5 Minuten betriebsbereit!
 
-![MyStation-Gerät zeigt den ersten Startbildschirm](/img/user-guide/device-startup-screen.jpg)
+![MyStation-Go-Gerät zeigt den ersten Startbildschirm](/img/user-guide/device-startup-screen.jpg)
 
 ---
 
@@ -25,7 +25,7 @@ Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 30 Sekunden ersc
 
 ---
 
-## Schritt 2: Mit dem MyStation-WLAN verbinden (1 Minute)
+## Schritt 2: Mit dem MyStation-Go-WLAN verbinden (1 Minute)
 
 1. Öffne auf deinem Handy oder Computer die **WLAN-Einstellungen**
 2. Suche das Netzwerk namens **`MyStation-XXXXXXXX`** (XXXXXXXX ist die eindeutige ID deines Geräts)
@@ -36,7 +36,7 @@ Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 30 Sekunden ersc
 ## Schritt 3: Konfigurationsseite öffnen
 
 1. Öffne deinen Browser und gehe zu **`http://10.0.1.1`**
-2. Die MyStation-Konfigurationsseite wird geladen
+2. Die MyStation-Go-Konfigurationsseite wird geladen
 
 ---
 
@@ -47,7 +47,7 @@ Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 30 Sekunden ersc
 2. Gib dein **WLAN-Passwort** ein
 3. Klicke auf **„Verbinden"**
 
-MyStation wird:
+MyStation-Go wird:
 
 - Sich mit deinem Heimnetzwerk verbinden
 - Deinen ungefähren Standort automatisch ermitteln
@@ -99,13 +99,13 @@ Stille Stunden festlegen, um nachts Akku zu sparen. Beispiel: Schlaf von `22:30`
 
 ### Speichern
 
-Klicke auf **„Einstellungen speichern"**. MyStation speichert alle Einstellungen und **startet automatisch neu**.
+Klicke auf **„Einstellungen speichern"**. MyStation-Go speichert alle Einstellungen und **startet automatisch neu**.
 
 ---
 
 ## Schritt 6: Bereit! 🎉
 
-Nach dem Neustart holt MyStation Daten und aktualisiert das Display. Du solltest sehen:
+Nach dem Neustart holt MyStation-Go Daten und aktualisiert das Display. Du solltest sehen:
 
 - 🌤️ Aktuelle Wetterinformationen
 - 🚌 Nächste Abfahrten von deiner gewählten Haltestelle
@@ -125,7 +125,7 @@ Alle vorherigen Einstellungen werden vorgeladen. Mehr dazu: [Einstellungen ände
 
 ## Häufige Probleme bei der Ersteinrichtung
 
-### „Kann nicht mit dem MyStation-WLAN verbinden"
+### „Kann nicht mit dem MyStation-Go-WLAN verbinden"
 
 - Warte 30–60 Sekunden nach dem Einschalten — das Gerät braucht Zeit zum Starten
 - Stelle sicher, dass dein Handy nicht auf „Nur 5 GHz" eingestellt ist

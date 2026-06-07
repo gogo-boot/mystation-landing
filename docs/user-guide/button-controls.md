@@ -1,6 +1,6 @@
 # Button Controls
 
-MyStation has **3 physical buttons** on the side of the device. This page explains what you can do with them,
+MyStation-Go has **3 physical buttons** on the side of the device. This page explains what you can do with them,
 organised by the task you want to accomplish.
 
 ---
@@ -67,10 +67,10 @@ This reverts to your configured display mode after **2 minutes**.
 
 **Hold Button 1 for 5 seconds**
 
-MyStation enters **Configure Mode**:
+MyStation-Go enters **Configure Mode**:
 
 - The display shows the configuration screen
-- MyStation broadcasts a WiFi hotspot (`MyStation-XXXXXXXX`)
+- MyStation-Go broadcasts a WiFi hotspot (`MyStation-XXXXXXXX`)
 - Connect your phone to that hotspot and open `http://10.0.1.1`
 - All your previous settings are pre-loaded — only change what you need
 
@@ -98,7 +98,7 @@ The display shows **Application Info**:
 
 Triggers an **OTA (Over-The-Air) firmware update** immediately:
 
-- MyStation connects to the update server
+- MyStation-Go connects to the update server
 - If a new firmware version is available, it downloads and installs it
 - The device restarts after a successful update
 

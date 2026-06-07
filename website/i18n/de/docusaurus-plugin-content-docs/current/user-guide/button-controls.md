@@ -1,6 +1,6 @@
 # Die Tasten benutzen
 
-MyStation hat **3 Tasten** an der Seite des Geräts. Diese Seite erklärt, was du damit tun kannst —
+MyStation-Go hat **3 Tasten** an der Seite des Geräts. Diese Seite erklärt, was du damit tun kannst —
 geordnet nach dem, was du erreichen möchtest.
 
 ---
@@ -67,10 +67,10 @@ Kehrt nach **2 Minuten** zum konfigurierten Anzeigemodus zurück.
 
 **Taste 1 für 5 Sekunden halten**
 
-MyStation öffnet den **Konfigurationsmodus**:
+MyStation-Go öffnet den **Konfigurationsmodus**:
 
 - Das Display zeigt den Einrichtungsbildschirm
-- MyStation sendet einen WLAN-Hotspot (`MyStation-XXXXXXXX`)
+- MyStation-Go sendet einen WLAN-Hotspot (`MyStation-XXXXXXXX`)
 - Verbinde dein Handy mit dem Hotspot und öffne `http://10.0.1.1`
 - Alle vorherigen Einstellungen sind bereits geladen — ändere nur, was du brauchst
 
@@ -98,7 +98,7 @@ Das Display zeigt **Geräteinformationen**:
 
 Startet sofort ein **Softwareupdate**:
 
-- MyStation verbindet sich mit dem Update-Server
+- MyStation-Go verbindet sich mit dem Update-Server
 - Wenn eine neue Version verfügbar ist, wird sie heruntergeladen und installiert
 - Das Gerät startet nach einem erfolgreichen Update neu
 

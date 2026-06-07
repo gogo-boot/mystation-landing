@@ -6,7 +6,7 @@ Etwas funktioniert nicht? Diese Seite führt dich durch die häufigsten Probleme
 
 ## WLAN & Netzwerkprobleme
 
-### Der MyStation-WLAN-Hotspot erscheint nicht
+### Der MyStation-Go-WLAN-Hotspot erscheint nicht
 
 **Symptome:** Du kannst `MyStation-XXXXXXXX` nicht in der WLAN-Liste deines Handys finden.
 
@@ -21,7 +21,7 @@ Etwas funktioniert nicht? Diese Seite führt dich durch die häufigsten Probleme
 
 ---
 
-### MyStation verbindet sich nicht mit deinem Heimnetzwerk
+### MyStation-Go verbindet sich nicht mit deinem Heimnetzwerk
 
 **Symptome:** Nach der Eingabe der WLAN-Daten schlägt die Verbindung weiterhin fehl.
 
@@ -30,7 +30,7 @@ Etwas funktioniert nicht? Diese Seite führt dich durch die häufigsten Probleme
 1. **WLAN-Passwort überprüfen** — Es unterscheidet Groß- und Kleinschreibung: `Passwort1` ist anders als `passwort1`
 2. **Sicherstellen, dass es ein 2,4 GHz-Netzwerk ist** — 5 GHz wird nicht unterstützt
 3. **Signalstärke prüfen** — Das Gerät näher an den Router stellen und erneut versuchen
-4. **Router-Typ prüfen** — MyStation funktioniert mit normalen Heimroutern. Es funktioniert nicht mit Hotel-WLAN,
+4. **Router-Typ prüfen** — MyStation-Go funktioniert mit normalen Heimroutern. Es funktioniert nicht mit Hotel-WLAN,
    öffentlichem WLAN mit Anmeldeseiten oder Firmennetzwerken mit besonderer Sicherheit
 
 ---
@@ -155,8 +155,7 @@ Dies passiert tendenziell nach mehreren Aktualisierungszyklen ohne vollständige
 
 1. **Überprüfen, ob der Standort korrekt eingestellt ist** — Konfigurationsmodus öffnen und Standort überprüfen
 2. **Internetverbindung prüfen** — Mit einem anderen Gerät prüfen, ob der Router Internetzugang hat
-3. **Hinweis:** MyStation verwendet den Deutschen Wetterdienst (DWD), der nur Deutschland abdeckt. Für Standorte
-   außerhalb Deutschlands werden keine Wetterdaten angezeigt.
+3. **Hinweis:** MyStation-Go unterstuetzt mehrere Wettermodelle (DWD ICON, ECMWF, Meteo-France, MeteoSwiss, ItaliaMeteo). Waehle in den Einstellungen das Modell, das deine Region am besten abdeckt.
 
 ---
 
@@ -185,7 +184,7 @@ Dies passiert tendenziell nach mehreren Aktualisierungszyklen ohne vollständige
 3. **Bis zur nächsten Nacht warten** — Das Gerät versucht es automatisch erneut
 
 > 💡 **Warum Updates wichtig sind:** Die Dienste, die Wetter- und Abfahrtsdaten liefern, ändern
-> gelegentlich, wie sie ihre Daten formatieren. Ein Softwareupdate ist notwendig, damit MyStation
+> gelegentlich, wie sie ihre Daten formatieren. Ein Softwareupdate ist notwendig, damit MyStation-Go
 > kompatibel bleibt. Wenn Updates deaktiviert sind und sich das Datenformat ändert, können
 > Wetter- oder Abfahrtsinformationen aufhören zu erscheinen.
 

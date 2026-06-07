@@ -1,10 +1,10 @@
-# MyStation User Guide
+# MyStation-Go User Guide
 
-Welcome to MyStation — your personal weather and public transport departure board!
+Welcome to MyStation-Go — your personal weather and public transport departure board!
 
-## What is MyStation?
+## What is MyStation-Go?
 
-MyStation is a small, battery-powered display that shows the current weather and the next
+MyStation-Go is a small, battery-powered display that shows the current weather and the next
 public transport departures near your home. You hang it on the wall or place it on a shelf,
 and it updates itself automatically throughout the day.
 
@@ -29,7 +29,7 @@ and it updates itself automatically throughout the day.
 
 ## What's on the Display?
 
-MyStation shows three types of information depending on how you set it up:
+MyStation-Go shows three types of information depending on how you set it up:
 
 | Display Mode       | What you see                                           |
 |--------------------|--------------------------------------------------------|
@@ -45,7 +45,7 @@ See [Understanding the Display](understanding-display.md) for details.
 
 ![Device front view with Button 1 (left), Button 2 (middle), Button 3 (right) labelled](/img/user-guide/device-buttons-overview.jpg)
 
-Your MyStation has **3 buttons** on the side:
+Your MyStation-Go has **3 buttons** on the side:
 
 | Button                | Quick press                        | Hold 5 seconds                     |
 |-----------------------|------------------------------------|------------------------------------|
@@ -94,7 +94,7 @@ To get the longest battery life:
 
 ## Privacy
 
-MyStation uses your WiFi to find your approximate location when you first set it up —
+MyStation-Go uses your WiFi to find your approximate location when you first set it up —
 this is just to help you find nearby transport stops and get the right weather.
 It is not exact and is only used during setup.
 

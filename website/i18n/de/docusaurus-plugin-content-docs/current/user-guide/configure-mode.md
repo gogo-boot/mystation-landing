@@ -1,13 +1,13 @@
 # Einstellungen ändern
 
-Der Konfigurationsmodus ist die einzige Zeit, in der du die Einstellungen deines MyStation ändern kannst.
+Der Konfigurationsmodus ist die einzige Zeit, in der du die Einstellungen deines MyStation-Go ändern kannst.
 Im normalen Betrieb ist der Einstellungsbildschirm nicht verfügbar — und das ist so gewollt.
 
 ---
 
 ## Warum kann ich nur im Konfigurationsmodus konfigurieren?
 
-MyStation ist darauf ausgelegt, monatelang mit einer einzigen Akkuladung zu laufen. Dazu verbringt
+MyStation-Go ist darauf ausgelegt, monatelang mit einer einzigen Akkuladung zu laufen. Dazu verbringt
 es die meiste Zeit in einem sehr energiesparenden Schlafzustand. Es wacht kurz auf, holt Daten,
 aktualisiert das Display und geht sofort wieder schlafen.
 
@@ -34,7 +34,7 @@ stateDiagram-v2
 
 1. **Taste 1** (die linke Taste) für **5 Sekunden gedrückt halten**
 2. Das Display aktualisiert sich und zeigt einen Einrichtungsbildschirm mit einem Link oder QR-Code
-3. MyStation sendet jetzt seinen eigenen WLAN-Hotspot namens **`MyStation-XXXXXXXX`**
+3. MyStation-Go sendet jetzt seinen eigenen WLAN-Hotspot namens **`MyStation-XXXXXXXX`**
 
 ---
 
@@ -43,9 +43,9 @@ stateDiagram-v2
 1. Öffne auf deinem Handy die **WLAN-Einstellungen**
 2. Verbinde dich mit **`MyStation-XXXXXXXX`** (kein Passwort nötig)
 3. Öffne deinen Browser und gehe zu **`http://10.0.1.1`**
-4. Die MyStation-Einstellungsseite erscheint
+4. Die MyStation-Go-Einstellungsseite erscheint
 
-![Handy-Browser zeigt die MyStation-Einstellungsseite unter 10.0.1.1](/img/user-guide/config-page-browser.jpg)
+![Handy-Browser zeigt die MyStation-Go-Einstellungsseite unter 10.0.1.1](/img/user-guide/config-page-browser.jpg)
 
 ---
 
@@ -71,7 +71,7 @@ sind alle vorherigen Einstellungen bereits vorausgefüllt:
 
 ## Speichern und zum Normalbetrieb zurückkehren
 
-Sobald du **„Einstellungen speichern"** drückst, speichert MyStation alles und **startet automatisch neu**.
+Sobald du **„Einstellungen speichern"** drückst, speichert MyStation-Go alles und **startet automatisch neu**.
 Der Normalbetrieb wird innerhalb von ca. 30 Sekunden wieder aufgenommen.
 
 Du kannst den Konfigurationsmodus auch ohne Speichern verlassen, indem du den Einschalter auf AUS

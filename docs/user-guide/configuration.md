@@ -1,6 +1,6 @@
 # Configuration Guide
 
-This page explains every setting in the MyStation settings screen.
+This page explains every setting in the MyStation-Go settings screen.
 
 To open the settings screen, hold **Button 1 for 5 seconds** to enter Configure Mode.
 Not sure how? See [Configure Mode](configure-mode.md).
@@ -24,9 +24,9 @@ Choose what appears on the screen during normal use.
 
 ## Location
 
-### How MyStation Finds Your Location
+### How MyStation-Go Finds Your Location
 
-When you open the settings page, MyStation automatically estimates your location
+When you open the settings page, MyStation-Go automatically estimates your location
 using nearby WiFi networks. It uses this to:
 
 - Find public transport stops close to you
@@ -58,7 +58,7 @@ You can also type in a city or town name manually. However, **auto-detection is 
 
 ### How Often to Update the Weather
 
-This controls how frequently MyStation checks for new weather data.
+This controls how frequently MyStation-Go checks for new weather data.
 
 | Interval                | Battery impact | Good for              |
 |-------------------------|----------------|-----------------------|
@@ -72,7 +72,7 @@ This controls how frequently MyStation checks for new weather data.
 
 ### Weather Model
 
-You can choose which weather model MyStation uses. Different models cover different regions
+You can choose which weather model MyStation-Go uses. Different models cover different regions
 and provide different forecast lengths.
 
 | Model                        | Forecast | Best for              |
@@ -100,7 +100,7 @@ If you don't see your stop, check that your location was detected correctly.
 
 ### How Often to Update Departures
 
-This controls how frequently MyStation checks for new departure times.
+This controls how frequently MyStation-Go checks for new departure times.
 
 | Interval                  | Battery impact | Good for             |
 |---------------------------|----------------|----------------------|
@@ -124,7 +124,7 @@ Example: Active from `06:00` to `09:00`
 ### Walking Time to the Stop
 
 Enter how many minutes it takes you to walk to your stop.
-MyStation uses this to omits which departures are not catchable.
+MyStation-Go uses this to omits which departures are not catchable.
 
 ### Transport Types
 
@@ -163,7 +163,7 @@ Example: Stay awake later on weekends — sleep from `23:00` to `07:00`.
 
 ## Automatic Software Updates
 
-MyStation can update its own internal software automatically while you sleep.
+MyStation-Go can update its own internal software automatically while you sleep.
 
 | Setting         | Default                                                |
 |-----------------|--------------------------------------------------------|
@@ -173,7 +173,7 @@ MyStation can update its own internal software automatically while you sleep.
 ### Why Updates Matter
 
 The services that provide weather data and transport times (German Weather Service and RMV)
-occasionally change how they send data. When this happens, MyStation needs a software update
+occasionally change how they send data. When this happens, MyStation-Go needs a software update
 to keep working correctly.
 
 Without updates, the weather or departure information may eventually stop appearing or show

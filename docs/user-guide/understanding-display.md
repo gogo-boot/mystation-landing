@@ -1,10 +1,10 @@
 # Understanding the Display
 
-This guide explains what information is shown on your MyStation e-paper display and where to find it.
+This guide explains what information is shown on your MyStation-Go e-paper display and where to find it.
 
 ## Display Layout
 
-MyStation offers three display modes, each optimized for different needs:
+MyStation-Go offers three display modes, each optimized for different needs:
 
 1. **Half & Half Mode** - Weather and departures split view
 2. **Weather Only Mode** - Full-screen weather information
@@ -146,7 +146,7 @@ MyStation offers three display modes, each optimized for different needs:
 
 ### Weather Icons
 
-MyStation uses intuitive weather icons:
+MyStation-Go uses intuitive weather icons:
 
 | Icon | Meaning       |
 |------|---------------|

@@ -6,7 +6,7 @@ Something not working? This guide walks through the most common issues and how t
 
 ## WiFi & Network Issues
 
-### The MyStation WiFi Hotspot Does Not Appear
+### The MyStation-Go WiFi Hotspot Does Not Appear
 
 **Symptoms:** You can't find `MyStation-XXXXXXXX` in your phone's WiFi list.
 
@@ -20,7 +20,7 @@ Something not working? This guide walks through the most common issues and how t
 
 ---
 
-### MyStation Won't Connect to Your Home WiFi
+### MyStation-Go Won't Connect to Your Home WiFi
 
 **Symptoms:** After entering your WiFi details, the device keeps failing to connect.
 
@@ -29,7 +29,7 @@ Something not working? This guide walks through the most common issues and how t
 1. **Check your WiFi password** — it is case-sensitive, so `Password1` is different from `password1`
 2. **Make sure it's a 2.4 GHz network** — 5 GHz is not supported. Look for the 2.4 GHz version of your network name
 3. **Check your signal strength** — move the device closer to the router and try again
-4. **Check your router type** — MyStation works with standard home routers (WPA/WPA2). It does not work with hotel WiFi,
+4. **Check your router type** — MyStation-Go works with standard home routers (WPA/WPA2). It does not work with hotel WiFi,
    public WiFi with login screens, or business networks with special security
 
 ---
@@ -152,8 +152,7 @@ This tends to happen after the device has been running for several update cycles
 
 1. **Check your location is set correctly** — open Configure Mode and verify the location looks right
 2. **Check your internet connection** — verify your router has internet access by checking with another device
-3. **Note:** MyStation uses the German Weather Service (DWD), which covers Germany only. It will not show weather for
-   locations outside Germany
+3. **Note:** MyStation-Go supports multiple weather models (DWD ICON, ECMWF, Meteo-France, MeteoSwiss, ItaliaMeteo). Choose the model that best covers your region in the settings.
 
 ---
 
@@ -182,7 +181,7 @@ This tends to happen after the device has been running for several update cycles
 3. **Try again the next night** — the device retries automatically
 
 > 💡 **Why updates matter:** The services that provide weather and transport data occasionally
-> change how they format their data. A software update is needed to keep MyStation compatible.
+> change how they format their data. A software update is needed to keep MyStation-Go compatible.
 > If updates are disabled and the data format changes, weather or departure info may stop appearing.
 
 ---

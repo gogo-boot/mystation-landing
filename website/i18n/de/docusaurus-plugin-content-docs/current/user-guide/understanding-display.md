@@ -1,12 +1,12 @@
 # Das Display verstehen
 
-Diese Seite erklärt, welche Informationen auf dem MyStation E-Paper-Display angezeigt werden und wo.
+Diese Seite erklärt, welche Informationen auf dem MyStation-Go E-Paper-Display angezeigt werden und wo.
 
 ---
 
 ## Die drei Anzeigemodi
 
-MyStation bietet drei Anzeigemodi, je nach Bedarf:
+MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 | Modus                | Was du siehst                                      |
 |----------------------|----------------------------------------------------|
@@ -165,7 +165,7 @@ Das 12-Stunden-Vorhersagediagramm zeigt:
 
 ## E-Paper-Bildschirm — Normales Verhalten
 
-Das MyStation verwendet einen E-Paper-Bildschirm (wie ein Kindle). Das ist normal:
+Das MyStation-Go verwendet einen E-Paper-Bildschirm (wie ein Kindle). Das ist normal:
 
 - ✅ Der Bildschirm **flackert kurz** beim Aktualisieren (schwarz-weißes Aufblinken)
 - ✅ Das Aktualisieren dauert **3–4 Sekunden** — das ist die Technologie, keine Störung

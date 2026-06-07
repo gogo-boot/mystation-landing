@@ -1,10 +1,10 @@
-# MyStation Benutzerhandbuch
+# MyStation-Go Benutzerhandbuch
 
-Willkommen bei MyStation — deiner persönlichen Wetterstation und Abfahrtstafel für öffentliche Verkehrsmittel!
+Willkommen bei MyStation-Go — deiner persönlichen Wetterstation und Abfahrtstafel für öffentliche Verkehrsmittel!
 
-## Was ist MyStation?
+## Was ist MyStation-Go?
 
-MyStation ist ein kleines, batteriebetriebenes Display, das das aktuelle Wetter und die nächsten
+MyStation-Go ist ein kleines, batteriebetriebenes Display, das das aktuelle Wetter und die nächsten
 Abfahrten öffentlicher Verkehrsmittel in deiner Nähe anzeigt. Du hängst es an die Wand oder
 stellst es ins Regal — es aktualisiert sich automatisch den ganzen Tag.
 
@@ -29,7 +29,7 @@ stellst es ins Regal — es aktualisiert sich automatisch den ganzen Tag.
 
 ## Was zeigt das Display?
 
-MyStation zeigt je nach Einstellung drei Arten von Informationen:
+MyStation-Go zeigt je nach Einstellung drei Arten von Informationen:
 
 | Anzeigemodus         | Was du siehst                                      |
 |----------------------|----------------------------------------------------|
@@ -45,7 +45,7 @@ Weitere Details: [Das Display verstehen](understanding-display.md)
 
 ![Gerät von vorne mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/device-buttons-overview.jpg)
 
-Dein MyStation hat **3 Tasten** an der Seite:
+Dein MyStation-Go hat **3 Tasten** an der Seite:
 
 | Taste                | Kurz drücken                         | 5 Sekunden halten                          |
 |----------------------|--------------------------------------|--------------------------------------------|
@@ -95,7 +95,7 @@ Für die längste Akkulaufzeit:
 
 ## Datenschutz
 
-MyStation nutzt dein WLAN, um bei der Ersteinrichtung deinen ungefähren Standort zu ermitteln —
+MyStation-Go nutzt dein WLAN, um bei der Ersteinrichtung deinen ungefähren Standort zu ermitteln —
 nur um nahegelegene Haltestellen zu finden und das richtige Wetter anzuzeigen.
 Die Lokalisierung ist ungenau und wird nur bei der Einrichtung verwendet.
 

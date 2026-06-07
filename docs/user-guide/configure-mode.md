@@ -1,13 +1,13 @@
 # Configure Mode
 
-Configure Mode is the only time you can change the settings on your MyStation.
+Configure Mode is the only time you can change the settings on your MyStation-Go.
 During normal day-to-day use, the settings screen is not available — and this is intentional.
 
 ---
 
 ## Why Can I Only Configure in Configure Mode?
 
-MyStation is designed to last for months on a single battery charge. To do this, it spends
+MyStation-Go is designed to last for months on a single battery charge. To do this, it spends
 most of its time in a very low-power sleep state. It wakes up briefly, fetches data, updates
 the display, and immediately goes back to sleep.
 
@@ -25,7 +25,7 @@ So the settings screen is only available when you deliberately turn it on — th
 
 1. **Press and hold Button 1** (the left button) for **5 seconds**
 2. The display refreshes and shows a setup screen with a link or QR code
-3. MyStation is now broadcasting its own WiFi hotspot named **`MyStation-XXXXXXXX`**
+3. MyStation-Go is now broadcasting its own WiFi hotspot named **`MyStation-XXXXXXXX`**
 
 ---
 
@@ -34,9 +34,9 @@ So the settings screen is only available when you deliberately turn it on — th
 1. On your phone or computer, open **WiFi settings**
 2. Connect to **`MyStation-XXXXXXXX`** (no password needed)
 3. Open your browser and go to **`http://10.0.1.1`**
-4. The MyStation settings page will appear
+4. The MyStation-Go settings page will appear
 
-![Phone browser showing the MyStation settings page at 10.0.1.1](/img/user-guide/config-page-browser.jpg)
+![Phone browser showing the MyStation-Go settings page at 10.0.1.1](/img/user-guide/config-page-browser.jpg)
 
 ---
 
@@ -62,7 +62,7 @@ Just change what you need and press **Save Settings**.
 
 ## Saving and Returning to Normal Use
 
-Once you press **"Save Settings"**, MyStation saves everything and **restarts automatically**.
+Once you press **"Save Settings"**, MyStation-Go saves everything and **restarts automatically**.
 Normal operation (fetching data and updating the display) resumes within about 30 seconds.
 
 You can also exit Configure Mode without saving by sliding the power switch to OFF, then back to ON to restart the

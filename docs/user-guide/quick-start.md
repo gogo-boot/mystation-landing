@@ -1,8 +1,8 @@
 # Quick Start Guide
 
-Get your MyStation up and running in about 5 minutes!
+Get your MyStation-Go up and running in about 5 minutes!
 
-![MyStation device showing the initial startup screen](/img/user-guide/device-startup-screen.jpg)
+![MyStation-Go device showing the initial startup screen](/img/user-guide/device-startup-screen.jpg)
 
 ---
 
@@ -26,7 +26,7 @@ appear on the display.
 
 ---
 
-## Step 2: Connect to MyStation WiFi (1 minute)
+## Step 2: Connect to MyStation-Go WiFi (1 minute)
 
 1. On your phone or computer, open **WiFi settings**
 2. Find the network named **`MyStation-XXXXXXXX`** (XXXXXXXX is your device's unique ID)
@@ -39,9 +39,9 @@ appear on the display.
 ## Step 3: Open the Configuration Page
 
 1. Open your browser and go to **`http://10.0.1.1`**
-2. The MyStation configuration page will load
+2. The MyStation-Go configuration page will load
 
-> 📷 *[Photo placeholder: browser showing the MyStation configuration web page]*
+> 📷 *[Photo placeholder: browser showing the MyStation-Go configuration web page]*
 
 ---
 
@@ -52,7 +52,7 @@ appear on the display.
 2. Enter your **WiFi password**
 3. Click **"Speichern"** (Save)
 
-MyStation will:
+MyStation-Go will:
 
 - Connect to your home WiFi
 - Restart automatically and proceed to application setup
@@ -103,13 +103,13 @@ Set quiet hours to save battery overnight. Example: sleep from `22:30` to `05:30
 
 ### Save
 
-Click **"Save Settings"**. MyStation saves all settings and **restarts automatically**.
+Click **"Save Settings"**. MyStation-Go saves all settings and **restarts automatically**.
 
 ---
 
 ## Step 6: Up and Running 🎉
 
-After restarting, MyStation will fetch data and update the display. You should see:
+After restarting, MyStation-Go will fetch data and update the display. You should see:
 
 - 🌤️ Current weather information
 - 🚌 Upcoming departures from your selected stop
@@ -129,7 +129,7 @@ All your previous settings will be pre-loaded. See [Configure Mode](configure-mo
 
 ## Common First-Time Issues
 
-### "Cannot connect to MyStation WiFi"
+### "Cannot connect to MyStation-Go WiFi"
 
 - Wait 30–60 seconds after powering on — the device needs time to boot
 - Make sure your phone is not locked to 5 GHz only

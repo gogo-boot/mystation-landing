@@ -1,6 +1,6 @@
 # Einstellungsübersicht
 
-Diese Seite erklärt jede Einstellung im MyStation-Einstellungsbildschirm.
+Diese Seite erklärt jede Einstellung im MyStation-Go-Einstellungsbildschirm.
 
 Um den Einstellungsbildschirm zu öffnen, halte **Taste 1 für 5 Sekunden** gedrückt.
 Nicht sicher wie? Siehe [Einstellungen ändern](configure-mode.md).
@@ -24,9 +24,9 @@ Wähle, was während des normalen Betriebs auf dem Bildschirm erscheint.
 
 ## Standort
 
-### Wie MyStation deinen Standort findet
+### Wie MyStation-Go deinen Standort findet
 
-Wenn du die Einstellungsseite öffnest, schätzt MyStation deinen Standort automatisch
+Wenn du die Einstellungsseite öffnest, schätzt MyStation-Go deinen Standort automatisch
 anhand nahegelegener WLAN-Netzwerke. Dies wird verwendet um:
 
 - Haltestellen des ÖPNV in deiner Nähe zu finden
@@ -58,7 +58,7 @@ Du kannst auch einen Stadt- oder Ortsnamen manuell eingeben. Jedoch ist **die au
 
 ### Wie oft das Wetter aktualisiert wird
 
-Dies steuert, wie häufig MyStation neue Wetterdaten abruft.
+Dies steuert, wie häufig MyStation-Go neue Wetterdaten abruft.
 
 | Intervall                  | Akkuverbrauch  | Geeignet für           |
 |----------------------------|----------------|------------------------|
@@ -83,7 +83,7 @@ Wenn deine Haltestelle nicht aufgelistet ist, überprüfe ob dein Standort korre
 
 ### Wie oft Abfahrten aktualisiert werden
 
-Dies steuert, wie häufig MyStation neue Abfahrtszeiten abruft.
+Dies steuert, wie häufig MyStation-Go neue Abfahrtszeiten abruft.
 
 | Intervall                  | Akkuverbrauch  | Geeignet für           |
 |----------------------------|----------------|------------------------|
@@ -107,7 +107,7 @@ Beispiel: Aktiv von `06:00` bis `09:00`
 ### Gehzeit zur Haltestelle
 
 Gib ein, wie viele Minuten du zu deiner Haltestelle läufst.
-MyStation verwendet dies, um hervorzuheben, welche Abfahrten noch erreichbar sind.
+MyStation-Go verwendet dies, um hervorzuheben, welche Abfahrten noch erreichbar sind.
 
 ### Verkehrsmitteltypen
 
@@ -147,7 +147,7 @@ Beispiel: Am Wochenende länger wach bleiben — schlafen von `23:00` bis `07:00
 
 ## Automatische Softwareupdates
 
-MyStation kann seine interne Software automatisch aktualisieren, während du schläfst.
+MyStation-Go kann seine interne Software automatisch aktualisieren, während du schläfst.
 
 | Einstellung       | Standard                                              |
 |-------------------|-------------------------------------------------------|
@@ -157,7 +157,7 @@ MyStation kann seine interne Software automatisch aktualisieren, während du sch
 ### Warum Updates wichtig sind
 
 Die Dienste, die Wetter- und Abfahrtsdaten liefern (Deutscher Wetterdienst und RMV),
-ändern gelegentlich, wie sie ihre Daten übermitteln. Wenn das passiert, braucht MyStation
+ändern gelegentlich, wie sie ihre Daten übermitteln. Wenn das passiert, braucht MyStation-Go
 ein Softwareupdate, um weiterhin korrekt zu funktionieren.
 
 Ohne Updates können Wetter- oder Abfahrtsinformationen irgendwann nicht mehr erscheinen
