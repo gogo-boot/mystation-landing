@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=GitHub"
   },
   "copyright": {
-    "message": "Copyright © 2025 MyStation. Erstellt mit Docusaurus.",
+    "message": "Copyright © 2025 MyStation-Go.",
     "description": "The footer copyright"
   }
 }

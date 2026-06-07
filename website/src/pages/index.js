@@ -30,7 +30,7 @@ export default function Home() {
         <Layout title="MyStation-Go" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
-                    <img src="/img/mystation-hero.jpg" alt="MyStation" className={styles.heroImage}
+                    <img src="/img/mystation-hero.jpg" alt="MyStation-Go" className={styles.heroImage}
                          onError={(e) => e.target.style.display = 'none'} />
                     <h1>MyStation-Go</h1>
                     <p>Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.</p>
