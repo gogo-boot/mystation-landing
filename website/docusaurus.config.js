@@ -63,11 +63,6 @@ const config = {
                     label: 'User Guide',
                 },
                 {
-                    href: 'https://github.com/gogo-boot/mystation',
-                    label: 'GitHub',
-                    position: 'right',
-                },
-                {
                     type: 'localeDropdown',
                     position: 'right',
                 },
@@ -83,14 +78,8 @@ const config = {
                         {label: 'Troubleshooting', to: '/docs/user-guide/troubleshooting'},
                     ],
                 },
-                {
-                    title: 'More',
-                    items: [
-                        {label: 'GitHub', href: 'https://github.com/gogo-boot/mystation'},
-                    ],
-                },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} MyStation. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} MyStation-Go.`,
         },
         prism: {
             theme: prismThemes.github,
