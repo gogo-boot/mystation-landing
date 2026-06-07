@@ -27,12 +27,12 @@ const galleryItems = ['Product Front View', 'Angle View', 'Display Close-up', 'M
 
 export default function Home() {
     return (
-        <Layout title="MyStation" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
+        <Layout title="MyStation-Go" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
                     <img src="/img/mystation-hero.jpg" alt="MyStation" className={styles.heroImage}
                          onError={(e) => e.target.style.display = 'none'} />
-                    <h1>MyStation</h1>
+                    <h1>MyStation-Go</h1>
                     <p>Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.</p>
                     <a href="#buy" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt kaufen</a>
                     <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnSecondary}`}>Dokumentation</a>
@@ -54,7 +54,7 @@ export default function Home() {
             </section>
 
             <section className={styles.features}>
-                <h2>Warum MyStation?</h2>
+                <h2>Warum MyStation-Go?</h2>
                 <div className={styles.featuresGrid}>
                     {features.map((f, i) => (
                         <div key={i} className={styles.featureCard}>
@@ -81,7 +81,7 @@ export default function Home() {
 
             <section className={styles.cta} id="buy">
                 <h2>Bereit fuer deine eigene Abfahrtstafel?</h2>
-                <div className={styles.price}>79 EUR</div>
+                <div className={styles.price}>95 EUR</div>
                 <p className={styles.priceNote}>Inkl. Geraet, Akku und Gehaeuse. Kostenloser Versand innerhalb Deutschlands.</p>
                 <a href="#" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt bestellen</a>
             </section>

@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'MyStation',
+    title: 'MyStation-Go',
     tagline: 'Deine Abfahrtstafel und Wetterstation fuer Zuhause',
     favicon: 'img/favicon.ico',
 
@@ -54,7 +54,7 @@ const config = {
 
     themeConfig: ({
         navbar: {
-            title: 'MyStation',
+            title: 'MyStation-Go',
             items: [
                 {
                     type: 'docSidebar',
