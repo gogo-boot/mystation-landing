@@ -7,7 +7,7 @@ const config = {
     favicon: 'img/favicon.ico',
 
     url: 'https://gogo-boot.github.io',
-    baseUrl: '/mystation-landing/',
+    baseUrl: '/',
 
     organizationName: 'gogo-boot',
     projectName: 'mystation-landing',
