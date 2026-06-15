@@ -76,6 +76,10 @@ const config = {
                     sidebarPath: './sidebars.js',
                 },
                 blog: false,
+                gtag: {
+                    trackingID: 'G-JV671HWVNL',
+                    anonymizeIP: true,
+                },
                 sitemap: {
                     changefreq: 'weekly',
                     priority: 0.5,
