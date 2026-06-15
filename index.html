@@ -193,7 +193,6 @@
         <h2>Technische Daten</h2>
         <table>
             <tr><td>Display</td><td>7,5 Zoll E-Paper (800x480 Pixel)</td></tr>
-            <tr><td>Prozessor</td><td>ESP32-S3 Dual-Core</td></tr>
             <tr><td>Konnektivitaet</td><td>WLAN 2,4 GHz</td></tr>
             <tr><td>Akku</td><td>Integrierter Li-Ion, USB-C Laden</td></tr>
             <tr><td>Akkulaufzeit</td><td>Bis zu 6 Monate (abhaengig von Einstellungen)</td></tr>
@@ -218,9 +217,12 @@
 </footer>
 
 <script>
-const captions = ['Product Front View','Angle View','Display Close-up','Mounted on Wall','Weather Mode','Packaging'];
+const images = [
+    'img/IMG_0872.jpeg','img/IMG_0869.jpeg','img/IMG_0871.jpeg',
+    'img/IMG_0874.jpeg','img/IMG_0867.jpeg','img/IMG_0876.jpeg'
+];
 function openLightbox(i) {
-    document.getElementById('lightbox-content').textContent = captions[i] + ' (full size)';
+    document.getElementById('lightbox-content').innerHTML = '<img src="'+images[i]+'" alt="">';
     document.getElementById('lightbox').classList.add('active');
 }
 function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); }
