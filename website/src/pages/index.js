@@ -65,8 +65,10 @@ const specs = {
 const galleryImages = [
     { src: '/img/IMG_0872.jpeg', alt: 'MyStation Front' },
     { src: '/img/IMG_0869.jpeg', alt: 'MyStation Angle' },
-    { src: '/img/IMG_0871.jpeg', alt: 'MyStation Display' },
+    { src: '/img/IMG_0878.jpeg', alt: 'MyStation Side' },
     { src: '/img/IMG_0874.jpeg', alt: 'Mounted on Wall' },
+    { src: '/img/IMG_0881.jpeg', alt: 'MyStation Close-up' },
+    { src: '/img/IMG_0883.jpeg', alt: 'MyStation Back' },
     { src: '/img/IMG_0867.jpeg', alt: 'Weather Mode' },
     { src: '/img/IMG_0876.jpeg', alt: 'Packaging' },
 ];
@@ -121,15 +123,11 @@ export default function Home() {
                     </div>
                 </div>
                 <div className={styles.galleryBottom}>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[3].src)}>
-                        <img src={galleryImages[3].src} alt={galleryImages[3].alt} />
-                    </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[4].src)}>
-                        <img src={galleryImages[4].src} alt={galleryImages[4].alt} />
-                    </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[5].src)}>
-                        <img src={galleryImages[5].src} alt={galleryImages[5].alt} />
-                    </div>
+                    {galleryImages.slice(3).map((img, i) => (
+                        <div key={i} className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(img.src)}>
+                            <img src={img.src} alt={img.alt} />
+                        </div>
+                    ))}
                 </div>
             </section>
 
