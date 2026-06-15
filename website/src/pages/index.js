@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
@@ -33,15 +33,23 @@ const galleryImages = [
 ];
 
 export default function Home() {
+    const [lightboxSrc, setLightboxSrc] = useState(null);
+
     return (
         <Layout title="MyStation-Go" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
+            {lightboxSrc && (
+                <div className={styles.lightbox} onClick={() => setLightboxSrc(null)}>
+                    <img src={lightboxSrc} alt="" className={styles.lightboxImg} />
+                </div>
+            )}
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
                     <img src="/img/IMG_0872.jpeg" alt="MyStation-Go" className={styles.heroImage}
+                         onClick={() => setLightboxSrc('/img/IMG_0872.jpeg')}
                          onError={(e) => e.target.style.display = 'none'} />
                     <h1>MyStation-Go</h1>
                     <p>Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.</p>
-                    <a href="#buy" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt kaufen</a>
+                    <a href="https://www.ebay.de/itm/178073276495" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt kaufen</a>
                     <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnSecondary}`}>Dokumentation</a>
                 </div>
             </section>
@@ -49,24 +57,24 @@ export default function Home() {
             <section className={styles.gallerySection}>
                 <h2>Produkt-Galerie</h2>
                 <div className={styles.gallery}>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemMain}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemMain}`} onClick={() => setLightboxSrc(galleryImages[0].src)}>
                         <img src={galleryImages[0].src} alt={galleryImages[0].alt} />
                     </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`} onClick={() => setLightboxSrc(galleryImages[1].src)}>
                         <img src={galleryImages[1].src} alt={galleryImages[1].alt} />
                     </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`} onClick={() => setLightboxSrc(galleryImages[2].src)}>
                         <img src={galleryImages[2].src} alt={galleryImages[2].alt} />
                     </div>
                 </div>
                 <div className={styles.galleryBottom}>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[3].src)}>
                         <img src={galleryImages[3].src} alt={galleryImages[3].alt} />
                     </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[4].src)}>
                         <img src={galleryImages[4].src} alt={galleryImages[4].alt} />
                     </div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`} onClick={() => setLightboxSrc(galleryImages[5].src)}>
                         <img src={galleryImages[5].src} alt={galleryImages[5].alt} />
                     </div>
                 </div>
@@ -102,7 +110,7 @@ export default function Home() {
                 <h2>Bereit fuer deine eigene Abfahrtstafel?</h2>
                 <div className={styles.price}>95 EUR</div>
                 <p className={styles.priceNote}>Inkl. Geraet, Akku und Gehaeuse. Kostenloser Versand innerhalb Deutschlands.</p>
-                <a href="#" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt bestellen</a>
+                <a href="https://www.ebay.de/itm/178073276495" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt bestellen</a>
             </section>
         </Layout>
     );
