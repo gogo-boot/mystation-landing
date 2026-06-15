@@ -1,0 +1,35 @@
+{
+  "homepage.hero.description": {
+    "message": "Your personal departure board and weather station. Real-time departures and weather on an elegant E-Paper display — battery-powered for months."
+  },
+  "homepage.layout.description": {
+    "message": "Real-time departure board and weather station for your home. E-Paper display with public transit departures and weather. Battery-powered for months."
+  },
+  "homepage.locale": {
+    "message": "en"
+  },
+  "homepage.buy": {
+    "message": "Buy Now"
+  },
+  "homepage.docs": {
+    "message": "Documentation"
+  },
+  "homepage.gallery": {
+    "message": "Product Gallery"
+  },
+  "homepage.whyTitle": {
+    "message": "Why MyStation-Go?"
+  },
+  "homepage.specs": {
+    "message": "Specifications"
+  },
+  "homepage.ctaTitle": {
+    "message": "Ready for your own departure board?"
+  },
+  "homepage.ctaNote": {
+    "message": "Includes device, battery, and case. Free shipping within Germany."
+  },
+  "homepage.order": {
+    "message": "Order Now"
+  }
+}
