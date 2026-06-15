@@ -7,7 +7,7 @@ geordnet nach dem, was du erreichen möchtest.
 
 ## Tastenübersicht
 
-![Gerät von der Seite mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/website/static/img/user-guide/IMG_0870-b123.jpeg)
+![Gerät von der Seite mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/IMG_0870-b123.jpeg)
 
 ---
 

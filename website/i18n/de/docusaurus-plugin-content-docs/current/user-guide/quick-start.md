@@ -27,7 +27,7 @@ Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 3 Sekunden ersch
 4. Falls sich keine Einrichtungsseite automatisch öffnet, öffne deinen Browser und gehe zu **`http://10.0.1.1`**
 5. Die MyStation-Go-WLAN-Konfigurationsseite wird geladen
 
-![Gerät zeigt den WLAN-Hotspot-Namen MyStation-XXXXXXXX auf dem Display](/website/static/img/user-guide/IMG_0875.jpeg)
+![Gerät zeigt den WLAN-Hotspot-Namen MyStation-XXXXXXXX auf dem Display](/img/user-guide/IMG_0875.jpeg)
 ---
 
 ## Schritt 3: WLAN konfigurieren
@@ -51,9 +51,9 @@ MyStation-Go wird:
 
 1. Verbinde dich mit deinem Heimnetzwerk.
 2. Gib die auf dem MyStation-Go-Display angezeigte IP-Adresse oder `http://mystation.local` in deinem Browser ein.
-![Gerät zeigt die IP-Adresse auf dem Display](/website/static/img/user-guide/IMG_0874.jpeg)
+![Gerät zeigt die IP-Adresse auf dem Display](/img/user-guide/IMG_0874.jpeg)
 3. Konfiguriere die App-Einstellungen auf der Seite. Alle Einstellungen werden gespeichert, wenn du auf „Einstellungen speichern" klickst.
-![Konfigurationsseite](/website/static/img/user-guide/config-screenshot-frankfurt.png)
+![Konfigurationsseite](/img/user-guide/config-screenshot-frankfurt.png)
 
 ### Anzeigemodus
 

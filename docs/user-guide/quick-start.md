@@ -27,7 +27,7 @@ Slide the **power switch** to the ON position. After about 3 seconds, the setup 
 4. If no setup page opens automatically, open your browser and go to **`http://10.0.1.1`**
 5. The MyStation-Go WiFi configuration page will load
 
-![Device showing the WiFi hotspot name MyStation-XXXXXXXX on the display](/website/static/img/user-guide/IMG_0875.jpeg)
+![Device showing the WiFi hotspot name MyStation-XXXXXXXX on the display](/img/user-guide/IMG_0875.jpeg)
 
 ---
 
@@ -52,9 +52,9 @@ MyStation-Go will:
 
 1. Connect to your home network.
 2. Enter the IP address shown on the MyStation-Go display or `http://mystation.local` in your browser.
-![Device showing the IP address on the display](/website/static/img/user-guide/IMG_0874.jpeg)
+![Device showing the IP address on the display](/img/user-guide/IMG_0874.jpeg)
 3. Configure the app settings on the page. All settings are saved when you click "Save Settings".
-![Configuration page](/website/static/img/user-guide/config-screenshot-frankfurt.png)
+![Configuration page](/img/user-guide/config-screenshot-frankfurt.png)
 
 ### Display Mode
 

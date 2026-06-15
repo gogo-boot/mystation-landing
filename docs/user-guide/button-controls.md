@@ -7,7 +7,7 @@ organized by what you want to achieve.
 
 ## Button Overview
 
-![Device from the side with labeled buttons: Button 1 (left), Button 2 (middle), Button 3 (right)](/website/static/img/user-guide/IMG_0870-b123.jpeg)
+![Device from the side with labeled buttons: Button 1 (left), Button 2 (middle), Button 3 (right)](/img/user-guide/IMG_0870-b123.jpeg)
 
 ---
 
