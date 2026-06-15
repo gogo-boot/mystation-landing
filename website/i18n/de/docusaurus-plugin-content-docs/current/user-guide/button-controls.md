@@ -7,13 +7,7 @@ geordnet nach dem, was du erreichen möchtest.
 
 ## Tastenübersicht
 
-![Gerät von der Seite mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/device-buttons-side.jpg)
-
-| Taste   | Position |
-|---------|----------|
-| Taste 1 | Links    |
-| Taste 2 | Mitte    |
-| Taste 3 | Rechts   |
+![Gerät von der Seite mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/IMG_0870-b123.jpeg)
 
 ---
 

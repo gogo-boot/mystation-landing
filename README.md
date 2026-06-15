@@ -19,10 +19,20 @@ git push -u origin main
 ## Local Preview
 
 ```bash
-open index.html
-# or
+# Landing page (static HTML)
 python3 -m http.server 8000
 ```
+
+### Docusaurus Documentation Preview
+
+```bash
+cd website
+npm install
+npm start              # English (default)
+npm start -- --locale de   # German
+```
+
+Opens at `http://localhost:3000`.
 
 ## Stripe Integration
 
