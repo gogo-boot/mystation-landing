@@ -1,19 +1,13 @@
-# Button Controls
+# Using the Buttons
 
-MyStation-Go has **3 physical buttons** on the side of the device. This page explains what you can do with them,
-organised by the task you want to accomplish.
+MyStation-Go has **3 buttons** on the side of the device. This page explains what you can do with them —
+organized by what you want to achieve.
 
 ---
 
-## Device Buttons Overview
+## Button Overview
 
-![Device side view with Button 1 (left), Button 2 (middle), Button 3 (right) labelled](/img/user-guide/device-buttons-side.jpg)
-
-| Button   | Location |
-|----------|----------|
-| Button 1 | Left     |
-| Button 2 | Middle   |
-| Button 3 | Right    |
+![Device from the side with labeled buttons: Button 1 (left), Button 2 (middle), Button 3 (right)](/website/static/img/user-guide/IMG_0870-b123.jpeg)
 
 ---
 
@@ -21,45 +15,45 @@ organised by the task you want to accomplish.
 
 ### "I want to see everything at a glance"
 
-**Press Button 1** (short press)
+**Press Button 1 briefly**
 
 The display switches to **Half & Half mode**:
 
-- Left half: current weather summary
-- Right half: next departures from your stop
+- Left half: Current weather summary
+- Right half: Next departures from your stop
 
-This reverts to your configured display mode after **2 minutes**.
+Returns to the configured display mode after **2 minutes**.
 
 ---
 
 ### "Do I need an umbrella? What's the weather like?"
 
-**Press Button 2** (short press)
+**Press Button 2 briefly**
 
-The display switches to **Weather Full mode**:
+The display switches to **Weather Full Screen mode**:
 
 - Large weather icon and description
 - Current temperature and "feels like"
 - 12-hour temperature forecast graph
-- Wind, humidity, precipitation probability
+- Wind, humidity, rain probability
 - Sunrise and sunset times
 
-This reverts to your configured display mode after **2 minutes**.
+Returns to the configured display mode after **2 minutes**.
 
 ---
 
-### "When is the next train / bus?"
+### "When does the next train / bus leave?"
 
-**Press Button 3** (short press)
+**Press Button 3 briefly**
 
-The display switches to **Transport Full mode**:
+The display switches to **Departure Full Screen mode**:
 
 - Full-screen departure list
 - More departures visible at once
 - Line number, destination, departure time
 - Delay information and platform number
 
-This reverts to your configured display mode after **2 minutes**.
+Returns to the configured display mode after **2 minutes**.
 
 ---
 
@@ -67,89 +61,89 @@ This reverts to your configured display mode after **2 minutes**.
 
 **Hold Button 1 for 5 seconds**
 
-MyStation-Go enters **Configure Mode**:
+MyStation-Go enters **Configuration Mode**:
 
-- The display shows the configuration screen
+- The display shows the setup screen
 - MyStation-Go broadcasts a WiFi hotspot (`MyStation-XXXXXXXX`)
-- Connect your phone to that hotspot and open `http://10.0.1.1`
-- All your previous settings are pre-loaded — only change what you need
+- Connect your phone to the hotspot and open `http://10.0.1.1`
+- All previous settings are preloaded — just change what you need
 
-See [Configure Mode](configure-mode.md) for the full walkthrough.
+Full guide: [Change Settings](configure-mode.md)
 
 ---
 
-### "I want to see device info and current configuration"
+### "I want to see device information and current settings"
 
 **Hold Button 2 for 5 seconds**
 
-The display shows **Application Info**:
+The display shows **Device Information**:
 
-- Firmware version
+- Software version
 - Current display mode
-- Configured update intervals (weather and transport)
+- Configured update intervals (weather and departures)
 - WiFi status and IP address
 - Battery level
 
 ---
 
-### "I want to update the firmware manually"
+### "I want to manually update the software"
 
 **Hold Button 3 for 5 seconds**
 
-Triggers an **OTA (Over-The-Air) firmware update** immediately:
+Triggers an immediate **software update**:
 
 - MyStation-Go connects to the update server
-- If a new firmware version is available, it downloads and installs it
+- If a new version is available, it is downloaded and installed
 - The device restarts after a successful update
 
-> 💡 Normally you don't need to do this — OTA updates happen automatically overnight. Use this if you want to
-> force an immediate update.
+> 💡 You normally don't need to do this — updates happen automatically overnight.
+> Use this if you want to force an immediate update.
 
 ---
 
 ### "The device is stuck or behaving incorrectly"
 
-**Slide the power switch to OFF**, then slide it back to ON to restart the device.
+**Slide the power switch to OFF**, then back to ON to restart the device.
 
-> 💡 This device has an embedded battery. The power switch is the correct way to restart it. All saved settings are kept
-> after a restart.
+> 💡 This device has a built-in battery. The power switch is the correct way to restart it.
+> All saved settings are preserved after a restart.
 
 ---
 
-### "I want to completely reset the device to factory settings"
+### "I want to factory reset the device"
 
 **Hold Button 1 + Button 2 simultaneously for 5 seconds**
 
-Performs a **Factory Reset**:
+Performs a **factory reset**:
 
 - Clears all saved settings (WiFi, stop, configuration)
-- Device restarts as if brand new
-- You will need to go through the full setup process again
+- Device restarts as brand new
+- You will need to complete the full setup again
 
-> ⚠️ **This cannot be undone.** Use only when you want to start from scratch.
+> ⚠️ **This cannot be undone.** Only use if you truly want to start over.
 
 ---
 
-## Temporary Mode Behaviour
+## Temporary Mode Behavior
 
-When you press a button to switch display modes (Button 1, 2, or 3 short press), the new mode is **temporary**:
+When you briefly press a button (Button 1, 2, or 3), the new mode is **temporary**:
 
 - Duration: **2 minutes**
-- After 2 minutes, the display reverts to your **configured display mode**
-- The temporary mode is indicated visually on the display
+- After 2 minutes, the display returns to the **configured display mode**
+- The temporary mode is indicated on the display
 
-This allows you to quickly check weather or departures without permanently changing your configuration.
+This lets you quickly check weather or departures without permanently changing the configuration.
 
 ---
 
-## Button Reference Table
+## Button Summary Table
 
-| Action               | Button       | Press Type     | Result                      |
-|----------------------|--------------|----------------|-----------------------------|
-| Half & Half view     | Button 1     | Short press    | Temporary mode (2 min)      |
-| Weather Full view    | Button 2     | Short press    | Temporary mode (2 min)      |
-| Transport Full view  | Button 3     | Short press    | Temporary mode (2 min)      |
-| Enter Configure Mode | Button 1     | Hold 5 seconds | Configuration web interface |
-| Show App Info        | Button 2     | Hold 5 seconds | Device info screen          |
-| Trigger OTA Update   | Button 3     | Hold 5 seconds | Firmware update             |
-| Factory Reset        | Button 1 + 2 | Hold 5 seconds | Erase all settings          |
+| Action                    | Button     | Press          | Result                         |
+|---------------------------|------------|----------------|--------------------------------|
+| Half & Half view          | Button 1   | Brief press    | Temporary mode (2 min)         |
+| Weather full screen       | Button 2   | Brief press    | Temporary mode (2 min)         |
+| Departure full screen     | Button 3   | Brief press    | Temporary mode (2 min)         |
+| Enter configuration mode  | Button 1   | Hold 5 sec     | Settings page in browser       |
+| Show device information   | Button 2   | Hold 5 sec     | Device info display            |
+| Trigger software update   | Button 3   | Hold 5 sec     | Software update                |
+| Factory reset             | Button 1+2 | Hold 5 sec     | Clears all settings            |

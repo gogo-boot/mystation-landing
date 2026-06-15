@@ -2,8 +2,6 @@
 
 In ca. 5 Minuten betriebsbereit!
 
-![MyStation-Go-Gerät zeigt den ersten Startbildschirm](/img/user-guide/device-startup-screen.jpg)
-
 ---
 
 ## Was du vor dem Start brauchst
@@ -17,11 +15,7 @@ In ca. 5 Minuten betriebsbereit!
 
 ## Schritt 1: Gerät einschalten
 
-Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 30 Sekunden erscheint der Einrichtungsbildschirm.
-
-![Position des Einschaltschalters mit AUS- und EIN-Position](/img/user-guide/device-power-switch.jpg)
-
-![Gerät zeigt den WLAN-Hotspot-Namen MyStation-XXXXXXXX auf dem Display](/img/user-guide/device-hotspot-screen.jpg)
+Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 3 Sekunden erscheint der Einrichtungsbildschirm.
 
 ---
 
@@ -30,22 +24,24 @@ Schiebe den **Einschaltschalter** in die EIN-Position. Nach ca. 30 Sekunden ersc
 1. Öffne auf deinem Handy oder Computer die **WLAN-Einstellungen**
 2. Suche das Netzwerk namens **`MyStation-XXXXXXXX`** (XXXXXXXX ist die eindeutige ID deines Geräts)
 3. Verbinde dich damit — **kein Passwort erforderlich**
+4. Falls sich keine Einrichtungsseite automatisch öffnet, öffne deinen Browser und gehe zu **`http://10.0.1.1`**
+5. Die MyStation-Go-WLAN-Konfigurationsseite wird geladen
 
+![Gerät zeigt den WLAN-Hotspot-Namen MyStation-XXXXXXXX auf dem Display](/website/static/img/user-guide/IMG_0875.jpeg)
 ---
 
-## Schritt 3: Konfigurationsseite öffnen
-
-1. Öffne deinen Browser und gehe zu **`http://10.0.1.1`**
-2. Die MyStation-Go-Konfigurationsseite wird geladen
-
----
-
-## Schritt 4: WLAN konfigurieren
+## Schritt 3: WLAN konfigurieren
 
 1. Wähle dein **Heimnetzwerk** aus der Liste aus
     - ⚠️ Stelle sicher, dass es ein **2,4 GHz**-Netzwerk ist
 2. Gib dein **WLAN-Passwort** ein
 3. Klicke auf **„Verbinden"**
+
+> 💡 Nach der WLAN-Verbindung lädt die Konfigurationsseite automatisch unter der neuen IP-Adresse des Geräts neu.
+
+---
+
+## Schritt 4: App konfigurieren (2 Minuten)
 
 MyStation-Go wird:
 
@@ -53,16 +49,11 @@ MyStation-Go wird:
 - Deinen ungefähren Standort automatisch ermitteln
 - Nahegelegene Haltestellen des ÖPNV finden
 
-> 💡 Nach der WLAN-Verbindung lädt die Konfigurationsseite automatisch unter der neuen IP-Adresse des Geräts neu.
-
----
-
-## Schritt 5: App konfigurieren (2 Minuten)
-
-Die Konfigurationsseite zeigt jetzt alle Einstellungen. Dein Standort und nahegelegene Haltestellen wurden bereits
-erkannt.
-
-![Konfigurationsseite](/img/user-guide/config-screenshot-frankfurt.png)
+1. Verbinde dich mit deinem Heimnetzwerk.
+2. Gib die auf dem MyStation-Go-Display angezeigte IP-Adresse oder `http://mystation.local` in deinem Browser ein.
+![Gerät zeigt die IP-Adresse auf dem Display](/website/static/img/user-guide/IMG_0874.jpeg)
+3. Konfiguriere die App-Einstellungen auf der Seite. Alle Einstellungen werden gespeichert, wenn du auf „Einstellungen speichern" klickst.
+![Konfigurationsseite](/website/static/img/user-guide/config-screenshot-frankfurt.png)
 
 ### Anzeigemodus
 

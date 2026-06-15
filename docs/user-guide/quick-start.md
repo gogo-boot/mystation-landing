@@ -1,105 +1,93 @@
-# Quick Start Guide
+# Quick Start
 
-Get your MyStation-Go up and running in about 5 minutes!
-
-![MyStation-Go device showing the initial startup screen](/img/user-guide/device-startup-screen.jpg)
+Up and running in about 5 minutes!
 
 ---
 
-## What You Need Before You Start
+## What You Need Before Starting
 
-- Your **home WiFi name (SSID)** and **password**
+- Your **WiFi name** and **WiFi password**
 - A phone or computer with a browser
 - Your WiFi must be **2.4 GHz** — 5 GHz is **not supported**
-- Your WiFi must be a standard home network (no captive portal login like hotel WiFi)
+- A standard home network (no hotel or public WiFi with login pages)
 
 ---
 
 ## Step 1: Power On the Device
 
-Slide the **power switch** to the ON position to turn on the device. After about 30 seconds, the setup screen will
-appear on the display.
-
-![Power switch location showing OFF and ON positions](/img/user-guide/device-power-switch.jpg)
-
-![Device displaying the MyStation-XXXXXXXX WiFi hotspot name on screen](/img/user-guide/device-hotspot-screen.jpg)
+Slide the **power switch** to the ON position. After about 3 seconds, the setup screen appears.
 
 ---
 
-## Step 2: Connect to MyStation-Go WiFi (1 minute)
+## Step 2: Connect to the MyStation-Go WiFi (1 Minute)
 
-1. On your phone or computer, open **WiFi settings**
-2. Find the network named **`MyStation-XXXXXXXX`** (XXXXXXXX is your device's unique ID)
+1. Open **WiFi settings** on your phone or computer
+2. Look for the network named **`MyStation-XXXXXXXX`** (XXXXXXXX is your device's unique ID)
 3. Connect to it — **no password required**
+4. If no setup page opens automatically, open your browser and go to **`http://10.0.1.1`**
+5. The MyStation-Go WiFi configuration page will load
 
-> 📷 *[Photo placeholder: phone WiFi list showing MyStation-XXXXXXXX network]*
-
----
-
-## Step 3: Open the Configuration Page
-
-1. Open your browser and go to **`http://10.0.1.1`**
-2. The MyStation-Go configuration page will load
-
-> 📷 *[Photo placeholder: browser showing the MyStation-Go configuration web page]*
+![Device showing the WiFi hotspot name MyStation-XXXXXXXX on the display](/website/static/img/user-guide/IMG_0875.jpeg)
 
 ---
 
-## Step 4: Configure WiFi
+## Step 3: Configure WiFi
 
-1. Select your **home WiFi network** from the list
-    - ⚠️ Make sure it's a **2.4 GHz** network
+1. Select your **home network** from the list
+    - ⚠️ Make sure it is a **2.4 GHz** network
 2. Enter your **WiFi password**
-3. Click **"Speichern"** (Save)
+3. Click **"Connect"**
+
+> 💡 After WiFi connection, the configuration page will automatically reload at the device's new IP address.
+
+---
+
+## Step 4: Configure the App (2 Minutes)
 
 MyStation-Go will:
 
-- Connect to your home WiFi
-- Restart automatically and proceed to application setup
+- Connect to your home network
+- Automatically detect your approximate location
+- Find nearby public transport stops
 
-> 💡 After connecting to your home WiFi, the configuration page will reload automatically at the device's new IP address.
-
----
-
-## Step 5: Configure the Application (2 minutes)
-
-The configuration page loads quickly. Your location and nearby stops will be detected automatically
-after a few seconds (a loading indicator is shown while this happens).
-
-![Configuration page screenshot](/img/user-guide/config-screenshot-frankfurt.png)
+1. Connect to your home network.
+2. Enter the IP address shown on the MyStation-Go display or `http://mystation.local` in your browser.
+![Device showing the IP address on the display](/website/static/img/user-guide/IMG_0874.jpeg)
+3. Configure the app settings on the page. All settings are saved when you click "Save Settings".
+![Configuration page](/website/static/img/user-guide/config-screenshot-frankfurt.png)
 
 ### Display Mode
 
-Choose what to show on the screen:
+Choose what is shown on the screen:
 
 - **Half & Half** — Weather on the left, departures on the right
-- **Weather Full** — Full screen detailed weather
-- **Transport Full** — Full screen departure board
+- **Weather Full Screen** — Detailed weather on the entire screen
+- **Departure Full Screen** — Departure board on the entire screen
 
 ### Location / Weather
 
-- Review the **auto-detected location** shown on the page
-- If it looks correct, leave it as-is — this gives the most accurate weather for your location
-- If incorrect, enter your **city or town name** manually
+- Check the **automatically detected location** on the page
+- If it looks correct, leave it as is — this gives you the most accurate weather for your location
+- If it's wrong, enter your **city or town name** manually
 
-> 💡 Auto-detected coordinates are more accurate than a city name. A city name uses the geographic centre of the
-> city, which may be several kilometres from your actual location.
-> See [Configuration Guide](configuration.md#city-name-vs-auto-detected-location).
+> 💡 Automatically detected coordinates are more accurate than a city name. A city name uses the
+> geographic center of the city, which can be several kilometers from your actual location.
+> More details: [Settings Overview](configuration.md#city-name-vs-automatically-detected-location)
 
-### Transport Stop
+### Stop
 
-1. Review the list of **nearby stops** — they are sorted by distance
+1. Look at the list of **nearby stops** — sorted by distance
 2. Select your preferred departure stop
-3. Choose which **transport types** to show (RE, S-Bahn, Bus, Tram, etc.)
+3. Choose the **transport types** to display (RE, S-Bahn, Bus, Tram, etc.)
 
 ### Update Intervals
 
-- **Weather interval**: How often weather data refreshes (default: 3 hours)
-- **Transport interval**: How often departure data refreshes (default: 5 minutes)
+- **Weather interval**: How often weather data is updated (default: 3 hours)
+- **Departure interval**: How often departure data is updated (default: 5 minutes)
 
-### Sleep Schedule (Recommended)
+### Quiet Hours (Recommended)
 
-Set quiet hours to save battery overnight. Example: sleep from `22:30` to `05:30`.
+Set quiet hours to save battery overnight. Example: Sleep from `22:30` to `05:30`.
 
 ### Save
 
@@ -107,14 +95,14 @@ Click **"Save Settings"**. MyStation-Go saves all settings and **restarts automa
 
 ---
 
-## Step 6: Up and Running 🎉
+## Step 6: Ready! 🎉
 
-After restarting, MyStation-Go will fetch data and update the display. You should see:
+After restarting, MyStation-Go fetches data and updates the display. You should see:
 
 - 🌤️ Current weather information
-- 🚌 Upcoming departures from your selected stop
-- ⏰ Last update time in the footer
-- 🔋 Battery status
+- 🚌 Next departures from your chosen stop
+- ⏰ Last update timestamp
+- 🔋 Battery level
 
 ![Device showing live weather and departure data](/img/user-guide/device-running.jpg)
 
@@ -122,27 +110,27 @@ After restarting, MyStation-Go will fetch data and update the display. You shoul
 
 ## Need to Reconfigure?
 
-Hold **Button 1 for 5 seconds** to enter Configure Mode at any time.
-All your previous settings will be pre-loaded. See [Configure Mode](configure-mode.md).
+Hold **Button 1 for 5 seconds** to enter configuration mode at any time.
+All previous settings will be preloaded. More details: [Change Settings](configure-mode.md)
 
 ---
 
-## Common First-Time Issues
+## Common First-Time Setup Issues
 
-### "Cannot connect to MyStation-Go WiFi"
+### "Can't connect to MyStation-Go WiFi"
 
-- Wait 30–60 seconds after powering on — the device needs time to boot
-- Make sure your phone is not locked to 5 GHz only
+- Wait 30–60 seconds after powering on — the device needs time to start
+- Make sure your phone isn't set to "5 GHz only"
 
 ### "WiFi connection failed"
 
 - ✅ Check that your WiFi password is correct (case-sensitive)
-- ✅ Verify your network is 2.4 GHz
+- ✅ Make sure your network is 2.4 GHz
 - ✅ Your network must not require a browser login (captive portal)
 
 ### "No nearby stops found"
 
-- ✅ Verify internet connection is working
-- ✅ You must be in an area covered by RMV (German public transport network)
+- ✅ Check that there is an internet connection
+- ✅ You must be in an area covered by RMV
 
-For more help, see the [Troubleshooting Guide](troubleshooting.md).
+More help: [Help & Troubleshooting](troubleshooting.md)
