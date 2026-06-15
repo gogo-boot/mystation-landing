@@ -19,17 +19,10 @@ git push -u origin main
 ## Local Preview
 
 ```bash
-# Landing page (static HTML)
-python3 -m http.server 8000
-```
-
-### Docusaurus Documentation Preview
-
-```bash
 cd website
 npm install
-npm start              # English (default)
-npm start -- --locale de   # German
+npm start              # German (default)
+npm start -- --locale en   # English
 ```
 
 Opens at `http://localhost:3000`.
