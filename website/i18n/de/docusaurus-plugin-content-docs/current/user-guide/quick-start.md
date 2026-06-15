@@ -103,7 +103,6 @@ Nach dem Neustart holt MyStation-Go Daten und aktualisiert das Display. Du sollt
 - ⏰ Zeitstempel der letzten Aktualisierung
 - 🔋 Akkustand
 
-![Gerät zeigt live Wetter- und Abfahrtsdaten](/img/user-guide/device-running.jpg)
 
 ---
 

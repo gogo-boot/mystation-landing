@@ -23,14 +23,21 @@ const specs = [
     ['Wetterdaten', 'DWD ICON, ECMWF, Meteo-France, MeteoSwiss, ItaliaMeteo'],
 ];
 
-const galleryItems = ['Product Front View', 'Angle View', 'Display Close-up', 'Mounted on Wall', 'Weather Mode', 'Packaging'];
+const galleryImages = [
+    { src: '/img/IMG_0872.jpeg', alt: 'MyStation Front' },
+    { src: '/img/IMG_0869.jpeg', alt: 'MyStation Angle' },
+    { src: '/img/IMG_0871.jpeg', alt: 'MyStation Display' },
+    { src: '/img/IMG_0874.jpeg', alt: 'Mounted on Wall' },
+    { src: '/img/IMG_0867.jpeg', alt: 'Weather Mode' },
+    { src: '/img/IMG_0876.jpeg', alt: 'Packaging' },
+];
 
 export default function Home() {
     return (
         <Layout title="MyStation-Go" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
-                    <img src="/img/mystation-hero.jpg" alt="MyStation-Go" className={styles.heroImage}
+                    <img src="/img/IMG_0872.jpeg" alt="MyStation-Go" className={styles.heroImage}
                          onError={(e) => e.target.style.display = 'none'} />
                     <h1>MyStation-Go</h1>
                     <p>Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.</p>
@@ -42,14 +49,26 @@ export default function Home() {
             <section className={styles.gallerySection}>
                 <h2>Produkt-Galerie</h2>
                 <div className={styles.gallery}>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemMain}`}>📷 {galleryItems[0]}</div>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>📷 {galleryItems[1]}</div>
-                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>📷 {galleryItems[2]}</div>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemMain}`}>
+                        <img src={galleryImages[0].src} alt={galleryImages[0].alt} />
+                    </div>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>
+                        <img src={galleryImages[1].src} alt={galleryImages[1].alt} />
+                    </div>
+                    <div className={`${styles.galleryItem} ${styles.galleryItemSide}`}>
+                        <img src={galleryImages[2].src} alt={galleryImages[2].alt} />
+                    </div>
                 </div>
                 <div className={styles.galleryBottom}>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>📷 {galleryItems[3]}</div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>📷 {galleryItems[4]}</div>
-                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>📷 {galleryItems[5]}</div>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                        <img src={galleryImages[3].src} alt={galleryImages[3].alt} />
+                    </div>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                        <img src={galleryImages[4].src} alt={galleryImages[4].alt} />
+                    </div>
+                    <div className={`${styles.galleryItem} ${styles.galleryBottomItem}`}>
+                        <img src={galleryImages[5].src} alt={galleryImages[5].alt} />
+                    </div>
                 </div>
             </section>
 

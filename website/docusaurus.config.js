@@ -15,7 +15,6 @@ const config = {
     trailingSlash: false,
 
     onBrokenLinks: 'warn',
-    onBrokenMarkdownLinks: 'warn',
     onBrokenAnchors: 'warn',
 
     i18n: {
@@ -32,6 +31,7 @@ const config = {
         mermaid: true,
         hooks: {
             onBrokenMarkdownImages: 'warn',
+            onBrokenMarkdownLinks: 'warn',
         },
     },
 

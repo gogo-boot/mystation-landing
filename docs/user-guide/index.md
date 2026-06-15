@@ -43,7 +43,6 @@ See [Understanding the Display](understanding-display.md) for details.
 
 ## Device Buttons
 
-![Device front view with Button 1 (left), Button 2 (middle), Button 3 (right) labelled](/img/user-guide/device-buttons-overview.jpg)
 
 Your MyStation-Go has **3 buttons** on the side:
 
