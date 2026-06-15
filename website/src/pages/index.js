@@ -56,7 +56,7 @@ const specs = {
         ['Battery', 'Built-in Li-Ion, USB-C charging'],
         ['Battery Life', 'Up to 6 months (depending on settings)'],
         ['Dimensions', '170 x 111 x 12 mm'],
-        ['Weight', '~120 g'],
+        ['Weight', '~540 g'],
         ['Transit Data', 'RMV (Rhine-Main area, Germany)'],
         ['Weather Data', 'DWD ICON, ECMWF, Meteo-France, MeteoSwiss, ItaliaMeteo'],
     ],
