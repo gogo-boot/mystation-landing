@@ -72,7 +72,7 @@ Choose what is shown on the screen:
 
 > 💡 Automatically detected coordinates are more accurate than a city name. A city name uses the
 > geographic center of the city, which can be several kilometers from your actual location.
-> More details: [Settings Overview](configuration.md#city-name-vs-automatically-detected-location)
+> More details: [Settings Overview](configuration.md#city-name-vs-auto-detected-location)
 
 ### Stop
 
@@ -104,7 +104,6 @@ After restarting, MyStation-Go fetches data and updates the display. You should 
 - ⏰ Last update timestamp
 - 🔋 Battery level
 
-![Device showing live weather and departure data](/img/user-guide/device-running.jpg)
 
 ---
 

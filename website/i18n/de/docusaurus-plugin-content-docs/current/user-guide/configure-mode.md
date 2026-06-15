@@ -30,7 +30,6 @@ stateDiagram-v2
 
 ## Wie du den Konfigurationsmodus öffnest
 
-![Gerät in der Hand, Taste 1 (linke Taste) wird gehalten](/img/user-guide/device-button1-hold.jpg)
 
 1. **Taste 1** (die linke Taste) für **5 Sekunden gedrückt halten**
 2. Das Display aktualisiert sich und zeigt einen Einrichtungsbildschirm mit einem Link oder QR-Code
@@ -45,7 +44,6 @@ stateDiagram-v2
 3. Öffne deinen Browser und gehe zu **`http://10.0.1.1`**
 4. Die MyStation-Go-Einstellungsseite erscheint
 
-![Handy-Browser zeigt die MyStation-Go-Einstellungsseite unter 10.0.1.1](/img/user-guide/config-page-browser.jpg)
 
 ---
 

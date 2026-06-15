@@ -43,7 +43,6 @@ Weitere Details: [Das Display verstehen](understanding-display.md)
 
 ## Die Tasten
 
-![Gerät von vorne mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/device-buttons-overview.jpg)
 
 Dein MyStation-Go hat **3 Tasten** an der Seite:
 

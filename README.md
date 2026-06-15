@@ -38,7 +38,7 @@ Opens at `http://localhost:3000`.
 
 1. Create account at [stripe.com](https://stripe.com)
 2. Dashboard → Payment Links → Create
-3. Set product name, price (€79), photo
+3. Set product name, price (€95), photo
 4. Copy the generated URL
 5. Replace `href="#"` in the buy button with the Stripe URL
 
