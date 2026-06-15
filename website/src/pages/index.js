@@ -1,6 +1,23 @@
 import React, {useState} from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import styles from './index.module.css';
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "MyStation-Go",
+    "description": "Echtzeit-Abfahrtstafel und Wetterstation für Zuhause. E-Paper Display mit RMV S-Bahn, U-Bahn, Bus Abfahrten und Wetter. Batteriebetrieben für Monate.",
+    "image": "https://www.mystation-go.de/img/IMG_0872.jpeg",
+    "brand": {"@type": "Brand", "name": "MyStation-Go"},
+    "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.ebay.de/itm/178073276495"
+    }
+};
 
 const features = [
     { icon: '🚌', title: 'Echtzeit-Abfahrten', desc: 'Aktuelle Abfahrtszeiten von Bus, Bahn, S-Bahn und Tram direkt an der Wand.' },
@@ -35,7 +52,10 @@ export default function Home() {
     const [lightboxSrc, setLightboxSrc] = useState(null);
 
     return (
-        <Layout title="MyStation-Go" description="Deine Abfahrtstafel und Wetterstation fuer Zuhause">
+        <Layout title="MyStation-Go" description="Echtzeit-Abfahrtstafel und Wetterstation für Zuhause. RMV S-Bahn, U-Bahn, Bus Verspätungen und Wetter auf E-Paper Display.">
+            <Head>
+                <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+            </Head>
             {lightboxSrc && (
                 <div className={styles.lightbox} onClick={() => setLightboxSrc(null)}>
                     <img src={lightboxSrc} alt="" className={styles.lightboxImg} />

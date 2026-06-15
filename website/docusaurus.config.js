@@ -3,10 +3,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'MyStation-Go',
-    tagline: 'Deine Abfahrtstafel und Wetterstation fuer Zuhause',
+    tagline: 'Echtzeit-Abfahrtstafel und Wetterstation für Zuhause — E-Paper Display, batteriebetrieben',
     favicon: 'img/favicon.ico',
 
-    url: 'https://gogo-boot.github.io',
+    url: 'https://www.mystation-go.de',
     baseUrl: '/',
 
     organizationName: 'gogo-boot',
@@ -16,6 +16,37 @@ const config = {
 
     onBrokenLinks: 'warn',
     onBrokenAnchors: 'warn',
+
+    headTags: [
+        {
+            tagName: 'meta',
+            attributes: {
+                name: 'keywords',
+                content: 'Abfahrtstafel, E-Paper Display, ÖPNV, Echtzeit-Abfahrten, Wetterstation, RMV, S-Bahn, U-Bahn, Bus, Verspätung, Wetter, Smart Home, Abfahrtsmonitor, batteriebetrieben, Haltestelle, Abfahrtsanzeige',
+            },
+        },
+        {
+            tagName: 'meta',
+            attributes: {
+                property: 'og:image',
+                content: 'https://www.mystation-go.de/img/IMG_0872.jpeg',
+            },
+        },
+        {
+            tagName: 'meta',
+            attributes: {
+                property: 'og:type',
+                content: 'website',
+            },
+        },
+        {
+            tagName: 'meta',
+            attributes: {
+                name: 'twitter:card',
+                content: 'summary_large_image',
+            },
+        },
+    ],
 
     i18n: {
         defaultLocale: 'de',
@@ -45,6 +76,10 @@ const config = {
                     sidebarPath: './sidebars.js',
                 },
                 blog: false,
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                },
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -53,6 +88,11 @@ const config = {
     ],
 
     themeConfig: ({
+        metadata: [
+            {name: 'description', content: 'MyStation-Go — Echtzeit-Abfahrtstafel und Wetterstation für Zuhause. RMV S-Bahn, U-Bahn, Bus Verspätungen und Wetter auf E-Paper Display. Batteriebetrieben für Monate.'},
+            {name: 'og:title', content: 'MyStation-Go — Abfahrtstafel für Zuhause'},
+            {name: 'og:description', content: 'Echtzeit ÖPNV-Abfahrten und Wetter auf einem eleganten E-Paper Display. RMV, S-Bahn, U-Bahn, Bus — batteriebetrieben für Monate.'},
+        ],
         navbar: {
             title: 'MyStation-Go',
             items: [
@@ -60,7 +100,7 @@ const config = {
                     type: 'docSidebar',
                     sidebarId: 'userSidebar',
                     position: 'left',
-                    label: 'User Guide',
+                    label: 'Benutzerhandbuch',
                 },
                 {
                     type: 'localeDropdown',
@@ -72,10 +112,10 @@ const config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Documentation',
+                    title: 'Dokumentation',
                     items: [
-                        {label: 'Quick Start', to: '/docs/user-guide/quick-start'},
-                        {label: 'Troubleshooting', to: '/docs/user-guide/troubleshooting'},
+                        {label: 'Schnellstart', to: '/docs/user-guide/quick-start'},
+                        {label: 'Fehlerbehebung', to: '/docs/user-guide/troubleshooting'},
                     ],
                 },
             ],
