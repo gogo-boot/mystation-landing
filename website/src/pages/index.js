@@ -13,7 +13,6 @@ const features = [
 
 const specs = [
     ['Display', '7,5 Zoll E-Paper (800x480 Pixel)'],
-    ['Prozessor', 'ESP32-S3 Dual-Core'],
     ['Konnektivitaet', 'WLAN 2,4 GHz'],
     ['Akku', 'Integrierter Li-Ion, USB-C Laden'],
     ['Akkulaufzeit', 'Bis zu 6 Monate (abhaengig von Einstellungen)'],
@@ -49,7 +48,7 @@ export default function Home() {
                          onError={(e) => e.target.style.display = 'none'} />
                     <h1>MyStation-Go</h1>
                     <p>Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.</p>
-                    <a href="https://www.ebay.de/itm/178073276495" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt kaufen</a>
+                    <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt kaufen</a>
                     <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnSecondary}`}>Dokumentation</a>
                 </div>
             </section>
@@ -110,7 +109,7 @@ export default function Home() {
                 <h2>Bereit fuer deine eigene Abfahrtstafel?</h2>
                 <div className={styles.price}>95 EUR</div>
                 <p className={styles.priceNote}>Inkl. Geraet, Akku und Gehaeuse. Kostenloser Versand innerhalb Deutschlands.</p>
-                <a href="https://www.ebay.de/itm/178073276495" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt bestellen</a>
+                <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>Jetzt bestellen</a>
             </section>
         </Layout>
     );
