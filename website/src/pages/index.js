@@ -46,7 +46,7 @@ const specs = {
         ['Akku', 'Integrierter Li-Ion, USB-C Laden'],
         ['Akkulaufzeit', 'Bis zu 6 Monate (abhaengig von Einstellungen)'],
         ['Abmessungen', '170 x 111 x 12 mm'],
-        ['Gewicht', '~120 g'],
+        ['Gewicht', '~540 g'],
         ['ÖPNV-Daten', 'RMV (Rhein-Main-Gebiet)'],
         ['Wetterdaten', 'DWD ICON, ECMWF, Meteo-France, MeteoSwiss, ItaliaMeteo'],
     ],
