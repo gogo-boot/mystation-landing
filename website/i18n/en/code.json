@@ -1,9 +1,12 @@
 {
+  "homepage.hero.subtitle": {
+    "message": "RMV departures, S-Bahn, U-Bahn, Bus & Weather — always in sight"
+  },
   "homepage.hero.description": {
-    "message": "Your personal departure board and weather station. Real-time departures and weather on an elegant E-Paper display — battery-powered for months."
+    "message": "Real-time RMV departures for S-Bahn, U-Bahn, and Bus combined with live weather on an elegant E-Paper display. Battery-powered for months — just hang it on the wall."
   },
   "homepage.layout.description": {
-    "message": "Real-time departure board and weather station for your home. E-Paper display with public transit departures and weather. Battery-powered for months."
+    "message": "RMV departure board for your home: S-Bahn, U-Bahn, Bus departures and weather on E-Paper display. Battery-powered for months."
   },
   "homepage.locale": {
     "message": "en"

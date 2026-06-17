@@ -76,8 +76,9 @@ const galleryImages = [
 export default function Home() {
     const [lightboxSrc, setLightboxSrc] = useState(null);
 
-    const heroDesc = translate({id: 'homepage.hero.description', message: 'Deine persoenliche Abfahrtstafel und Wetterstation. Echtzeit-Abfahrten und Wetter auf einem eleganten E-Paper Display - batteriebetrieben fuer Monate.'});
-    const layoutDesc = translate({id: 'homepage.layout.description', message: 'Echtzeit-Abfahrtstafel und Wetterstation für Zuhause. RMV S-Bahn, U-Bahn, Bus Verspätungen und Wetter auf E-Paper Display.'});
+    const heroSubtitle = translate({id: 'homepage.hero.subtitle', message: 'RMV Abfahrten, S-Bahn, U-Bahn, Bus & Wetter — immer im Blick'});
+    const heroDesc = translate({id: 'homepage.hero.description', message: 'Echtzeit RMV-Abfahrten von S-Bahn, U-Bahn und Bus kombiniert mit aktuellem Wetter auf einem eleganten E-Paper Display. Batteriebetrieben fuer Monate — einfach an die Wand haengen.'});
+    const layoutDesc = translate({id: 'homepage.layout.description', message: 'RMV Abfahrtstafel für Zuhause: S-Bahn, U-Bahn, Bus Abfahrten und Wetter auf E-Paper Display. Batteriebetrieben für Monate.'});
     const locale = translate({id: 'homepage.locale', message: 'de'});
 
     const localFeatures = features[locale] || features.de;
@@ -99,6 +100,7 @@ export default function Home() {
                          onClick={() => setLightboxSrc('/img/IMG_0872.jpeg')}
                          onError={(e) => e.target.style.display = 'none'} />
                     <h1>MyStation-Go</h1>
+                    <p className={styles.heroSubtitle}>{heroSubtitle}</p>
                     <p>{heroDesc}</p>
                     <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>
                         <Translate id="homepage.buy">Jetzt kaufen</Translate>
