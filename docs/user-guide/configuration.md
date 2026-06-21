@@ -98,6 +98,30 @@ Simply select the stop you use most often.
 
 If you don't see your stop, check that your location was detected correctly.
 
+### Departures vs. Connections (Trip Mode)
+
+You can choose between two ÖPNV display modes:
+
+| Mode | What it shows |
+|------|---------------|
+| **Abfahrten** *(default)* | Next departures from your stop (all directions) |
+| **Verbindungen** | Connections from your stop to a specific destination |
+
+**Connections mode** shows:
+- Which lines to take (with transfer symbols)
+- Where to transfer and how long you wait
+- Total journey time
+- Delay and cancellation info
+- How many minutes until departure
+
+To use connections mode:
+1. Select **Verbindungen** in the settings
+2. Enter your destination stop (type city name first, then select from suggestions)
+3. Save
+
+> 💡 This is useful for commuters who always travel to the same destination and want to see
+> the fastest connection at a glance — without opening an app.
+
 ### How Often to Update Departures
 
 This controls how frequently MyStation-Go checks for new departure times.
