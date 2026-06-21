@@ -81,6 +81,30 @@ Wähle einfach die Haltestelle aus, die du am häufigsten nutzt.
 
 Wenn deine Haltestelle nicht aufgelistet ist, überprüfe ob dein Standort korrekt erkannt wurde.
 
+### Abfahrten vs. Verbindungen (Reisemodus)
+
+Du kannst zwischen zwei ÖPNV-Anzeigemodi wählen:
+
+| Modus | Was angezeigt wird |
+|-------|-------------------|
+| **Abfahrten** *(Standard)* | Nächste Abfahrten von deiner Haltestelle (alle Richtungen) |
+| **Verbindungen** | Reiseverbindungen von deiner Haltestelle zu einem bestimmten Ziel |
+
+**Verbindungsmodus** zeigt:
+- Welche Linien zu nehmen sind (mit Umsteigesymbolen)
+- Wo umgestiegen wird und wie lange man wartet
+- Gesamte Reisezeit
+- Verspätungs- und Ausfallinfos
+- Wie viele Minuten bis zur Abfahrt
+
+So aktivierst du den Verbindungsmodus:
+1. Wähle **Verbindungen** in den Einstellungen
+2. Gib deine Ziel-Haltestelle ein (Stadtname zuerst, dann aus Vorschlägen auswählen)
+3. Speichern
+
+> 💡 Besonders nützlich für Pendler, die immer zum selben Ziel fahren und auf einen Blick
+> die schnellste Verbindung sehen möchten — ohne eine App zu öffnen.
+
 ### Wie oft Abfahrten aktualisiert werden
 
 Dies steuert, wie häufig MyStation-Go neue Abfahrtszeiten abruft.
