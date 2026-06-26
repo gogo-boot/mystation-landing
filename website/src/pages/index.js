@@ -13,8 +13,6 @@ const jsonLd = {
     "brand": {"@type": "Brand", "name": "MyStation-Go"},
     "offers": {
         "@type": "Offer",
-        "price": "95",
-        "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://www.ebay.de/itm/178073276495"
     }
@@ -161,10 +159,6 @@ export default function Home() {
 
             <section className={styles.cta} id="buy">
                 <h2><Translate id="homepage.ctaTitle">Bereit fuer deine eigene Abfahrtstafel?</Translate></h2>
-                <div className={styles.price}>95 EUR</div>
-                <p className={styles.priceNote}>
-                    <Translate id="homepage.ctaNote">Inkl. Geraet, Akku und Gehaeuse. Kostenloser Versand innerhalb Deutschlands.</Translate>
-                </p>
                 <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>
                     <Translate id="homepage.order">Jetzt bestellen</Translate>
                 </a>
