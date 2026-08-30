@@ -57,6 +57,27 @@ Kehrt nach **2 Minuten** zum konfigurierten Anzeigemodus zurück.
 
 ---
 
+### „Ich möchte die Wettervorhersage für die nächsten Tage sehen"
+
+**Dies funktioniert nur, wenn das Display auf Wetter Vollbild eingestellt ist.**
+
+Im Wetter-Vollbildmodus ändern die Tasten ihre Funktion:
+
+- **Taste 2 (kurz drücken)** — Vorhersage für den nächsten Tag anzeigen. Erneut drücken für den übernächsten Tag usw.
+- **Taste 3 (kurz drücken)** — Einen Tag zurückgehen
+- **Taste 1 (kurz drücken)** — Zurück zum heutigen Wetter
+
+Die Vorhersageansicht zeigt:
+- Datum und Stadtname oben
+- 6-Tage-Übersicht mit hervorgehobenem ausgewählten Tag
+- Temperatur- und Regendiagramm über die volle Breite (06:00 bis Mitternacht)
+
+Nach **2 Minuten** kehrt das Display automatisch zum heutigen Wetter zurück.
+
+> 💡 Die Anzahl der verfügbaren Vorhersagetage hängt vom gewählten Wettermodell in deinen Einstellungen ab. Einige Modelle bieten weniger Tage.
+
+---
+
 ### „Ich möchte meine Haltestelle, meinen Standort oder Einstellungen ändern"
 
 **Taste 1 für 5 Sekunden halten**
@@ -147,3 +168,5 @@ So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfigura
 | Geräteinformationen anzeigen | Taste 2     | 5 Sek. halten | Geräteinfoanzeige            |
 | Softwareupdate auslösen      | Taste 3     | 5 Sek. halten | Softwareupdate               |
 | Werksreset                   | Taste 1 + 2 | 5 Sek. halten | Alle Einstellungen löschen   |
+
+> 💡 **Wetter-Vollbildmodus:** Wenn das Display auf Wetter Vollbild eingestellt ist, wechseln die Tasten zur Tagesnavigation — Taste 2 vorwärts, Taste 3 zurück, Taste 1 zurück zu heute. Siehe [„Ich möchte die Wettervorhersage für die nächsten Tage sehen"](#ich-möchte-die-wettervorhersage-für-die-nächsten-tage-sehen) für Details.

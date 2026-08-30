@@ -81,6 +81,36 @@ MyStation-Go offers three display modes, each optimized for different needs:
 - Outdoor activities
 - Daily weather overview
 
+### Day Forecast View
+
+When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to today.
+
+```
+┌─────────────────────────────────────────┐
+│  Thu, 04 Sep                  Frankfurt │
+├─────────────────────────────────────────┤
+│ [Mon][Tue][Wed][THU][Fri][Sat]          │
+│                 ^^^                      │
+│            (selected day)               │
+├─────────────────────────────────────────┤
+│                                         │
+│   Temperature and Rain Graph            │
+│   06:00 ──────────────────── 00:00      │
+│   (19-hour forecast for selected day)   │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**What you see:**
+
+- **Header**: Date of the selected day and city name
+- **Day overview row**: 6 forecast days shown as small previews, with the selected day highlighted
+- **Graph**: Full-width temperature and precipitation graph from 06:00 to midnight (00:00)
+
+The display returns to today's weather automatically after **2 minutes** without a button press.
+
+> 💡 The number of available forecast days depends on the weather model selected in your settings. Some models provide fewer days than others.
+
 ## Display Mode 3: Departures Only
 
 ```
@@ -167,6 +197,12 @@ MyStation-Go uses intuitive weather icons:
 - Y-axis: Temperature in °C
 - Line shows temperature trend
 - Helps plan for temperature changes
+
+**Day Forecast View** (Weather Only mode, browsing future days):
+
+- Extended 19-hour graph from 06:00 to 00:00 (midnight)
+- Shows temperature and precipitation for the selected day
+- Covers the full active part of the day
 
 **Reading the Graph**:
 
