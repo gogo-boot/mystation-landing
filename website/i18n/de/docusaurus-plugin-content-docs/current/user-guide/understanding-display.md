@@ -82,6 +82,37 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 - Outdoor-Aktivitäten
 - Tagesüberblick
 
+### Tagesvorhersage-Ansicht
+
+Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum heutigen Wetter zurückzukehren.
+
+```
+┌─────────────────────────────────────────┐
+│  Do, 04. Sep                  Frankfurt │
+├─────────────────────────────────────────┤
+│ [Mo][Di][Mi][DO][Fr][Sa]                │
+│               ^^                        │
+│          (ausgewählter Tag)             │
+├─────────────────────────────────────────┤
+│                                         │
+│   Temperatur- und Regendiagramm         │
+│   06:00 ──────────────────── 00:00      │
+│   (19-Stunden-Vorhersage für           │
+│    den ausgewählten Tag)                │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**Was du siehst:**
+
+- **Kopfzeile**: Datum des ausgewählten Tages und Stadtname
+- **Tagesübersicht**: 6 Vorhersagetage als kleine Vorschauen, der ausgewählte Tag ist hervorgehoben
+- **Diagramm**: Temperatur- und Niederschlagsdiagramm über die volle Breite von 06:00 bis Mitternacht (00:00)
+
+Das Display kehrt automatisch nach **2 Minuten** ohne Tastendruck zum heutigen Wetter zurück.
+
+> 💡 Die Anzahl der verfügbaren Vorhersagetage hängt vom gewählten Wettermodell in deinen Einstellungen ab. Einige Modelle bieten weniger Tage als andere.
+
 ---
 
 ## Modus 3: Abfahrt Vollbild
@@ -154,6 +185,12 @@ Das 12-Stunden-Vorhersagediagramm zeigt:
 - Steigende Linie: Temperatur steigt
 - Fallende Linie: Temperatur sinkt
 - Hilft bei der Planung für den restlichen Tag
+
+**Tagesvorhersage-Ansicht** (Wetter-Vollbildmodus, zukünftige Tage durchblättern):
+
+- Erweitertes 19-Stunden-Diagramm von 06:00 bis 00:00 (Mitternacht)
+- Zeigt Temperatur und Niederschlag für den ausgewählten Tag
+- Umfasst den gesamten aktiven Teil des Tages
 
 ### Fußzeile
 

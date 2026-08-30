@@ -57,6 +57,27 @@ Returns to the configured display mode after **2 minutes**.
 
 ---
 
+### "I want to see the weather forecast for the next days"
+
+**This only works when the display is set to Weather Only mode.**
+
+When in Weather Only mode, the buttons change their function:
+
+- **Button 2 (brief press)** — Show the next day's forecast. Press again to go further (tomorrow → day after → etc.)
+- **Button 3 (brief press)** — Go back one day
+- **Button 1 (brief press)** — Return to today's weather
+
+The forecast view shows:
+- Date and city name at the top
+- 6-day overview with the selected day highlighted
+- Full-width temperature and rain graph (06:00 to midnight)
+
+After **2 minutes**, the display returns to today's weather automatically.
+
+> 💡 The number of available forecast days depends on the weather model selected in your settings. Some models provide fewer days.
+
+---
+
 ### "I want to change my stop, location, or settings"
 
 **Hold Button 1 for 5 seconds**
@@ -147,3 +168,5 @@ This lets you quickly check weather or departures without permanently changing t
 | Show device information   | Button 2   | Hold 5 sec     | Device info display            |
 | Trigger software update   | Button 3   | Hold 5 sec     | Software update                |
 | Factory reset             | Button 1+2 | Hold 5 sec     | Clears all settings            |
+
+> 💡 **Weather Only mode:** When the display is set to Weather Only, the buttons switch to day browsing — Button 2 goes forward, Button 3 goes back, Button 1 returns to today. See ["I want to see the weather forecast for the next days"](#i-want-to-see-the-weather-forecast-for-the-next-days) for details.
