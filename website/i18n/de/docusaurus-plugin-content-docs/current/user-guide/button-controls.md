@@ -16,7 +16,7 @@ geordnet nach dem, was du erreichen möchtest.
 Die Tasten tun je nach **Druckdauer** und **aktuellem Anzeigemodus** unterschiedliche Dinge.
 Die folgenden Tabellen geben dir einen schnellen Überblick.
 
-### Langes Drücken (5 Sekunden) — globale Aktionen
+### Globaler Modus
 
 Diese funktionieren in **jedem Anzeigemodus** gleich — ein langer Druck ist immer eine Systemaktion.
 
@@ -27,7 +27,7 @@ Diese funktionieren in **jedem Anzeigemodus** gleich — ein langer Druck ist im
 | Taste 3       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
 | Taste 1 + 2   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
 
-### Kurzes Drücken — normale Anzeigemodi
+### Halb und Halb Anzeigemodus
 
 In Halb & Halb, Wetter-Vollbild oder Abfahrt-Vollbild wechselt ein kurzer Druck vorübergehend
 die Ansicht (**2 Minuten**, danach zurück zum konfigurierten Modus).
@@ -38,7 +38,7 @@ die Ansicht (**2 Minuten**, danach zurück zum konfigurierten Modus).
 | Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
 | Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
 
-### Kurzes Drücken — Wetter-Vollbildmodus (Blättern)
+### Wetter-Vollbildmodus (Blättern)
 
 Im **Wetter-Vollbildmodus** blättern die Tasten durch die Vorhersage, statt Modi zu wechseln.
 Ihre Bedeutung hängt davon ab, ob du **bereits blätterst**.

@@ -16,7 +16,7 @@ organized by what you want to achieve.
 The buttons do different things depending on **how long** you press and **which display mode**
 you are in. Use the tables below as a quick overview.
 
-### Long press (5 seconds) — global actions
+### Global mode
 
 These work the same **in every display mode** — a long press is always a system action.
 
@@ -27,7 +27,7 @@ These work the same **in every display mode** — a long press is always a syste
 | Button 3       | ⏱️ 5 sec   | Trigger Software Update       |
 | Button 1 + 2   | ⏱️ 5 sec   | Factory Reset (clears all)   |
 
-### Short press — normal display modes
+### Half and Half display mode
 
 In Half & Half, Weather Full, or Departure Full mode, a brief press temporarily switches the
 view (**2 minutes**, then it returns to your configured mode).
@@ -38,7 +38,7 @@ view (**2 minutes**, then it returns to your configured mode).
 | Button 2 | 👆 tap      | Weather full screen             |
 | Button 3 | 👆 tap      | Departure full screen           |
 
-### Short press — Weather Only mode (browsing)
+### Weather Only mode (browsing)
 
 In **Weather Only** mode the buttons browse the forecast instead of switching modes. Their
 meaning depends on whether you are **already browsing**.
