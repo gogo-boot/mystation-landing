@@ -19,11 +19,10 @@ Daher ist er nur verfügbar, wenn du ihn bewusst einschaltest — das ist der **
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Normalbetrieb : Einschalten / nach Einstellungen speichern
-    Normalbetrieb --> Konfigurationsmodus : Taste 1 fünf Sekunden halten
-    Konfigurationsmodus --> Normalbetrieb : Einstellungen speichern\n(Gerät startet neu)
-    Konfigurationsmodus --> Normalbetrieb : Einschalter AUS dann EIN
-    Normalbetrieb --> Normalbetrieb : Aufwachen → Daten holen\n→ Display aktualisieren → Schlafen
+    [*] --> Normalbetrieb : Einschalten
+    Normalbetrieb --> Konfigurationsmodus : Taste 1 (5 Sek. halten)
+    Konfigurationsmodus --> Normalbetrieb : Speichern oder Aus/Ein
+    Normalbetrieb --> Normalbetrieb : Aufwachen, Daten holen, schlafen
 ```
 
 ---
