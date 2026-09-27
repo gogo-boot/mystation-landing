@@ -61,10 +61,11 @@ Returns to the configured display mode after **2 minutes**.
 
 **This only works when the display is set to Weather Only mode.**
 
-When in Weather Only mode, the buttons change their function:
+From today's weather view, press **Button 2** to open the multi-day forecast (starts with
+tomorrow). Once you are browsing:
 
-- **Button 2 (brief press)** — Show the next day's forecast. Press again to go further (tomorrow → day after → etc.)
-- **Button 3 (brief press)** — Go back one day
+- **Button 2 (brief press)** — Next day (tomorrow → day after → …)
+- **Button 3 (brief press)** — Previous day
 - **Button 1 (brief press)** — Return to today's weather
 
 The forecast view shows:
@@ -75,6 +76,39 @@ The forecast view shows:
 After **2 minutes**, the display returns to today's weather automatically.
 
 > 💡 The number of available forecast days depends on the weather model selected in your settings. Some models provide fewer days.
+
+---
+
+### "When will my solar panels generate the most power?" (Sonnenstrom)
+
+**This only works when the display is set to Weather Only mode.**
+
+From today's weather view, press **Button 3** to open the **Sonnenstrom** (solar radiation)
+view. It shows how strong the sunshine is across the day, so you can see when the sun — and
+your solar panels / Balkonkraftwerk — will be at their strongest. It starts with **today**.
+Once you are browsing:
+
+- **Button 3 (brief press)** — enters Sonnenstrom, then steps to the previous day
+- **Button 2 (brief press)** — Next day
+- **Button 1 (brief press)** — Return to today's weather
+
+The Sonnenstrom view shows:
+- "Sonnenstrom" and your city at the top
+- A 7-day overview **including today ("Heute")**, each day showing its total sun energy in **kWh/m²**
+- A full-width sunshine-strength curve for the selected day — the **peak of the curve is when the sun is strongest** that day. The graph auto-scales each day (axis in W/m²).
+
+Use the daily **kWh/m²** totals to compare days at a glance, and the curve to plan the best
+hours for solar generation.
+
+After **2 minutes**, the display returns to today's weather automatically.
+
+> 💡 **Switching between the weather forecast and Sonnenstrom:** while you are browsing,
+> Button 2 and Button 3 only move between days — they do not switch views. To switch, press
+> **Button 1** first (back to today), then press **Button 2** for the weather forecast or
+> **Button 3** for Sonnenstrom.
+
+> 💡 Sonnenstrom needs solar data from your weather model. If a day has no solar data, that
+> day falls back to the normal temperature/rain forecast.
 
 ---
 
@@ -169,4 +203,4 @@ This lets you quickly check weather or departures without permanently changing t
 | Trigger software update   | Button 3   | Hold 5 sec     | Software update                |
 | Factory reset             | Button 1+2 | Hold 5 sec     | Clears all settings            |
 
-> 💡 **Weather Only mode:** When the display is set to Weather Only, the buttons switch to day browsing — Button 2 goes forward, Button 3 goes back, Button 1 returns to today. See ["I want to see the weather forecast for the next days"](#i-want-to-see-the-weather-forecast-for-the-next-days) for details.
+> 💡 **Weather Only mode:** When the display is set to Weather Only, the buttons switch to day browsing. From today's view, **Button 2** opens the multi-day weather forecast and **Button 3** opens the **Sonnenstrom** (solar) view. While browsing, Button 2 = next day, Button 3 = previous day, and Button 1 returns to today. See ["weather forecast for the next days"](#i-want-to-see-the-weather-forecast-for-the-next-days) and ["Sonnenstrom"](#when-will-my-solar-panels-generate-the-most-power-sonnenstrom) for details.

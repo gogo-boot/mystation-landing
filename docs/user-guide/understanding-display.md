@@ -85,6 +85,9 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to today.
 
+<!-- TODO: replace with a real photo of the Weather day-forecast view on the device -->
+![Weather day-forecast view on the MyStation-Go display](/img/user-guide/weather-browse.jpeg)
+
 ```
 ┌─────────────────────────────────────────┐
 │  Thu, 04 Sep                  Frankfurt │
@@ -110,6 +113,49 @@ When the display is in Weather Only mode, you can browse the weather forecast fo
 The display returns to today's weather automatically after **2 minutes** without a button press.
 
 > 💡 The number of available forecast days depends on the weather model selected in your settings. Some models provide fewer days than others.
+
+### Solar Radiation View (Sonnenstrom)
+
+When the display is in Weather Only mode, press **Button 3** from today's weather to open the
+**Sonnenstrom** view — a solar radiation forecast that shows how strong the sunshine is across
+the day. It starts with today; while browsing, **Button 2** goes to the next day, **Button 3**
+the previous day, and **Button 1** returns to today.
+
+<!-- TODO: replace with a real photo of the Sonnenstrom (solar) view on the device -->
+![Sonnenstrom solar radiation view on the MyStation-Go display](/img/user-guide/solar-browse.jpeg)
+
+```
+┌─────────────────────────────────────────┐
+│  Sonnenstrom                  Frankfurt │
+├─────────────────────────────────────────┤
+│ [Heute][Tue][Wed][Thu][Fri][Sat][Sun]   │
+│  4.0    3.1  3.1  3.0  1.2  2.9  3.1     │  ← kWh/m² per day
+│  ^^^^^                                   │
+│  (selected day)                          │
+├─────────────────────────────────────────┤
+│                                         │
+│   Sunshine strength curve (W/m²)        │
+│         ╱───╲                            │
+│       ╱       ╲                          │
+│   ──╱           ╲──                      │
+│   06:00 ──────────────── 21:00          │
+└─────────────────────────────────────────┘
+```
+
+**What you see:**
+
+- **Header**: "Sonnenstrom" and your city name
+- **Day overview row**: 7 days **including today ("Heute")**, each showing that day's total sun energy in **kWh/m²** — handy for comparing which days are sunniest
+- **Graph**: A sunshine-strength curve for the selected day. The **peak of the curve is when the sun is strongest** — the best time for solar generation. The graph auto-scales each day (axis in W/m²).
+
+This is useful if you have solar panels or a Balkonkraftwerk: the curve tells you *when* your
+panels will produce the most, and the daily totals let you compare days.
+
+The display returns to today's weather automatically after **2 minutes** without a button press.
+
+> 💡 To switch between the weather forecast and Sonnenstrom while browsing, press **Button 1**
+> first (back to today), then **Button 2** (weather) or **Button 3** (Sonnenstrom). If a day has
+> no solar data from your weather model, it falls back to the normal temperature/rain forecast.
 
 ## Display Mode 3: Departures Only
 

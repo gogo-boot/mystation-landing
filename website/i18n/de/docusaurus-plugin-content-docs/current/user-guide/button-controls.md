@@ -61,10 +61,11 @@ Kehrt nach **2 Minuten** zum konfigurierten Anzeigemodus zurück.
 
 **Dies funktioniert nur, wenn das Display auf Wetter Vollbild eingestellt ist.**
 
-Im Wetter-Vollbildmodus ändern die Tasten ihre Funktion:
+Drücke in der heutigen Wetteransicht **Taste 2**, um die Mehrtagesvorhersage zu öffnen
+(beginnt mit morgen). Sobald du blätterst:
 
-- **Taste 2 (kurz drücken)** — Vorhersage für den nächsten Tag anzeigen. Erneut drücken für den übernächsten Tag usw.
-- **Taste 3 (kurz drücken)** — Einen Tag zurückgehen
+- **Taste 2 (kurz drücken)** — Nächster Tag (morgen → übermorgen → …)
+- **Taste 3 (kurz drücken)** — Vorheriger Tag
 - **Taste 1 (kurz drücken)** — Zurück zum heutigen Wetter
 
 Die Vorhersageansicht zeigt:
@@ -75,6 +76,39 @@ Die Vorhersageansicht zeigt:
 Nach **2 Minuten** kehrt das Display automatisch zum heutigen Wetter zurück.
 
 > 💡 Die Anzahl der verfügbaren Vorhersagetage hängt vom gewählten Wettermodell in deinen Einstellungen ab. Einige Modelle bieten weniger Tage.
+
+---
+
+### „Wann erzeugen meine Solarmodule am meisten Strom?" (Sonnenstrom)
+
+**Dies funktioniert nur, wenn das Display auf Wetter Vollbild eingestellt ist.**
+
+Drücke in der heutigen Wetteransicht **Taste 3**, um die **Sonnenstrom**-Ansicht
+(Sonneneinstrahlung) zu öffnen. Sie zeigt, wie stark die Sonne über den Tag scheint — so
+siehst du, wann die Sonne und damit deine Solarmodule / dein Balkonkraftwerk am stärksten
+sind. Sie beginnt mit **heute**. Sobald du blätterst:
+
+- **Taste 3 (kurz drücken)** — öffnet Sonnenstrom, dann einen Tag zurück
+- **Taste 2 (kurz drücken)** — Nächster Tag
+- **Taste 1 (kurz drücken)** — Zurück zum heutigen Wetter
+
+Die Sonnenstrom-Ansicht zeigt:
+- „Sonnenstrom" und deine Stadt oben
+- Eine 7-Tage-Übersicht **inklusive heute („Heute")**, jeder Tag mit seiner Gesamt-Sonnenenergie in **kWh/m²**
+- Eine Sonnenstärke-Kurve über die volle Breite für den gewählten Tag — der **höchste Punkt der Kurve ist der Zeitpunkt mit der stärksten Sonne** an diesem Tag. Das Diagramm skaliert sich automatisch pro Tag (Achse in W/m²).
+
+Nutze die täglichen **kWh/m²**-Werte, um Tage auf einen Blick zu vergleichen, und die Kurve,
+um die besten Stunden für die Solarerzeugung zu planen.
+
+Nach **2 Minuten** kehrt das Display automatisch zum heutigen Wetter zurück.
+
+> 💡 **Zwischen Wettervorhersage und Sonnenstrom wechseln:** Während du blätterst, wechseln
+> Taste 2 und Taste 3 nur zwischen den Tagen — nicht zwischen den Ansichten. Zum Wechseln
+> drücke zuerst **Taste 1** (zurück zu heute), dann **Taste 2** für die Wettervorhersage oder
+> **Taste 3** für Sonnenstrom.
+
+> 💡 Sonnenstrom benötigt Solardaten von deinem Wettermodell. Hat ein Tag keine Solardaten,
+> zeigt dieser Tag stattdessen die normale Temperatur-/Regenvorhersage.
 
 ---
 
@@ -169,4 +203,4 @@ So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfigura
 | Softwareupdate auslösen      | Taste 3     | 5 Sek. halten | Softwareupdate               |
 | Werksreset                   | Taste 1 + 2 | 5 Sek. halten | Alle Einstellungen löschen   |
 
-> 💡 **Wetter-Vollbildmodus:** Wenn das Display auf Wetter Vollbild eingestellt ist, wechseln die Tasten zur Tagesnavigation — Taste 2 vorwärts, Taste 3 zurück, Taste 1 zurück zu heute. Siehe [„Ich möchte die Wettervorhersage für die nächsten Tage sehen"](#ich-möchte-die-wettervorhersage-für-die-nächsten-tage-sehen) für Details.
+> 💡 **Wetter-Vollbildmodus:** Wenn das Display auf Wetter Vollbild eingestellt ist, wechseln die Tasten zur Tagesnavigation. Aus der heutigen Ansicht öffnet **Taste 2** die Mehrtages-Wettervorhersage und **Taste 3** die **Sonnenstrom**-Ansicht (Solar). Während du blätterst: Taste 2 = nächster Tag, Taste 3 = vorheriger Tag, Taste 1 = zurück zu heute. Siehe [„Wettervorhersage für die nächsten Tage"](#ich-möchte-die-wettervorhersage-für-die-nächsten-tage-sehen) und [„Sonnenstrom"](#wann-erzeugen-meine-solarmodule-am-meisten-strom-sonnenstrom) für Details.
