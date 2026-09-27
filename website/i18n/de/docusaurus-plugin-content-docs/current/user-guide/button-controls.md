@@ -11,6 +11,63 @@ geordnet nach dem, was du erreichen möchtest.
 
 ---
 
+## Tastenübersicht-Tabellen
+
+Die Tasten tun je nach **Druckdauer** und **aktuellem Anzeigemodus** unterschiedliche Dinge.
+Die folgenden Tabellen geben dir einen schnellen Überblick.
+
+### Globaler Modus
+
+Diese funktionieren in **jedem Anzeigemodus** gleich — ein langer Druck ist immer eine Systemaktion.
+
+| Tasten        | 5 Sek. halten | Ergebnis                       |
+|---------------|---------------|--------------------------------|
+| Taste 1       | ⏱️ 5 Sek.     | Konfigurationsmodus öffnen     |
+| Taste 2       | ⏱️ 5 Sek.     | Geräteinformationen anzeigen   |
+| Taste 3       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
+| Taste 1 + 2   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
+
+### Halb und Halb Anzeigemodus
+
+In Halb & Halb, Wetter-Vollbild oder Abfahrt-Vollbild wechselt ein kurzer Druck vorübergehend
+die Ansicht (**2 Minuten**, danach zurück zum konfigurierten Modus).
+
+| Taste   | Kurz drücken | Ergebnis                                |
+|---------|--------------|-----------------------------------------|
+| Taste 1 | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
+| Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
+| Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
+
+### Wetter-Vollbildmodus (Blättern)
+
+Im **Wetter-Vollbildmodus** blättern die Tasten durch die Vorhersage, statt Modi zu wechseln.
+Ihre Bedeutung hängt davon ab, ob du **bereits blätterst**.
+
+**Aus der heutigen Ansicht (noch nicht am Blättern):**
+
+| Taste   | Kurz drücken | Ergebnis                                     |
+|---------|--------------|----------------------------------------------|
+| Taste 1 | 👆 tippen    | Beim heutigen Wetter bleiben                 |
+| Taste 2 | 👆 tippen    | **Wettervorhersage** öffnen (beginnt morgen) |
+| Taste 3 | 👆 tippen    | **Sonnenstrom**-Ansicht öffnen (beginnt heute) |
+
+**Während des Blätterns (Wettervorhersage oder Sonnenstrom):**
+
+| Taste   | Kurz drücken | Ergebnis                        |
+|---------|--------------|---------------------------------|
+| Taste 1 | 👆 tippen    | Zurück zu heute (Blättern beenden) |
+| Taste 2 | 👆 tippen    | Nächster Tag                    |
+| Taste 3 | 👆 tippen    | Vorheriger Tag                  |
+
+> 💡 Um zwischen Wettervorhersage und Sonnenstrom zu wechseln, drücke zuerst **Taste 1**
+> (zurück zu heute), dann **Taste 2** (Wetter) oder **Taste 3** (Sonnenstrom). Während des
+> Blätterns wechseln Taste 2 und Taste 3 nur zwischen den Tagen.
+
+> 💡 **Vorübergehend:** Jeder kurze Druck gilt **2 Minuten**, danach kehrt das Display zum
+> konfigurierten Modus zurück.
+
+---
+
 ## Anwendungsfälle — Was möchtest du tun?
 
 ### „Ich möchte alles auf einen Blick sehen"
@@ -188,60 +245,3 @@ Wenn du eine Taste kurz drückst (Taste 1, 2 oder 3), ist der neue Modus **vorü
 - Der temporäre Modus wird auf dem Display angezeigt
 
 So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfiguration zu ändern.
-
----
-
-## Tastenübersicht-Tabellen
-
-Die Tasten tun je nach **Druckdauer** und **aktuellem Anzeigemodus** unterschiedliche Dinge.
-Die folgenden Tabellen geben dir einen schnellen Überblick.
-
-### Langes Drücken (5 Sekunden) — globale Aktionen
-
-Diese funktionieren in **jedem Anzeigemodus** gleich — ein langer Druck ist immer eine Systemaktion.
-
-| Tasten        | 5 Sek. halten | Ergebnis                       |
-|---------------|---------------|--------------------------------|
-| Taste 1       | ⏱️ 5 Sek.     | Konfigurationsmodus öffnen     |
-| Taste 2       | ⏱️ 5 Sek.     | Geräteinformationen anzeigen   |
-| Taste 3       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
-| Taste 1 + 2   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
-
-### Kurzes Drücken — normale Anzeigemodi
-
-In Halb & Halb, Wetter-Vollbild oder Abfahrt-Vollbild wechselt ein kurzer Druck vorübergehend
-die Ansicht (**2 Minuten**, danach zurück zum konfigurierten Modus).
-
-| Taste   | Kurz drücken | Ergebnis                                |
-|---------|--------------|-----------------------------------------|
-| Taste 1 | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
-| Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
-| Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
-
-### Kurzes Drücken — Wetter-Vollbildmodus (Blättern)
-
-Im **Wetter-Vollbildmodus** blättern die Tasten durch die Vorhersage, statt Modi zu wechseln.
-Ihre Bedeutung hängt davon ab, ob du **bereits blätterst**.
-
-**Aus der heutigen Ansicht (noch nicht am Blättern):**
-
-| Taste   | Kurz drücken | Ergebnis                                     |
-|---------|--------------|----------------------------------------------|
-| Taste 1 | 👆 tippen    | Beim heutigen Wetter bleiben                 |
-| Taste 2 | 👆 tippen    | **Wettervorhersage** öffnen (beginnt morgen) |
-| Taste 3 | 👆 tippen    | **Sonnenstrom**-Ansicht öffnen (beginnt heute) |
-
-**Während des Blätterns (Wettervorhersage oder Sonnenstrom):**
-
-| Taste   | Kurz drücken | Ergebnis                        |
-|---------|--------------|---------------------------------|
-| Taste 1 | 👆 tippen    | Zurück zu heute (Blättern beenden) |
-| Taste 2 | 👆 tippen    | Nächster Tag                    |
-| Taste 3 | 👆 tippen    | Vorheriger Tag                  |
-
-> 💡 Um zwischen Wettervorhersage und Sonnenstrom zu wechseln, drücke zuerst **Taste 1**
-> (zurück zu heute), dann **Taste 2** (Wetter) oder **Taste 3** (Sonnenstrom). Während des
-> Blätterns wechseln Taste 2 und Taste 3 nur zwischen den Tagen.
-
-> 💡 **Vorübergehend:** Jeder kurze Druck gilt **2 Minuten**, danach kehrt das Display zum
-> konfigurierten Modus zurück.
