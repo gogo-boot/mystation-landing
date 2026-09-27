@@ -191,16 +191,57 @@ So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfigura
 
 ---
 
-## Tastenübersichtstabelle
+## Tastenübersicht-Tabellen
 
-| Aktion                       | Taste       | Drücken       | Ergebnis                     |
-|------------------------------|-------------|---------------|------------------------------|
-| Halb & Halb-Ansicht          | Taste 1     | Kurz drücken  | Temporärer Modus (2 Min)     |
-| Wetter-Vollbildansicht       | Taste 2     | Kurz drücken  | Temporärer Modus (2 Min)     |
-| Abfahrt-Vollbildansicht      | Taste 3     | Kurz drücken  | Temporärer Modus (2 Min)     |
-| Konfigurationsmodus öffnen   | Taste 1     | 5 Sek. halten | Einstellungsseite im Browser |
-| Geräteinformationen anzeigen | Taste 2     | 5 Sek. halten | Geräteinfoanzeige            |
-| Softwareupdate auslösen      | Taste 3     | 5 Sek. halten | Softwareupdate               |
-| Werksreset                   | Taste 1 + 2 | 5 Sek. halten | Alle Einstellungen löschen   |
+Die Tasten tun je nach **Druckdauer** und **aktuellem Anzeigemodus** unterschiedliche Dinge.
+Die folgenden Tabellen geben dir einen schnellen Überblick.
 
-> 💡 **Wetter-Vollbildmodus:** Wenn das Display auf Wetter Vollbild eingestellt ist, wechseln die Tasten zur Tagesnavigation. Aus der heutigen Ansicht öffnet **Taste 2** die Mehrtages-Wettervorhersage und **Taste 3** die **Sonnenstrom**-Ansicht (Solar). Während du blätterst: Taste 2 = nächster Tag, Taste 3 = vorheriger Tag, Taste 1 = zurück zu heute. Siehe [„Wettervorhersage für die nächsten Tage"](#ich-möchte-die-wettervorhersage-für-die-nächsten-tage-sehen) und [„Sonnenstrom"](#wann-erzeugen-meine-solarmodule-am-meisten-strom-sonnenstrom) für Details.
+### Langes Drücken (5 Sekunden) — globale Aktionen
+
+Diese funktionieren in **jedem Anzeigemodus** gleich — ein langer Druck ist immer eine Systemaktion.
+
+| Tasten        | 5 Sek. halten | Ergebnis                       |
+|---------------|---------------|--------------------------------|
+| Taste 1       | ⏱️ 5 Sek.     | Konfigurationsmodus öffnen     |
+| Taste 2       | ⏱️ 5 Sek.     | Geräteinformationen anzeigen   |
+| Taste 3       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
+| Taste 1 + 2   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
+
+### Kurzes Drücken — normale Anzeigemodi
+
+In Halb & Halb, Wetter-Vollbild oder Abfahrt-Vollbild wechselt ein kurzer Druck vorübergehend
+die Ansicht (**2 Minuten**, danach zurück zum konfigurierten Modus).
+
+| Taste   | Kurz drücken | Ergebnis                                |
+|---------|--------------|-----------------------------------------|
+| Taste 1 | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
+| Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
+| Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
+
+### Kurzes Drücken — Wetter-Vollbildmodus (Blättern)
+
+Im **Wetter-Vollbildmodus** blättern die Tasten durch die Vorhersage, statt Modi zu wechseln.
+Ihre Bedeutung hängt davon ab, ob du **bereits blätterst**.
+
+**Aus der heutigen Ansicht (noch nicht am Blättern):**
+
+| Taste   | Kurz drücken | Ergebnis                                     |
+|---------|--------------|----------------------------------------------|
+| Taste 1 | 👆 tippen    | Beim heutigen Wetter bleiben                 |
+| Taste 2 | 👆 tippen    | **Wettervorhersage** öffnen (beginnt morgen) |
+| Taste 3 | 👆 tippen    | **Sonnenstrom**-Ansicht öffnen (beginnt heute) |
+
+**Während des Blätterns (Wettervorhersage oder Sonnenstrom):**
+
+| Taste   | Kurz drücken | Ergebnis                        |
+|---------|--------------|---------------------------------|
+| Taste 1 | 👆 tippen    | Zurück zu heute (Blättern beenden) |
+| Taste 2 | 👆 tippen    | Nächster Tag                    |
+| Taste 3 | 👆 tippen    | Vorheriger Tag                  |
+
+> 💡 Um zwischen Wettervorhersage und Sonnenstrom zu wechseln, drücke zuerst **Taste 1**
+> (zurück zu heute), dann **Taste 2** (Wetter) oder **Taste 3** (Sonnenstrom). Während des
+> Blätterns wechseln Taste 2 und Taste 3 nur zwischen den Tagen.
+
+> 💡 **Vorübergehend:** Jeder kurze Druck gilt **2 Minuten**, danach kehrt das Display zum
+> konfigurierten Modus zurück.
