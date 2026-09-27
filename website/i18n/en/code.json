@@ -1,4 +1,16 @@
 {
+  "cookie.message": {
+    "message": "This website uses cookies for anonymous statistics (Google Analytics), only with your consent. Without consent, no statistics cookies are set."
+  },
+  "cookie.more": {
+    "message": "Learn more"
+  },
+  "cookie.accept": {
+    "message": "Accept"
+  },
+  "cookie.reject": {
+    "message": "Reject"
+  },
   "homepage.hero.subtitle": {
     "message": "RMV departures, S-Bahn, U-Bahn, Bus & Weather — always in sight"
   },
