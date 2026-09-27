@@ -23,9 +23,6 @@
   "homepage.locale": {
     "message": "en"
   },
-  "homepage.buy": {
-    "message": "Buy Now"
-  },
   "homepage.docs": {
     "message": "Documentation"
   },
@@ -37,14 +34,5 @@
   },
   "homepage.specs": {
     "message": "Specifications"
-  },
-  "homepage.ctaTitle": {
-    "message": "Ready for your own departure board?"
-  },
-  "homepage.ctaNote": {
-    "message": "Includes device, battery, and case. Free shipping within Germany."
-  },
-  "homepage.order": {
-    "message": "Order Now"
   }
 }
