@@ -5,28 +5,6 @@ Im normalen Betrieb ist der Einstellungsbildschirm nicht verfügbar — und das 
 
 ---
 
-## Warum kann ich nur im Konfigurationsmodus konfigurieren?
-
-MyStation-Go ist darauf ausgelegt, monatelang mit einer einzigen Akkuladung zu laufen. Dazu verbringt
-es die meiste Zeit in einem sehr energiesparenden Schlafzustand. Es wacht kurz auf, holt Daten,
-aktualisiert das Display und geht sofort wieder schlafen.
-
-Den Einstellungsbildschirm offen zu halten würde viel mehr Energie verbrauchen.
-Daher ist er nur verfügbar, wenn du ihn bewusst einschaltest — das ist der **Konfigurationsmodus**.
-
-> 🔋 Stell dir vor: Der Konfigurationsmodus ist wie ein Laden, der nur öffnet, wenn du anklopfst.
-> Wenn du fertig bist, schließt er wieder, um Energie zu sparen.
-
-```mermaid
-stateDiagram-v2
-    [*] --> Normalbetrieb : Einschalten
-    Normalbetrieb --> Konfigurationsmodus : Taste 1 (5 Sek. halten)
-    Konfigurationsmodus --> Normalbetrieb : Speichern oder Aus/Ein
-    Normalbetrieb --> Normalbetrieb : Aufwachen, Daten holen, schlafen
-```
-
----
-
 ## Wie du den Konfigurationsmodus öffnest
 
 
@@ -73,6 +51,20 @@ Der Normalbetrieb wird innerhalb von ca. 30 Sekunden wieder aufgenommen.
 
 Du kannst den Konfigurationsmodus auch ohne Speichern verlassen, indem du den Einschalter auf AUS
 und dann zurück auf EIN schiebst. Deine vorherigen Einstellungen bleiben dabei unverändert.
+
+---
+
+## Warum kann ich nur im Konfigurationsmodus konfigurieren?
+
+MyStation-Go ist darauf ausgelegt, monatelang mit einer einzigen Akkuladung zu laufen. Dazu verbringt
+es die meiste Zeit in einem sehr energiesparenden Schlafzustand. Es wacht kurz auf, holt Daten,
+aktualisiert das Display und geht sofort wieder schlafen.
+
+Den Einstellungsbildschirm offen zu halten würde viel mehr Energie verbrauchen.
+Daher ist er nur verfügbar, wenn du ihn bewusst einschaltest — das ist der **Konfigurationsmodus**.
+
+> 🔋 Stell dir vor: Der Konfigurationsmodus ist wie ein Laden, der nur öffnet, wenn du anklopfst.
+> Wenn du fertig bist, schließt er wieder, um Energie zu sparen.
 
 ---
 
