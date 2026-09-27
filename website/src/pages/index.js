@@ -95,7 +95,7 @@ export default function Home() {
                     <h1>MyStation-Go</h1>
                     <p className={styles.heroSubtitle}>{heroSubtitle}</p>
                     <p>{heroDesc}</p>
-                    <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnPrimary}`}>
+                    <a href="/docs/user-guide" className={`${styles.btn} ${styles.btnPrimary}`}>
                         <Translate id="homepage.docs">Dokumentation</Translate>
                     </a>
                 </div>
