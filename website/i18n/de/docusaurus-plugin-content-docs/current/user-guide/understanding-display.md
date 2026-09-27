@@ -86,6 +86,9 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum heutigen Wetter zurückzukehren.
 
+<!-- TODO: durch echtes Foto der Tagesvorhersage-Ansicht auf dem Gerät ersetzen -->
+![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/weather-browse.jpeg)
+
 ```
 ┌─────────────────────────────────────────┐
 │  Do, 04. Sep                  Frankfurt │
@@ -119,6 +122,9 @@ Drücke im Wetter-Vollbildmodus in der heutigen Wetteransicht **Taste 3**, um di
 **Sonnenstrom**-Ansicht zu öffnen — eine Sonneneinstrahlungs-Vorhersage, die zeigt, wie stark
 die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **Taste 2** zum
 nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zu heute.
+
+<!-- TODO: durch echtes Foto der Sonnenstrom-Ansicht auf dem Gerät ersetzen -->
+![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/solar-browse.jpeg)
 
 ```
 ┌─────────────────────────────────────────┐

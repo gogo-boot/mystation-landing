@@ -85,6 +85,9 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to today.
 
+<!-- TODO: replace with a real photo of the Weather day-forecast view on the device -->
+![Weather day-forecast view on the MyStation-Go display](/img/user-guide/weather-browse.jpeg)
+
 ```
 ┌─────────────────────────────────────────┐
 │  Thu, 04 Sep                  Frankfurt │
@@ -117,6 +120,9 @@ When the display is in Weather Only mode, press **Button 3** from today's weathe
 **Sonnenstrom** view — a solar radiation forecast that shows how strong the sunshine is across
 the day. It starts with today; while browsing, **Button 2** goes to the next day, **Button 3**
 the previous day, and **Button 1** returns to today.
+
+<!-- TODO: replace with a real photo of the Sonnenstrom (solar) view on the device -->
+![Sonnenstrom solar radiation view on the MyStation-Go display](/img/user-guide/solar-browse.jpeg)
 
 ```
 ┌─────────────────────────────────────────┐
