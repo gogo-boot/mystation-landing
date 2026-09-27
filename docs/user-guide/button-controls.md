@@ -11,6 +11,63 @@ organized by what you want to achieve.
 
 ---
 
+## Button Summary Tables
+
+The buttons do different things depending on **how long** you press and **which display mode**
+you are in. Use the tables below as a quick overview.
+
+### Long press (5 seconds) — global actions
+
+These work the same **in every display mode** — a long press is always a system action.
+
+| Buttons        | Hold 5 sec | Result                       |
+|----------------|------------|------------------------------|
+| Button 1       | ⏱️ 5 sec   | Enter Configuration Mode     |
+| Button 2       | ⏱️ 5 sec   | Show Device Information       |
+| Button 3       | ⏱️ 5 sec   | Trigger Software Update       |
+| Button 1 + 2   | ⏱️ 5 sec   | Factory Reset (clears all)   |
+
+### Short press — normal display modes
+
+In Half & Half, Weather Full, or Departure Full mode, a brief press temporarily switches the
+view (**2 minutes**, then it returns to your configured mode).
+
+| Button   | Brief press | Result                         |
+|----------|-------------|--------------------------------|
+| Button 1 | 👆 tap      | Half & Half view (weather + departures) |
+| Button 2 | 👆 tap      | Weather full screen             |
+| Button 3 | 👆 tap      | Departure full screen           |
+
+### Short press — Weather Only mode (browsing)
+
+In **Weather Only** mode the buttons browse the forecast instead of switching modes. Their
+meaning depends on whether you are **already browsing**.
+
+**From today's view (not browsing yet):**
+
+| Button   | Brief press | Result                                   |
+|----------|-------------|------------------------------------------|
+| Button 1 | 👆 tap      | Stay on today's weather                  |
+| Button 2 | 👆 tap      | Open **weather forecast** (starts tomorrow) |
+| Button 3 | 👆 tap      | Open **Sonnenstrom** solar view (starts today) |
+
+**While browsing (weather forecast or Sonnenstrom):**
+
+| Button   | Brief press | Result                                   |
+|----------|-------------|------------------------------------------|
+| Button 1 | 👆 tap      | Back to today (leaves browsing)          |
+| Button 2 | 👆 tap      | Next day                                 |
+| Button 3 | 👆 tap      | Previous day                             |
+
+> 💡 To switch between the weather forecast and Sonnenstrom, press **Button 1** first (back to
+> today), then **Button 2** (weather) or **Button 3** (Sonnenstrom). While browsing, Button 2
+> and Button 3 only move between days.
+
+> 💡 **Temporary:** every brief press lasts **2 minutes**, then the display returns to your
+> configured mode.
+
+---
+
 ## Use Cases — What Do You Want to Do?
 
 ### "I want to see everything at a glance"
@@ -188,60 +245,3 @@ When you briefly press a button (Button 1, 2, or 3), the new mode is **temporary
 - The temporary mode is indicated on the display
 
 This lets you quickly check weather or departures without permanently changing the configuration.
-
----
-
-## Button Summary Tables
-
-The buttons do different things depending on **how long** you press and **which display mode**
-you are in. Use the tables below as a quick overview.
-
-### Long press (5 seconds) — global actions
-
-These work the same **in every display mode** — a long press is always a system action.
-
-| Buttons        | Hold 5 sec | Result                       |
-|----------------|------------|------------------------------|
-| Button 1       | ⏱️ 5 sec   | Enter Configuration Mode     |
-| Button 2       | ⏱️ 5 sec   | Show Device Information       |
-| Button 3       | ⏱️ 5 sec   | Trigger Software Update       |
-| Button 1 + 2   | ⏱️ 5 sec   | Factory Reset (clears all)   |
-
-### Short press — normal display modes
-
-In Half & Half, Weather Full, or Departure Full mode, a brief press temporarily switches the
-view (**2 minutes**, then it returns to your configured mode).
-
-| Button   | Brief press | Result                         |
-|----------|-------------|--------------------------------|
-| Button 1 | 👆 tap      | Half & Half view (weather + departures) |
-| Button 2 | 👆 tap      | Weather full screen             |
-| Button 3 | 👆 tap      | Departure full screen           |
-
-### Short press — Weather Only mode (browsing)
-
-In **Weather Only** mode the buttons browse the forecast instead of switching modes. Their
-meaning depends on whether you are **already browsing**.
-
-**From today's view (not browsing yet):**
-
-| Button   | Brief press | Result                                   |
-|----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Stay on today's weather                  |
-| Button 2 | 👆 tap      | Open **weather forecast** (starts tomorrow) |
-| Button 3 | 👆 tap      | Open **Sonnenstrom** solar view (starts today) |
-
-**While browsing (weather forecast or Sonnenstrom):**
-
-| Button   | Brief press | Result                                   |
-|----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Back to today (leaves browsing)          |
-| Button 2 | 👆 tap      | Next day                                 |
-| Button 3 | 👆 tap      | Previous day                             |
-
-> 💡 To switch between the weather forecast and Sonnenstrom, press **Button 1** first (back to
-> today), then **Button 2** (weather) or **Button 3** (Sonnenstrom). While browsing, Button 2
-> and Button 3 only move between days.
-
-> 💡 **Temporary:** every brief press lasts **2 minutes**, then the display returns to your
-> configured mode.
