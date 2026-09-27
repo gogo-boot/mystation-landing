@@ -5,20 +5,6 @@ During normal day-to-day use, the settings screen is not available — and this 
 
 ---
 
-## Why Can I Only Configure in Configure Mode?
-
-MyStation-Go is designed to last for months on a single battery charge. To do this, it spends
-most of its time in a very low-power sleep state. It wakes up briefly, fetches data, updates
-the display, and immediately goes back to sleep.
-
-Keeping the settings screen open and waiting for your input would use a lot more power.
-So the settings screen is only available when you deliberately turn it on — this is
-**Configure Mode**.
-
-> 🔋 Think of it like this: Configure Mode is like a shop that only opens when you knock.
-> Once you're done, it closes again to save energy.
----
-
 ## How to Enter Configure Mode
 
 
@@ -65,6 +51,21 @@ Normal operation (fetching data and updating the display) resumes within about 3
 
 You can also exit Configure Mode without saving by sliding the power switch to OFF, then back to ON to restart the
 device. In that case, your previous settings remain unchanged.
+
+---
+
+## Why Can I Only Configure in Configure Mode?
+
+MyStation-Go is designed to last for months on a single battery charge. To do this, it spends
+most of its time in a very low-power sleep state. It wakes up briefly, fetches data, updates
+the display, and immediately goes back to sleep.
+
+Keeping the settings screen open and waiting for your input would use a lot more power.
+So the settings screen is only available when you deliberately turn it on — this is
+**Configure Mode**.
+
+> 🔋 Think of it like this: Configure Mode is like a shop that only opens when you knock.
+> Once you're done, it closes again to save energy.
 
 ---
 
