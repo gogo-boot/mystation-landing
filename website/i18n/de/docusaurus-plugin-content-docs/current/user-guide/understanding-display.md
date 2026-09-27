@@ -113,6 +113,47 @@ Das Display kehrt automatisch nach **2 Minuten** ohne Tastendruck zum heutigen W
 
 > 💡 Die Anzahl der verfügbaren Vorhersagetage hängt vom gewählten Wettermodell in deinen Einstellungen ab. Einige Modelle bieten weniger Tage als andere.
 
+### Sonnenstrom-Ansicht (Sonneneinstrahlung)
+
+Drücke im Wetter-Vollbildmodus in der heutigen Wetteransicht **Taste 3**, um die
+**Sonnenstrom**-Ansicht zu öffnen — eine Sonneneinstrahlungs-Vorhersage, die zeigt, wie stark
+die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **Taste 2** zum
+nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zu heute.
+
+```
+┌─────────────────────────────────────────┐
+│  Sonnenstrom                  Frankfurt │
+├─────────────────────────────────────────┤
+│ [Heute][Di][Mi][Do][Fr][Sa][So]         │
+│  4.0    3.1 3.1 3.0 1.2 2.9 3.1          │  ← kWh/m² pro Tag
+│  ^^^^^                                   │
+│  (ausgewählter Tag)                      │
+├─────────────────────────────────────────┤
+│                                         │
+│   Sonnenstärke-Kurve (W/m²)             │
+│         ╱───╲                            │
+│       ╱       ╲                          │
+│   ──╱           ╲──                      │
+│   06:00 ──────────────── 21:00          │
+└─────────────────────────────────────────┘
+```
+
+**Was du siehst:**
+
+- **Kopfzeile**: „Sonnenstrom" und dein Stadtname
+- **Tagesübersicht**: 7 Tage **inklusive heute („Heute")**, jeder Tag mit seiner Gesamt-Sonnenenergie in **kWh/m²** — praktisch zum Vergleichen, welche Tage am sonnigsten sind
+- **Diagramm**: Eine Sonnenstärke-Kurve für den ausgewählten Tag. Der **höchste Punkt der Kurve ist der Zeitpunkt mit der stärksten Sonne** — die beste Zeit für die Solarerzeugung. Das Diagramm skaliert sich automatisch pro Tag (Achse in W/m²).
+
+Das ist nützlich, wenn du Solarmodule oder ein Balkonkraftwerk hast: Die Kurve zeigt dir,
+*wann* deine Module am meisten erzeugen, und die Tageswerte lassen dich Tage vergleichen.
+
+Nach **2 Minuten** ohne Tastendruck kehrt das Display automatisch zum heutigen Wetter zurück.
+
+> 💡 Um während des Blätterns zwischen Wettervorhersage und Sonnenstrom zu wechseln, drücke
+> zuerst **Taste 1** (zurück zu heute), dann **Taste 2** (Wetter) oder **Taste 3**
+> (Sonnenstrom). Hat ein Tag keine Solardaten von deinem Wettermodell, zeigt er stattdessen
+> die normale Temperatur-/Regenvorhersage.
+
 ---
 
 ## Modus 3: Abfahrt Vollbild
