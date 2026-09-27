@@ -76,10 +76,11 @@ const config = {
                     sidebarPath: './sidebars.js',
                 },
                 blog: false,
-                gtag: {
-                    trackingID: 'G-JV671HWVNL',
-                    anonymizeIP: true,
-                },
+                // Google Analytics is intentionally NOT loaded via the gtag preset,
+                // because that would fire GA on every page load BEFORE consent.
+                // Instead, GA is loaded only after explicit opt-in by the cookie
+                // consent banner — see src/js/cookieConsent.js (clientModule) and
+                // src/theme/Root.js. Tracking ID: G-JV671HWVNL.
                 sitemap: {
                     changefreq: 'weekly',
                     priority: 0.5,
