@@ -122,6 +122,12 @@ const config = {
                         {label: 'Fehlerbehebung', to: '/docs/user-guide/troubleshooting'},
                     ],
                 },
+                {
+                    title: 'Rechtliches',
+                    items: [
+                        {label: 'Impressum', to: '/impressum'},
+                    ],
+                },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} MyStation-Go.`,
         },
