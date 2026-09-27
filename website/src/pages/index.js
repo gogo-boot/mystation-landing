@@ -10,12 +10,7 @@ const jsonLd = {
     "name": "MyStation-Go",
     "description": "Echtzeit-Abfahrtstafel und Wetterstation für Zuhause. E-Paper Display mit RMV S-Bahn, U-Bahn, Bus Abfahrten und Wetter. Batteriebetrieben für Monate.",
     "image": "https://www.mystation-go.de/img/IMG_0872.jpeg",
-    "brand": {"@type": "Brand", "name": "MyStation-Go"},
-    "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.ebay.de/itm/178073276495"
-    }
+    "brand": {"@type": "Brand", "name": "MyStation-Go"}
 };
 
 const features = {
@@ -100,10 +95,7 @@ export default function Home() {
                     <h1>MyStation-Go</h1>
                     <p className={styles.heroSubtitle}>{heroSubtitle}</p>
                     <p>{heroDesc}</p>
-                    <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>
-                        <Translate id="homepage.buy">Jetzt kaufen</Translate>
-                    </a>
-                    <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnSecondary}`}>
+                    <a href="/docs/user-guide/" className={`${styles.btn} ${styles.btnPrimary}`}>
                         <Translate id="homepage.docs">Dokumentation</Translate>
                     </a>
                 </div>
@@ -155,13 +147,6 @@ export default function Home() {
                         </tbody>
                     </table>
                 </div>
-            </section>
-
-            <section className={styles.cta} id="buy">
-                <h2><Translate id="homepage.ctaTitle">Bereit fuer deine eigene Abfahrtstafel?</Translate></h2>
-                <a href="https://www.ebay.de/itm/178073276495" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnPrimary}`}>
-                    <Translate id="homepage.order">Jetzt bestellen</Translate>
-                </a>
             </section>
         </Layout>
     );
