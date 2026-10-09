@@ -101,7 +101,7 @@ Das Display kehrt automatisch nach **2 Minuten** ohne Tastendruck zum heutigen W
 Drücke im Wetter-Vollbildmodus in der heutigen Wetteransicht **Taste 3**, um die
 **Sonnenstrom**-Ansicht zu öffnen — eine Sonneneinstrahlungs-Vorhersage, die zeigt, wie stark
 die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **Taste 2** zum
-nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zu heute.
+nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zum Wetter-Vollbildmodus (heutiges Wetter).
 
 <!-- TODO: durch echtes Foto der Sonnenstrom-Ansicht auf dem Gerät ersetzen -->
 ![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1398.jpeg)

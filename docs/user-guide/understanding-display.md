@@ -99,7 +99,7 @@ The display returns to today's weather automatically after **2 minutes** without
 When the display is in Weather Only mode, press **Button 3** from today's weather to open the
 **Sonnenstrom** view — a solar radiation forecast that shows how strong the sunshine is across
 the day. It starts with today; while browsing, **Button 2** goes to the next day, **Button 3**
-the previous day, and **Button 1** returns to today.
+the previous day, and **Button 1** returns to the weather full screen mode (today's weather).
 
 ![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1398.jpeg)
 ![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1399.jpeg)
