@@ -21,6 +21,11 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 ![Halb & Halb Haltestellen-Ansicht auf dem MyStation-Go Display](/img/IMG_0872.jpeg)
 ![Halb & Halb Verbindungs-Ansicht auf dem MyStation-Go Display](/img/IMG_1391.jpeg)
 
+> 💡 Die beiden Fotos oben zeigen die zwei Varianten des Halb & Halb Modus: Das **erste** Bild
+> zeigt die **Abfahrtstafel** auf der unteren Hälfte, das **zweite** die **Verbindungsanzeige**
+> (eine konkrete Verbindung zu deinem Ziel) auf der unteren Hälfte. Welche du siehst, hängt
+> davon ab, ob du in den ÖPNV-Einstellungen *Abfahrten* oder *Verbindungen* gewählt hast.
+
 **Wetterbereich:**
 
 - Aktuelle Temperatur
