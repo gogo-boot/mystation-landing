@@ -79,7 +79,7 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 ### Tagesvorhersage-Ansicht
 
-Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum heutigen Wetter zurückzukehren.
+Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum Wetter-Vollbildmodus (heutiges Wetter) zurückzukehren.
 
 <!-- TODO: durch echtes Foto der Tagesvorhersage-Ansicht auf dem Gerät ersetzen -->
 ![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1395.jpeg)

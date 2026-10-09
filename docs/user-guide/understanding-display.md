@@ -78,7 +78,7 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 ### Day Forecast View
 
-When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to today.
+When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to the weather full screen mode (today's weather).
 
 ![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1395.jpeg)
 ![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1396.jpeg)
