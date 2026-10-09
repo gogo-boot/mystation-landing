@@ -57,6 +57,9 @@ const specs = {
 
 const galleryImages = [
     { src: '/img/IMG_0872.jpeg', alt: 'MyStation Front' },
+    { src: '/img/IMG_1391.jpeg', alt: 'MyStation Connection Info' },
+    { src: '/img/user-guide/IMG_1393.jpeg', alt: 'MyStation Weather Info' },
+    { src: '/img/user-guide/IMG_1398.jpeg', alt: 'MyStation Sonnenstrom' },
     { src: '/img/IMG_0869.jpeg', alt: 'MyStation Angle' },
     { src: '/img/IMG_0878.jpeg', alt: 'MyStation Side' },
     { src: '/img/IMG_0874.jpeg', alt: 'Mounted on Wall' },

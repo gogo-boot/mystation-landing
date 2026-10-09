@@ -18,13 +18,8 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 ## Modus 1: Halb & Halb (Standard)
 
-```
-┌─────────────────────────────┐
-│ Wetter       │ Abfahrten    │
-│ Temp, Icon,  │ Nächste Züge │
-│ Vorhersage   │ Busse usw.   │
-└──────────────┴──────────────┘
-```
+![Halb & Halb Haltestellen-Ansicht auf dem MyStation-Go Display](/img/IMG_0872.jpeg)
+![Halb & Halb Verbindungs-Ansicht auf dem MyStation-Go Display](/img/IMG_1391.jpeg)
 
 **Wetterbereich:**
 
@@ -51,16 +46,7 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 ## Modus 2: Wetter Vollbild
 
-```
-┌─────────────────────────────┐
-│                             │
-│   Großes Wettersymbol       │
-│   Temperatur & Vorhersage   │
-│   Wind, Luftfeuchtigkeit    │
-│   Sonnenauf-/-untergang     │
-│                             │
-└─────────────────────────────┘
-```
+![Wetter-Vollbildansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1393.jpeg)
 
 **Hauptbereich:**
 
@@ -87,24 +73,9 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum heutigen Wetter zurückzukehren.
 
 <!-- TODO: durch echtes Foto der Tagesvorhersage-Ansicht auf dem Gerät ersetzen -->
-![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/weather-browse.jpeg)
-
-```
-┌─────────────────────────────────────────┐
-│  Do, 04. Sep                  Frankfurt │
-├─────────────────────────────────────────┤
-│ [Mo][Di][Mi][DO][Fr][Sa]                │
-│               ^^                        │
-│          (ausgewählter Tag)             │
-├─────────────────────────────────────────┤
-│                                         │
-│   Temperatur- und Regendiagramm         │
-│   06:00 ──────────────────── 00:00      │
-│   (19-Stunden-Vorhersage für           │
-│    den ausgewählten Tag)                │
-│                                         │
-└─────────────────────────────────────────┘
-```
+![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1395.jpeg)
+![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1396.jpeg)
+![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1397.jpeg)
 
 **Was du siehst:**
 
@@ -124,25 +95,9 @@ die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **Ta
 nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zu heute.
 
 <!-- TODO: durch echtes Foto der Sonnenstrom-Ansicht auf dem Gerät ersetzen -->
-![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/solar-browse.jpeg)
-
-```
-┌─────────────────────────────────────────┐
-│  Sonnenstrom                  Frankfurt │
-├─────────────────────────────────────────┤
-│ [Heute][Di][Mi][Do][Fr][Sa][So]         │
-│  4.0    3.1 3.1 3.0 1.2 2.9 3.1          │  ← kWh/m² pro Tag
-│  ^^^^^                                   │
-│  (ausgewählter Tag)                      │
-├─────────────────────────────────────────┤
-│                                         │
-│   Sonnenstärke-Kurve (W/m²)             │
-│         ╱───╲                            │
-│       ╱       ╲                          │
-│   ──╱           ╲──                      │
-│   06:00 ──────────────── 21:00          │
-└─────────────────────────────────────────┘
-```
+![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1398.jpeg)
+![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1399.jpeg)
+![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1400.jpeg)
 
 **Was du siehst:**
 
@@ -164,16 +119,7 @@ Nach **2 Minuten** ohne Tastendruck kehrt das Display automatisch zum heutigen W
 
 ## Modus 3: Abfahrt Vollbild
 
-```
-┌─────────────────────────────┐
-│                             │
-│   Abfahrtsliste             │
-│   Mehr Einträge sichtbar    │
-│   Detaillierte Zeitangaben  │
-│   Gleisnummern              │
-│                             │
-└─────────────────────────────┘
-```
+![Abfahrt-Vollbildansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1394.jpeg)
 
 **Für jede Abfahrt:**
 

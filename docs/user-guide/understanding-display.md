@@ -12,13 +12,8 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 ## Display Mode 1: Half & Half (Default)
 
-```
-┌─────────────────────────────┐
-│ Weather Info │ Departures   │
-│ Temp, Icon,  │ Next trains  │
-│ Forecast     │ buses, etc.  │
-└──────────────┴──────────────┘
-```
+![half and half station on the MyStation-Go display](/img/IMG_0872.jpeg)
+![hafl and half connection on the MyStation-Go display](/img/IMG_1391.jpeg)
 
 ### Information Displayed
 
@@ -46,16 +41,7 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 ## Display Mode 2: Weather Only
 
-```
-┌─────────────────────────────┐
-│                             │
-│   Large Weather Display     │
-│   Temperature Graph         │
-│   Detailed Forecast         │
-│   Wind, Humidity, etc.      │
-│                             │
-└─────────────────────────────┘
-```
+![Weather only full sceen view on the Mystation-Go display](/img/user-guide/IMG_1393.jpeg)
 
 ### Information Displayed
 
@@ -85,24 +71,9 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to today.
 
-<!-- TODO: replace with a real photo of the Weather day-forecast view on the device -->
-![Weather day-forecast view on the MyStation-Go display](/img/user-guide/weather-browse.jpeg)
-
-```
-┌─────────────────────────────────────────┐
-│  Thu, 04 Sep                  Frankfurt │
-├─────────────────────────────────────────┤
-│ [Mon][Tue][Wed][THU][Fri][Sat]          │
-│                 ^^^                      │
-│            (selected day)               │
-├─────────────────────────────────────────┤
-│                                         │
-│   Temperature and Rain Graph            │
-│   06:00 ──────────────────── 00:00      │
-│   (19-hour forecast for selected day)   │
-│                                         │
-└─────────────────────────────────────────┘
-```
+![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1395.jpeg)
+![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1396.jpeg)
+![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1397.jpeg)
 
 **What you see:**
 
@@ -121,26 +92,9 @@ When the display is in Weather Only mode, press **Button 3** from today's weathe
 the day. It starts with today; while browsing, **Button 2** goes to the next day, **Button 3**
 the previous day, and **Button 1** returns to today.
 
-<!-- TODO: replace with a real photo of the Sonnenstrom (solar) view on the device -->
-![Sonnenstrom solar radiation view on the MyStation-Go display](/img/user-guide/solar-browse.jpeg)
-
-```
-┌─────────────────────────────────────────┐
-│  Sonnenstrom                  Frankfurt │
-├─────────────────────────────────────────┤
-│ [Heute][Tue][Wed][Thu][Fri][Sat][Sun]   │
-│  4.0    3.1  3.1  3.0  1.2  2.9  3.1     │  ← kWh/m² per day
-│  ^^^^^                                   │
-│  (selected day)                          │
-├─────────────────────────────────────────┤
-│                                         │
-│   Sunshine strength curve (W/m²)        │
-│         ╱───╲                            │
-│       ╱       ╲                          │
-│   ──╱           ╲──                      │
-│   06:00 ──────────────── 21:00          │
-└─────────────────────────────────────────┘
-```
+![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1398.jpeg)
+![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1399.jpeg)
+![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1400.jpeg)
 
 **What you see:**
 
@@ -159,16 +113,7 @@ The display returns to today's weather automatically after **2 minutes** without
 
 ## Display Mode 3: Departures Only
 
-```
-┌─────────────────────────────┐
-│                             │
-│   Departure List            │
-│   More departures visible   │
-│   Detailed timing info      │
-│   Platform numbers          │
-│                             │
-└─────────────────────────────┘
-```
+![Departures only view on the MyStation-Go display](/img/user-guide/IMG_1394.jpeg)
 
 ### Information Displayed
 
