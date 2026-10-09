@@ -219,6 +219,18 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 ---
 
+## Temporary Mode Behavior
+
+When you briefly press a button (Button 1, 2, or 3), the new mode is **temporary**:
+
+- Duration: **2 minutes**
+- After 2 minutes, the display returns to the **configured display mode**
+- The temporary mode is indicated on the display
+
+This lets you quickly check weather or departures without permanently changing the configuration.
+
+---
+
 ## System Actions (Hold 5 seconds)
 
 Holding a button for **5 seconds** is always a system action and works the same **in every display
@@ -375,15 +387,3 @@ MyStation-Go uses intuitive weather icons:
 
 - When data was last fetched
 - Helps verify freshness
-
----
-
-## Temporary Mode Behavior
-
-When you briefly press a button (Button 1, 2, or 3), the new mode is **temporary**:
-
-- Duration: **2 minutes**
-- After 2 minutes, the display returns to the **configured display mode**
-- The temporary mode is indicated on the display
-
-This lets you quickly check weather or departures without permanently changing the configuration.

@@ -218,6 +218,18 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 ---
 
+## Verhalten im temporären Modus
+
+Wenn du eine Taste kurz drückst (Taste 1, 2 oder 3), ist der neue Modus **vorübergehend**:
+
+- Dauer: **2 Minuten**
+- Nach 2 Minuten kehrt das Display zum **konfigurierten Anzeigemodus** zurück
+- Der temporäre Modus wird auf dem Display angezeigt
+
+So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfiguration zu ändern.
+
+---
+
 ## Systemaktionen (5 Sekunden halten)
 
 Eine Taste **5 Sekunden** zu halten ist immer eine Systemaktion und funktioniert in **jedem
@@ -316,15 +328,3 @@ Das 12-Stunden-Vorhersagediagramm zeigt:
 - **Akkustand** — Verbleibende Ladekapazität in Prozent
 - **WLAN-Status** — Ob das Gerät verbunden ist
 - **Letzte Aktualisierung** — Uhrzeit der letzten Datenabfrage
-
----
-
-## Verhalten im temporären Modus
-
-Wenn du eine Taste kurz drückst (Taste 1, 2 oder 3), ist der neue Modus **vorübergehend**:
-
-- Dauer: **2 Minuten**
-- Nach 2 Minuten kehrt das Display zum **konfigurierten Anzeigemodus** zurück
-- Der temporäre Modus wird auf dem Display angezeigt
-
-So kannst du schnell Wetter oder Abfahrten prüfen, ohne dauerhaft die Konfiguration zu ändern.
