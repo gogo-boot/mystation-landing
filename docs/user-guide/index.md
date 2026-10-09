@@ -9,7 +9,7 @@ public transport departures near your home. You hang it on the wall or place it 
 and it updates itself automatically throughout the day.
 
 - 🚌 **Always Up-to-Date** — Shows real-time German public transport departures
-- 🌤️ **Weather at a Glance** — Current weather and forecast from the German Weather Service
+- 🌤️ **Weather at a Glance** — Current weather and forecast for your location
 - 🔋 **Long Battery Life** — Can run for months on a single charge
 - 📱 **Simple Setup** — Configure everything from your phone's browser, no app needed
 - 📡 **Connects to WiFi** — Fetches fresh data automatically over your home WiFi
@@ -37,7 +37,7 @@ MyStation-Go shows three types of information depending on how you set it up:
 | **Weather Full**   | Full screen weather with hourly forecast graph         |
 | **Transport Full** | Full screen list of upcoming departures                |
 
-See [Understanding the Display](understanding-display.md) for details.
+See [Display & Buttons](button-controls.md) for details.
 
 ---
 
@@ -55,7 +55,7 @@ Your MyStation-Go has **3 buttons** on the side:
 
 Quick presses switch the view **temporarily for 2 minutes**, then return to your normal setting.
 
-See [Button Controls](button-controls.md) for use-case examples.
+See [Display & Buttons](button-controls.md) for use-case examples.
 
 ---
 
@@ -70,8 +70,7 @@ See [Button Controls](button-controls.md) for use-case examples.
 
 ### Daily Use
 
-- **[Understanding the Display](understanding-display.md)** — What each part of the screen shows
-- **[Button Controls](button-controls.md)** — What to press depending on what you want to do
+- **[Display & Buttons](button-controls.md)** — What each part of the screen shows and what to press depending on what you want to do
 
 ### Help & Support
 

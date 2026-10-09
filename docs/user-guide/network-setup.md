@@ -81,7 +81,7 @@ graph LR
     Station["🖥️ MyStation-Go"]
     Router["🏠 Your Home Router\n(2.4 GHz WiFi)"]
     Internet["🌍 Internet"]
-    DWD["☁️ German Weather Service"]
+    DWD["☁️ Weather Service"]
     RMV["🚌 German Public Transport\n(RMV)"]
     Station -- " WiFi " --> Router
     Router --> Internet
@@ -91,7 +91,7 @@ graph LR
 
 MyStation-Go connects to the internet to:
 
-- Get **weather data** from the German Weather Service
+- Get **weather data** from a weather service (you can choose the weather model in the settings)
 - Get **departure times** from the German public transport network (RMV)
 - Download **software updates** automatically once per day (usually around 2–3 am)
 

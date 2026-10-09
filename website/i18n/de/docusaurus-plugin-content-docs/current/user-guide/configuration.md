@@ -180,7 +180,7 @@ MyStation-Go kann seine interne Software automatisch aktualisieren, während du 
 
 ### Warum Updates wichtig sind
 
-Die Dienste, die Wetter- und Abfahrtsdaten liefern (Deutscher Wetterdienst und RMV),
+Die Dienste, die Wetter- und Abfahrtsdaten liefern (der Wetterdienst und RMV),
 ändern gelegentlich, wie sie ihre Daten übermitteln. Wenn das passiert, braucht MyStation-Go
 ein Softwareupdate, um weiterhin korrekt zu funktionieren.
 
