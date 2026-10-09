@@ -9,7 +9,7 @@ Abfahrten öffentlicher Verkehrsmittel in deiner Nähe anzeigt. Du hängst es an
 stellst es ins Regal — es aktualisiert sich automatisch den ganzen Tag.
 
 - 🚌 **Immer aktuell** — Zeigt Echtzeit-Abfahrten des deutschen ÖPNV
-- 🌤️ **Wetter auf einen Blick** — Aktuelles Wetter und Vorhersage vom Deutschen Wetterdienst
+- 🌤️ **Wetter auf einen Blick** — Aktuelles Wetter und Vorhersage für deinen Standort
 - 🔋 **Lange Akkulaufzeit** — Kann monatelang mit einer einzigen Ladung betrieben werden
 - 📱 **Einfache Einrichtung** — Alles über den Browser deines Handys konfigurieren, keine App nötig
 - 📡 **WLAN-Verbindung** — Holt automatisch neue Daten über dein Heimnetzwerk

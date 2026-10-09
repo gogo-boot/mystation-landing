@@ -9,7 +9,7 @@ public transport departures near your home. You hang it on the wall or place it 
 and it updates itself automatically throughout the day.
 
 - 🚌 **Always Up-to-Date** — Shows real-time German public transport departures
-- 🌤️ **Weather at a Glance** — Current weather and forecast from the German Weather Service
+- 🌤️ **Weather at a Glance** — Current weather and forecast for your location
 - 🔋 **Long Battery Life** — Can run for months on a single charge
 - 📱 **Simple Setup** — Configure everything from your phone's browser, no app needed
 - 📡 **Connects to WiFi** — Fetches fresh data automatically over your home WiFi

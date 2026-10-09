@@ -82,7 +82,7 @@ graph LR
     Station["🖥️ MyStation-Go"]
     Router["🏠 Dein Heimrouter\n(2,4 GHz WLAN)"]
     Internet["🌍 Internet"]
-    DWD["☁️ Deutscher Wetterdienst"]
+    DWD["☁️ Wetterdienst"]
     RMV["🚌 Deutscher ÖPNV\n(RMV)"]
 
     Station -- " WLAN " --> Router
@@ -93,7 +93,7 @@ graph LR
 
 MyStation-Go verbindet sich mit dem Internet um:
 
-- **Wetterdaten** vom Deutschen Wetterdienst abzurufen
+- **Wetterdaten** von einem Wetterdienst abzurufen (das Wettermodell kannst du in den Einstellungen wählen)
 - **Abfahrtszeiten** vom deutschen ÖPNV-Netzwerk (RMV) abzurufen
 - **Softwareupdates** automatisch einmal täglich herunterzuladen (normalerweise ca. 2–3 Uhr)
 

@@ -196,7 +196,7 @@ MyStation-Go can update its own internal software automatically while you sleep.
 
 ### Why Updates Matter
 
-The services that provide weather data and transport times (German Weather Service and RMV)
+The services that provide weather data and transport times (the weather service and RMV)
 occasionally change how they send data. When this happens, MyStation-Go needs a software update
 to keep working correctly.
 
