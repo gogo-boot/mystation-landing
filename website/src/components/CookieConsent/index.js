@@ -38,7 +38,7 @@ export default function CookieConsent() {
                     nur mit deiner Einwilligung. Ohne Zustimmung werden keine Statistik-Cookies gesetzt.
                 </Translate>
                 {' '}
-                <a href="/impressum">
+                <a href="/datenschutz">
                     <Translate id="cookie.more">Mehr erfahren</Translate>
                 </a>
             </div>
