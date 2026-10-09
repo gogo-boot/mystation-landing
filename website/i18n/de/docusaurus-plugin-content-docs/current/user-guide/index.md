@@ -37,7 +37,7 @@ MyStation-Go zeigt je nach Einstellung drei Arten von Informationen:
 | **Wetter Vollbild**  | Vollbild-Wetter mit stündlichem Vorhersagediagramm |
 | **Abfahrt Vollbild** | Vollbild-Liste der nächsten Abfahrten              |
 
-Weitere Details: [Das Display verstehen](understanding-display.md)
+Weitere Details: [Display & Tasten](button-controls.md)
 
 ---
 
@@ -56,7 +56,7 @@ Dein MyStation-Go hat **3 Tasten** an der Seite:
 Kurze Tastendrücke wechseln die Ansicht **vorübergehend für 2 Minuten**, dann kehrt das Gerät zur normalen Einstellung
 zurück.
 
-Weitere Details: [Die Tasten benutzen](button-controls.md)
+Weitere Details: [Display & Tasten](button-controls.md)
 
 ---
 
@@ -71,8 +71,7 @@ Weitere Details: [Die Tasten benutzen](button-controls.md)
 
 ### Tägliche Nutzung
 
-- **[Das Display verstehen](understanding-display.md)** — Was jeder Teil des Bildschirms zeigt
-- **[Die Tasten benutzen](button-controls.md)** — Was du je nach Situation drücken solltest
+- **[Display & Tasten](button-controls.md)** — Was jeder Teil des Bildschirms zeigt und was du je nach Situation drücken solltest
 
 ### Hilfe & Support
 
