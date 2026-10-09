@@ -59,6 +59,8 @@ MyStation-Go bietet drei Anzeigemodi, je nach Bedarf:
 
 - Großes Wettersymbol
 - Aktuelle Temperatur und „gefühlt wie"
+- Raumtemperatur
+- Raumluftfeuchtigkeit
 - 12-Stunden-Temperaturdiagramm
 
 **Zusätzliche Details:**

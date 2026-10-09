@@ -58,6 +58,8 @@ MyStation-Go offers three display modes, each optimized for different needs:
 - Weather description
 - Current temperature
 - "Feels like" temperature
+- Room temperature
+- Room humidity
 - Temperature graph (12-hour forecast)
 
 **Additional Details**:
