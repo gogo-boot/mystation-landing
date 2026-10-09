@@ -12,13 +12,15 @@ MyStation-Go offers three display modes, each optimized for different needs:
 
 ## Display Mode 1: Half & Half (Default)
 
+**Variant A — Weather + Departure board**
+
 ![half and half station on the MyStation-Go display](/img/IMG_0872.jpeg)
+
+**Variant B — Weather + Connection board** (a specific route to your destination)
+
 ![half and half connection on the MyStation-Go display](/img/IMG_1391.jpeg)
 
-> 💡 The two photos above show the two variants of Half & Half mode: the **first** image shows
-> the **departure board** on the bottom half, and the **second** shows the **connection board**
-> (a specific route to your destination) on the bottom half. Which one you see depends on
-> whether you selected *Departures* or *Connections* in the transport settings.
+> 💡 Which variant you see depends on whether you selected *Departures* or *Connections* in the transport settings.
 
 ### Information Displayed
 
