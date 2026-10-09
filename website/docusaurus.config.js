@@ -127,6 +127,7 @@ const config = {
                     title: 'Rechtliches',
                     items: [
                         {label: 'Impressum', to: '/impressum'},
+                        {label: 'Datenschutz', to: '/datenschutz'},
                     ],
                 },
             ],
