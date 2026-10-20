@@ -1,0 +1,46 @@
+Mystation Verkauf Text
+
+MyStation: RMV Abfahrten, Wetter & PV Sonnenstrom-Prognose
+
+
+Zum Verkauf steht eine exklusive MyStationGo – ein limitiertes Custom-Produkt, das in Zusammenarbeit mit den Hardware-Experten von SeeedStudio entwickelt wurde.
+
+Die Highlights im Überblick:
+* Live-ÖPNV-Monitor: Echtzeit-Abfahrtszeiten für das gesamte RMV-Gebiet (z. B. Frankfurt, Wiesbaden, Mainz, Darmstadt, Hanau). Unterstützt werden Bus, U-Bahn, S-Bahn, Straßenbahn sowie Regionalbahnen. Sie sehen sofort, ob die Bahn pünktlich ist.
+* Verbindungsanzeige zu Ihrem Ziel: Neben den reinen Abfahrten kann MyStation auch eine konkrete Verbindung zu Ihrem Wunschziel anzeigen - inklusive Umstiegen, Wartezeiten, Gesamtreisezeit sowie Verspätungs- und Ausfallinfos. Ideal für alle, die immer dieselbe Strecke fahren und die schnellste Verbindung auf einen Blick sehen möchten - ganz ohne App.
+* 3 Anzeige-Modi: Vollständig konfigurierbar:
+    1. Wetter (Vollbild)
+    2. Kombi-Ansicht (Wetter & Abfahrten)
+    3. Abfahrtsmonitor (Vollbild).
+* 12-Stunden-Wetter Graph 
+Die MyStation zeigt Ihnen nicht nur das aktuelle Wetter, sondern bietet eine detaillierte 12-Stunden-Vorschau inklusive grafischer Darstellung. So sehen Sie auf einen Blick, wie sich Temperatur und Regenrisiko im Laufe des Tages entwickeln werden.
+* Sonnenstrom-Prognose (PV / Balkonkraftwerk): MyStation zeigt eine Sonneneinstrahlungs-Vorhersage für den Tag an. Eine Kurve zeigt, wann die Sonne am stärksten scheint - also wann Ihre Solaranlage am meisten erzeugt. Zusätzlich sehen Sie eine 7-Tage-Übersicht mit der täglichen Sonnenenergie in kWh/m², um die sonnigsten Tage auf einen Blick zu vergleichen. Besonders für PV- und Balkonkraftwerk-Besitzer: Planen Sie stromintensive Verbraucher (Waschmaschine, Spülmaschine, E-Auto, Warmwasser) genau dann, wenn Ihre Anlage am meisten Solarstrom liefert - und nutzen Sie Ihren selbst erzeugten Strom optimal.
+* Ultra-Lange Akkulaufzeit: Der integrierte 2000 mAh Li-Ion Akku hält je nach gewählter Aktualisierungsrate ca. bis 6 Monate mit einer einzigen Ladung.
+* Für Schulkinder: Ideal für Grundschüler ohne eigenes Smartphone. Ein kurzer Blick auf das Display beim Packen des Ranzens verrät: "Brauche ich heute die Regenjacke?"
+* Für Radfahrer & Outdoor-Fans: Kurz vor der Tour sofort sehen, ob es in zwei Stunden regnen wird – ohne mühsam in Apps zu suchen.
+* Für PV- & Balkonkraftwerk-Besitzer: Dank Sonnenstrom-Prognose die besten Stunden für selbst erzeugten Solarstrom erkennen und stromintensive Verbraucher gezielt dann einschalten.
+* Für Pendler (RMV): Live-Check vor dem Verlassen der Wohnung: Fährt die S-Bahn pünktlich? Gibt es Verspätungen in Frankfurt, Wiesbaden oder Mainz?
+
+Zukunftssicher dank OTA-Updates
+Ein riesiger Vorteil: Die Software der MyStation wird bequem über Ihr WLAN "Over-the-Air" (OTA) aktualisiert. Das bedeutet, das Gerät bleibt immer auf dem neuesten Stand, Funktionen werden optimiert und neue Features können automatisch hinzugefügt werden – ganz ohne Kabelanschluss am PC.
+
+Technische Daten:
+* Display: 7,5 Zoll E-Paper (800 x 480 Pixel)
+* Akku: 2000 mAh Li-Ion (wiederaufladbar via USB-C)
+* Maße mit Fuß: 176 mm x 120 mm x 53 mm
+* Maße ohne Fuß: 176 mm x 120 mm x 17 mm
+* Konnektivität: 2,4 GHz Wi-Fi (802.11 b/g/n) – Hinweis: 5 GHz wird nicht unterstützt.
+* Zertifizierung: CE-zertifiziert
+* Betriebstemperatur: 0–40°C
+
+Wichtige Hinweise zur Einrichtung:
+* WLAN-Verbindung: Das Gerät benötigt ein Standard-WLAN mit Name und Passwort. Es unterstützt keine "Captive Portale" (Netzwerke in Hotels oder öffentlichen Hotspots, bei denen man eine zusätzliche Webseite zur Anmeldung bestätigen muss).
+* 5 GHz WLAN wird nicht unterstützt.
+* Software: Es handelt sich um eine spezialisierte Custom-Software auf bewährter SeeedStudio-Hardware.
+
+Lieferumfang:
+* 1x MyStation Gerät
+* 1x Abnehmbarer Standfuß
+* 1x USB-C Ladekabel
+
+Weitere info und Anleitung http://mystation-go.de/
