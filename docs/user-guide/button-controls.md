@@ -46,6 +46,12 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 | Button 2 | 👆 tap      | Weather full screen                      |
 | Button 3 | 👆 tap      | Departure full screen                    |
 
+> 💡 **Browse the weather forecast from Half & Half.** Once the **weather full screen** is
+> showing (tap **Button 2** to switch to it), tap **Button 2 again** to open the
+> **multi-day weather forecast** — exactly like in Weather Only mode. Then **Button 2** goes
+> to the next day, **Button 3** the previous day, and **Button 1** returns to your Half & Half
+> view. (Solar *Sonnenstrom* browsing is only available in Weather Only mode.)
+
 ### What you see
 
 **Top Section (Weather)**:

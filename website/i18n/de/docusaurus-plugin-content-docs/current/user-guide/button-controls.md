@@ -47,6 +47,12 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 | Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
 | Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
 
+> 💡 **Wettervorschau aus Halb & Halb durchblättern.** Sobald das **Wetter-Vollbild**
+> angezeigt wird (mit **Taste 2** dorthin wechseln), öffnet ein **erneuter Druck auf Taste 2**
+> die **mehrtägige Wettervorschau** — genau wie im Modus „Nur Wetter". Danach wechselt
+> **Taste 2** zum nächsten Tag, **Taste 3** zum vorherigen Tag, und **Taste 1** kehrt zur
+> Halb & Halb-Ansicht zurück. (Die Solar-Ansicht *Sonnenstrom* gibt es nur im Modus „Nur Wetter".)
+
 ### Was du siehst
 
 **Wetterbereich:**
