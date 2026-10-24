@@ -46,12 +46,12 @@ See [Display & Buttons](button-controls.md) for details.
 
 Your MyStation-Go has **3 buttons** on the side:
 
-| Button                | Quick press                        | Hold 5 seconds                     |
-|-----------------------|------------------------------------|------------------------------------|
-| **Button 1** (Left)   | Show weather + departures together | Open settings (Configure Mode)     |
-| **Button 2** (Middle) | Show weather only                  | Show device information            |
-| **Button 3** (Right)  | Show departures only               | Check for a software update        |
-| **Button 1 + 2**      | —                                  | Erase all settings (factory reset) |
+| Button                       | Quick press                        | Hold 5 seconds                     |
+|------------------------------|------------------------------------|------------------------------------|
+| 🟢 **Green button**          | Show weather + departures together | Open settings (Configure Mode)     |
+| ⬜ **Right white button**    | Show weather only                  | Show device information            |
+| ⬜ **Left white button**     | Show departures only               | Check for a software update        |
+| 🟢 **Green + right white**   | —                                  | Erase all settings (factory reset) |
 
 Quick presses switch the view **temporarily for 2 minutes**, then return to your normal setting.
 

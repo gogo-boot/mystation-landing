@@ -53,7 +53,7 @@ graph LR
 
 ### Schritt 2 — Einstellungen später ändern
 
-Wenn du Einstellungen nach der Ersteinrichtung ändern möchtest (oder wenn du Taste 1 für 5 Sekunden
+Wenn du Einstellungen nach der Ersteinrichtung ändern möchtest (oder wenn du die grüne Taste für 5 Sekunden
 hältst, um neu zu konfigurieren), müssen dein Handy und MyStation-Go beide mit dem
 **gleichen Heimnetzwerk** verbunden sein. Dann kannst du die Einstellungsseite im Browser öffnen.
 

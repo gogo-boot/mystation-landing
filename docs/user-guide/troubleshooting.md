@@ -111,10 +111,10 @@ always shows Half & Half after restarting.
 **Solutions:**
 
 1. **Re-enter Configure Mode and save again**
-    - Hold Button 1 for 5 seconds
+    - Hold the green button for 5 seconds
     - Check that the correct display mode is selected
     - Press "Save Settings"
-2. **Check for a software update** — hold Button 3 for 5 seconds to trigger an update.
+2. **Check for a software update** — hold the left white button for 5 seconds to trigger an update.
    This issue is fixed in recent software versions.
 
 ---
@@ -138,7 +138,7 @@ This tends to happen after the device has been running for several update cycles
 1. **Make sure you clicked "Save Settings"** — look for a confirmation message after clicking
 2. **Don't turn off during saving** — wait for the confirmation before disconnecting power
 3. **Try a factory reset** — if settings never stick, the internal storage may need to be cleared.
-   Hold Button 1 + Button 2 for 5 seconds to factory reset, then set up from scratch
+   Hold the green + right white buttons for 5 seconds to factory reset, then set up from scratch
 
 ---
 
@@ -176,7 +176,7 @@ This tends to happen after the device has been running for several update cycles
 
 **Solutions:**
 
-1. **Trigger a manual update** — hold Button 3 for 5 seconds to force an update check
+1. **Trigger a manual update** — hold the left white button for 5 seconds to force an update check
 2. **Check internet connection** — the update requires a working internet connection
 3. **Try again the next night** — the device retries automatically
 
@@ -194,6 +194,6 @@ Use this when the device is completely misconfigured, or you want to start from 
 
 **Steps:**
 
-1. Press and hold **Button 1 + Button 2 simultaneously** for **5 seconds**
+1. Press and hold **the green + right white buttons simultaneously** for **5 seconds**
 2. Confirm the reset on the display
 3. Follow the [Quick Start Guide](quick-start.md) to set up again

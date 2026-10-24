@@ -8,7 +8,7 @@ During normal day-to-day use, the settings screen is not available — and this 
 ## How to Enter Configure Mode
 
 
-1. **Press and hold Button 1** (the left button) for **5 seconds**
+1. **Press and hold the green button** for **5 seconds**
 2. The display refreshes and shows a setup screen with a link or QR code
 3. MyStation-Go is now broadcasting its own WiFi hotspot named **`MyStation-XXXXXXXX`**
 
@@ -78,6 +78,6 @@ Use this only if you want to set the device up completely from scratch.
 
 **How to factory reset:**
 
-1. Press and hold **Button 1 + Button 2 at the same time** for **5 seconds**
+1. Press and hold **the green + right white buttons at the same time** for **5 seconds**
 2. The display will show a reset confirmation
 3. The device restarts as if brand new — follow the [Quick Start Guide](quick-start.md)

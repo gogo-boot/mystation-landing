@@ -109,7 +109,7 @@ After restarting, MyStation-Go fetches data and updates the display. You should 
 
 ## Need to Reconfigure?
 
-Hold **Button 1 for 5 seconds** to enter configuration mode at any time.
+Hold **the green button for 5 seconds** to enter configuration mode at any time.
 All previous settings will be preloaded. More details: [Change Settings](configure-mode.md)
 
 ---

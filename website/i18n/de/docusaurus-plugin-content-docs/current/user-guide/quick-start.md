@@ -108,7 +108,7 @@ Nach dem Neustart holt MyStation-Go Daten und aktualisiert das Display. Du sollt
 
 ## Neu konfigurieren?
 
-Halte **Taste 1 für 5 Sekunden**, um jederzeit in den Konfigurationsmodus zu wechseln.
+Halte **die grüne Taste für 5 Sekunden**, um jederzeit in den Konfigurationsmodus zu wechseln.
 Alle vorherigen Einstellungen werden vorgeladen. Mehr dazu: [Einstellungen ändern](configure-mode.md)
 
 ---

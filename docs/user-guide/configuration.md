@@ -2,7 +2,7 @@
 
 This page explains every setting in the MyStation-Go settings screen.
 
-To open the settings screen, hold **Button 1 for 5 seconds** to enter Configure Mode.
+To open the settings screen, hold **the green button for 5 seconds** to enter Configure Mode.
 Not sure how? See [Configure Mode](configure-mode.md).
 
 ---
@@ -205,6 +205,6 @@ incorrect values.
 
 > 💡 Updates happen quietly in the early morning hours. The device downloads the update,
 > installs it, and restarts on its own. You'll see the updated software version the next time
-> you check device info (hold Button 2 for 5 seconds).
+> you check device info (hold the right white button for 5 seconds).
 
 We recommend keeping automatic updates **turned on**.

@@ -8,7 +8,7 @@ Im normalen Betrieb ist der Einstellungsbildschirm nicht verfügbar — und das 
 ## Wie du den Konfigurationsmodus öffnest
 
 
-1. **Taste 1** (die linke Taste) für **5 Sekunden gedrückt halten**
+1. **die grüne Taste** für **5 Sekunden gedrückt halten**
 2. Das Display aktualisiert sich und zeigt einen Einrichtungsbildschirm mit einem Link oder QR-Code
 3. MyStation-Go sendet jetzt seinen eigenen WLAN-Hotspot namens **`MyStation-XXXXXXXX`**
 
@@ -77,7 +77,7 @@ Verwende dies nur, wenn du das Gerät komplett neu einrichten möchtest.
 
 **So führst du einen Werksreset durch:**
 
-1. **Taste 1 + Taste 2 gleichzeitig** für **5 Sekunden** gedrückt halten
+1. **die grüne + rechte weiße Taste gleichzeitig** für **5 Sekunden** gedrückt halten
 2. Das Display zeigt eine Reset-Bestätigung
 3. Das Gerät startet neu wie fabrikneu — folge dem [Schnellstart](quick-start.md)
 
