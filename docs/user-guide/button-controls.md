@@ -8,7 +8,11 @@ see** and **what the buttons do** while you are in that mode.
 
 ## Button Overview
 
-![Device from the side with labeled buttons: Button 1 (left), Button 2 (middle), Button 3 (right)](/img/user-guide/IMG_0870-b123.jpeg)
+![Device buttons: the green button, and two white buttons (left white and right white)](/img/user-guide/IMG_0870-b123.jpeg)
+
+> 💡 The buttons are on the top edge. There is **one green button** and **two white buttons**.
+> Facing the display, the **left white button** and the **right white button** sit next to the
+> green one. This guide refers to them by colour so you don't have to remember numbers.
 
 > 💡 **A quick tap** switches or browses the view and is **temporary** — after **2 minutes** the
 > display returns to your configured mode. **Holding a button for 5 seconds** is always a system
@@ -42,9 +46,15 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 | Button   | Brief press | Result                                   |
 |----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Half & Half view (weather + departures)  |
-| Button 2 | 👆 tap      | Weather full screen                      |
-| Button 3 | 👆 tap      | Departure full screen                    |
+| the green button | 👆 tap      | Half & Half view (weather + departures)  |
+| the right white button | 👆 tap      | Weather full screen                      |
+| the left white button | 👆 tap      | Departure full screen                    |
+
+> 💡 **Browse the weather forecast from Half & Half.** Once the **weather full screen** is
+> showing (tap **the right white button** to switch to it), tap **the right white button again** to open the
+> **multi-day weather forecast** — exactly like in Weather Only mode. Then **the right white button** goes
+> to the next day, **the left white button** the previous day, and **the green button** returns to your Half & Half
+> view. (Solar *Sonnenstrom* browsing is only available in Weather Only mode.)
 
 ### What you see
 
@@ -83,21 +93,21 @@ depends on whether you are **already browsing**.
 
 | Button   | Brief press | Result                                   |
 |----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Stay on today's weather                  |
-| Button 2 | 👆 tap      | Open **weather forecast** (starts tomorrow) |
-| Button 3 | 👆 tap      | Open **Sonnenstrom** solar view (starts today) |
+| the green button | 👆 tap      | Stay on today's weather                  |
+| the right white button | 👆 tap      | Open **weather forecast** (starts tomorrow) |
+| the left white button | 👆 tap      | Open **Sonnenstrom** solar view (starts today) |
 
 **While browsing (weather forecast or Sonnenstrom):**
 
 | Button   | Brief press | Result                                   |
 |----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Back to the weather full screen (today)  |
-| Button 2 | 👆 tap      | Next day                                 |
-| Button 3 | 👆 tap      | Previous day                             |
+| the green button | 👆 tap      | Back to the weather full screen (today)  |
+| the right white button | 👆 tap      | Next day                                 |
+| the left white button | 👆 tap      | Previous day                             |
 
-> 💡 While browsing, Button 2 and Button 3 only move between days. To switch between the weather
-> forecast and Sonnenstrom, press **Button 1** first (back to today), then **Button 2** (weather)
-> or **Button 3** (Sonnenstrom).
+> 💡 While browsing, the right white button and the left white button only move between days. To switch between the weather
+> forecast and Sonnenstrom, press **the green button** first (back to today), then **the right white button** (weather)
+> or **the left white button** (Sonnenstrom).
 
 ### What you see
 
@@ -127,7 +137,7 @@ depends on whether you are **already browsing**.
 
 ### Day Forecast View
 
-When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **Button 2** to go forward one day, **Button 3** to go back, and **Button 1** to return to the weather full screen mode (today's weather).
+When the display is in Weather Only mode, you can browse the weather forecast for upcoming days using the buttons. Press **the right white button** to go forward one day, **the left white button** to go back, and **the green button** to return to the weather full screen mode (today's weather).
 
 ![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1395.jpeg)
 ![Weather day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1396.jpeg)
@@ -145,10 +155,10 @@ The display returns to today's weather automatically after **2 minutes** without
 
 ### Solar Radiation View (Sonnenstrom)
 
-When the display is in Weather Only mode, press **Button 3** from today's weather to open the
+When the display is in Weather Only mode, press **the left white button** from today's weather to open the
 **Sonnenstrom** view — a solar radiation forecast that shows how strong the sunshine is across
-the day. It starts with today; while browsing, **Button 2** goes to the next day, **Button 3**
-the previous day, and **Button 1** returns to the weather full screen mode (today's weather).
+the day. It starts with today; while browsing, **the right white button** goes to the next day, **the left white button**
+the previous day, and **the green button** returns to the weather full screen mode (today's weather).
 
 ![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1398.jpeg)
 ![Solar Radiation day-forecast view on the MyStation-Go display](/img/user-guide/IMG_1399.jpeg)
@@ -165,8 +175,8 @@ panels will produce the most, and the daily totals let you compare days.
 
 The display returns to today's weather automatically after **2 minutes** without a button press.
 
-> 💡 To switch between the weather forecast and Sonnenstrom while browsing, press **Button 1**
-> first (back to today), then **Button 2** (weather) or **Button 3** (Sonnenstrom). If a day has
+> 💡 To switch between the weather forecast and Sonnenstrom while browsing, press **the green button**
+> first (back to today), then **the right white button** (weather) or **the left white button** (Sonnenstrom). If a day has
 > no solar data from your weather model, it falls back to the normal temperature/rain forecast.
 
 ## Departures Only
@@ -179,9 +189,9 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 | Button   | Brief press | Result                                   |
 |----------|-------------|------------------------------------------|
-| Button 1 | 👆 tap      | Half & Half view (weather + departures)  |
-| Button 2 | 👆 tap      | Weather full screen                      |
-| Button 3 | 👆 tap      | Departure full screen                    |
+| the green button | 👆 tap      | Half & Half view (weather + departures)  |
+| the right white button | 👆 tap      | Weather full screen                      |
+| the left white button | 👆 tap      | Departure full screen                    |
 
 ### What you see
 
@@ -221,7 +231,7 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 ## Temporary Mode Behavior
 
-When you briefly press a button (Button 1, 2, or 3), the new mode is **temporary**:
+When you briefly press a button (the green, right white, or left white button), the new mode is **temporary**:
 
 - Duration: **2 minutes**
 - After 2 minutes, the display returns to the **configured display mode**
@@ -238,12 +248,12 @@ mode**.
 
 | Buttons        | Hold 5 sec | Result                       |
 |----------------|------------|------------------------------|
-| Button 1       | ⏱️ 5 sec   | Enter Configuration Mode     |
-| Button 2       | ⏱️ 5 sec   | Show Device Information       |
-| Button 3       | ⏱️ 5 sec   | Trigger Software Update       |
-| Button 1 + 2   | ⏱️ 5 sec   | Factory Reset (clears all)   |
+| the green button       | ⏱️ 5 sec   | Enter Configuration Mode     |
+| the right white button       | ⏱️ 5 sec   | Show Device Information       |
+| the left white button       | ⏱️ 5 sec   | Trigger Software Update       |
+| the green + right white buttons   | ⏱️ 5 sec   | Factory Reset (clears all)   |
 
-### Change my stop, location, or settings — hold Button 1
+### Change my stop, location, or settings — hold the green button
 
 MyStation-Go enters **Configuration Mode**:
 
@@ -254,7 +264,7 @@ MyStation-Go enters **Configuration Mode**:
 
 Full guide: [Change Settings](configure-mode.md)
 
-### See device information and current settings — hold Button 2
+### See device information and current settings — hold the right white button
 
 The display shows **Device Information**:
 
@@ -264,7 +274,7 @@ The display shows **Device Information**:
 - WiFi status and IP address
 - Battery level
 
-### Manually update the software — hold Button 3
+### Manually update the software — hold the left white button
 
 Triggers an immediate **software update**:
 
@@ -275,7 +285,7 @@ Triggers an immediate **software update**:
 > 💡 You normally don't need to do this — updates happen automatically overnight.
 > Use this if you want to force an immediate update.
 
-### Factory reset — hold Button 1 + Button 2
+### Factory reset — hold the green + right white buttons
 
 Performs a **factory reset**:
 

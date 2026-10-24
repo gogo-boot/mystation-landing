@@ -114,10 +114,10 @@ aber das Gerät zeigt nach dem Neustart immer Halb & Halb an.
 **Lösungen:**
 
 1. **Konfigurationsmodus erneut öffnen und neu speichern**
-    - Taste 1 für 5 Sekunden halten
+    - die grüne Taste für 5 Sekunden halten
     - Sicherstellen, dass der richtige Anzeigemodus ausgewählt ist
     - „Einstellungen speichern" drücken
-2. **Auf ein Softwareupdate prüfen** — Taste 3 für 5 Sekunden halten, um ein Update auszulösen.
+2. **Auf ein Softwareupdate prüfen** — die linke weiße Taste für 5 Sekunden halten, um ein Update auszulösen.
    Dieses Problem ist in aktuellen Softwareversionen behoben.
 
 ---
@@ -141,7 +141,7 @@ Dies passiert tendenziell nach mehreren Aktualisierungszyklen ohne vollständige
 1. **Sicherstellen, dass „Einstellungen speichern" geklickt wurde** — Nach einer Bestätigungsmeldung suchen
 2. **Während des Speicherns nicht ausschalten** — Auf die Bestätigung warten, bevor der Strom unterbrochen wird
 3. **Werksreset versuchen** — Falls Einstellungen nie gespeichert werden, muss möglicherweise der interne Speicher
-   gelöscht werden. Taste 1 + Taste 2 für 5 Sekunden halten, um einen Werksreset durchzuführen, dann neu einrichten
+   gelöscht werden. die grüne + rechte weiße Taste für 5 Sekunden halten, um einen Werksreset durchzuführen, dann neu einrichten
 
 ---
 
@@ -179,7 +179,7 @@ Dies passiert tendenziell nach mehreren Aktualisierungszyklen ohne vollständige
 
 **Lösungen:**
 
-1. **Manuelles Update auslösen** — Taste 3 für 5 Sekunden halten, um eine Update-Prüfung zu erzwingen
+1. **Manuelles Update auslösen** — die linke weiße Taste für 5 Sekunden halten, um eine Update-Prüfung zu erzwingen
 2. **Internetverbindung prüfen** — Das Update erfordert eine funktionierende Internetverbindung
 3. **Bis zur nächsten Nacht warten** — Das Gerät versucht es automatisch erneut
 
@@ -198,7 +198,7 @@ Verwende dies, wenn das Gerät völlig falsch konfiguriert ist oder du von vorne
 
 **Schritte:**
 
-1. **Taste 1 + Taste 2 gleichzeitig** für **5 Sekunden** gedrückt halten
+1. **die grüne + rechte weiße Taste gleichzeitig** für **5 Sekunden** gedrückt halten
 2. Den Reset auf dem Display bestätigen
 3. Dem [Schnellstart](quick-start.md) folgen, um das Gerät neu einzurichten
 

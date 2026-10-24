@@ -53,7 +53,7 @@ graph LR
 
 ### Step 2 — Changing Settings Later
 
-If you want to change any settings after first-time setup (or when you hold Button 1 for 5 seconds to re-configure),
+If you want to change any settings after first-time setup (or when you hold the green button for 5 seconds to re-configure),
 your phone and MyStation-Go must both be connected to **the same home WiFi network**. Then you can open the settings page
 in your browser.
 

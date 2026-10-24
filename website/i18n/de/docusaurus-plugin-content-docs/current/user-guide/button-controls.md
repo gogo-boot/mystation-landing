@@ -8,7 +8,12 @@ und **was die Tasten tun**, während du in diesem Modus bist.
 
 ## Tastenübersicht
 
-![Gerät von der Seite mit beschrifteten Tasten: Taste 1 (links), Taste 2 (Mitte), Taste 3 (rechts)](/img/user-guide/IMG_0870-b123.jpeg)
+![Gerätetasten: die grüne Taste und zwei weiße Tasten (linke und rechte weiße Taste)](/img/user-guide/IMG_0870-b123.jpeg)
+
+> 💡 Die Tasten befinden sich an der Oberkante. Es gibt **eine grüne Taste** und **zwei weiße
+> Tasten**. Mit Blick auf das Display sitzen die **linke weiße Taste** und die **rechte weiße
+> Taste** neben der grünen. Diese Anleitung bezeichnet sie nach Farbe, damit du dir keine
+> Nummern merken musst.
 
 > 💡 **Ein kurzes Tippen** wechselt oder blättert die Ansicht und ist **vorübergehend** — nach
 > **2 Minuten** kehrt das Display zu deinem konfigurierten Modus zurück. **Eine Taste 5 Sekunden
@@ -43,9 +48,15 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 | Taste   | Kurz drücken | Ergebnis                                 |
 |---------|--------------|------------------------------------------|
-| Taste 1 | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
-| Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
-| Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
+| die grüne Taste | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
+| die rechte weiße Taste | 👆 tippen    | Wetter-Vollbild                          |
+| die linke weiße Taste | 👆 tippen    | Abfahrt-Vollbild                         |
+
+> 💡 **Wettervorschau aus Halb & Halb durchblättern.** Sobald das **Wetter-Vollbild**
+> angezeigt wird (mit **die rechte weiße Taste** dorthin wechseln), öffnet ein **erneuter Druck auf die rechte weiße Taste**
+> die **mehrtägige Wettervorschau** — genau wie im Modus „Nur Wetter". Danach wechselt
+> **die rechte weiße Taste** zum nächsten Tag, **die linke weiße Taste** zum vorherigen Tag, und **die grüne Taste** kehrt zur
+> Halb & Halb-Ansicht zurück. (Die Solar-Ansicht *Sonnenstrom* gibt es nur im Modus „Nur Wetter".)
 
 ### Was du siehst
 
@@ -83,21 +94,21 @@ Bedeutung hängt davon ab, ob du **bereits blätterst**.
 
 | Taste   | Kurz drücken | Ergebnis                                     |
 |---------|--------------|----------------------------------------------|
-| Taste 1 | 👆 tippen    | Beim heutigen Wetter bleiben                 |
-| Taste 2 | 👆 tippen    | **Wettervorhersage** öffnen (beginnt morgen) |
-| Taste 3 | 👆 tippen    | **Sonnenstrom**-Ansicht öffnen (beginnt heute) |
+| die grüne Taste | 👆 tippen    | Beim heutigen Wetter bleiben                 |
+| die rechte weiße Taste | 👆 tippen    | **Wettervorhersage** öffnen (beginnt morgen) |
+| die linke weiße Taste | 👆 tippen    | **Sonnenstrom**-Ansicht öffnen (beginnt heute) |
 
 **Während des Blätterns (Wettervorhersage oder Sonnenstrom):**
 
 | Taste   | Kurz drücken | Ergebnis                               |
 |---------|--------------|----------------------------------------|
-| Taste 1 | 👆 tippen    | Zurück zum Wetter-Vollbild (heute)     |
-| Taste 2 | 👆 tippen    | Nächster Tag                           |
-| Taste 3 | 👆 tippen    | Vorheriger Tag                         |
+| die grüne Taste | 👆 tippen    | Zurück zum Wetter-Vollbild (heute)     |
+| die rechte weiße Taste | 👆 tippen    | Nächster Tag                           |
+| die linke weiße Taste | 👆 tippen    | Vorheriger Tag                         |
 
-> 💡 Während des Blätterns wechseln Taste 2 und Taste 3 nur zwischen den Tagen. Um zwischen
-> Wettervorhersage und Sonnenstrom zu wechseln, drücke zuerst **Taste 1** (zurück zu heute), dann
-> **Taste 2** (Wetter) oder **Taste 3** (Sonnenstrom).
+> 💡 Während des Blätterns wechseln die rechte weiße Taste und die linke weiße Taste nur zwischen den Tagen. Um zwischen
+> Wettervorhersage und Sonnenstrom zu wechseln, drücke zuerst **die grüne Taste** (zurück zu heute), dann
+> **die rechte weiße Taste** (Wetter) oder **die linke weiße Taste** (Sonnenstrom).
 
 ### Was du siehst
 
@@ -125,7 +136,7 @@ Bedeutung hängt davon ab, ob du **bereits blätterst**.
 
 ### Tagesvorhersage-Ansicht
 
-Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **Taste 2**, um einen Tag vorwärts zu gehen, **Taste 3**, um zurückzugehen, und **Taste 1**, um zum Wetter-Vollbildmodus (heutiges Wetter) zurückzukehren.
+Im Wetter-Vollbildmodus kannst du mit den Tasten die Wettervorhersage der kommenden Tage durchblättern. Drücke **die rechte weiße Taste**, um einen Tag vorwärts zu gehen, **die linke weiße Taste**, um zurückzugehen, und **die grüne Taste**, um zum Wetter-Vollbildmodus (heutiges Wetter) zurückzukehren.
 
 ![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1395.jpeg)
 ![Tagesvorhersage-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1396.jpeg)
@@ -143,10 +154,10 @@ Das Display kehrt automatisch nach **2 Minuten** ohne Tastendruck zum heutigen W
 
 ### Sonnenstrom-Ansicht (Sonneneinstrahlung)
 
-Drücke im Wetter-Vollbildmodus in der heutigen Wetteransicht **Taste 3**, um die
+Drücke im Wetter-Vollbildmodus in der heutigen Wetteransicht **die linke weiße Taste**, um die
 **Sonnenstrom**-Ansicht zu öffnen — eine Sonneneinstrahlungs-Vorhersage, die zeigt, wie stark
-die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **Taste 2** zum
-nächsten Tag, **Taste 3** zum vorherigen und **Taste 1** zurück zum Wetter-Vollbildmodus (heutiges Wetter).
+die Sonne über den Tag scheint. Sie beginnt mit heute; beim Blättern geht **die rechte weiße Taste** zum
+nächsten Tag, **die linke weiße Taste** zum vorherigen und **die grüne Taste** zurück zum Wetter-Vollbildmodus (heutiges Wetter).
 
 ![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1398.jpeg)
 ![Sonnenstrom-Ansicht auf dem MyStation-Go Display](/img/user-guide/IMG_1399.jpeg)
@@ -164,7 +175,7 @@ Das ist nützlich, wenn du Solarmodule oder ein Balkonkraftwerk hast: Die Kurve 
 Nach **2 Minuten** ohne Tastendruck kehrt das Display automatisch zum heutigen Wetter zurück.
 
 > 💡 Um während des Blätterns zwischen Wettervorhersage und Sonnenstrom zu wechseln, drücke
-> zuerst **Taste 1** (zurück zu heute), dann **Taste 2** (Wetter) oder **Taste 3**
+> zuerst **die grüne Taste** (zurück zu heute), dann **die rechte weiße Taste** (Wetter) oder **die linke weiße Taste**
 > (Sonnenstrom). Hat ein Tag keine Solardaten von deinem Wettermodell, zeigt er stattdessen
 > die normale Temperatur-/Regenvorhersage.
 
@@ -178,9 +189,9 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 | Taste   | Kurz drücken | Ergebnis                                 |
 |---------|--------------|------------------------------------------|
-| Taste 1 | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
-| Taste 2 | 👆 tippen    | Wetter-Vollbild                          |
-| Taste 3 | 👆 tippen    | Abfahrt-Vollbild                         |
+| die grüne Taste | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
+| die rechte weiße Taste | 👆 tippen    | Wetter-Vollbild                          |
+| die linke weiße Taste | 👆 tippen    | Abfahrt-Vollbild                         |
 
 ### Was du siehst
 
@@ -220,7 +231,7 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 ## Verhalten im temporären Modus
 
-Wenn du eine Taste kurz drückst (Taste 1, 2 oder 3), ist der neue Modus **vorübergehend**:
+Wenn du eine Taste kurz drückst (die grüne, rechte weiße oder linke weiße Taste), ist der neue Modus **vorübergehend**:
 
 - Dauer: **2 Minuten**
 - Nach 2 Minuten kehrt das Display zum **konfigurierten Anzeigemodus** zurück
@@ -237,12 +248,12 @@ Anzeigemodus** gleich.
 
 | Tasten        | 5 Sek. halten | Ergebnis                       |
 |---------------|---------------|--------------------------------|
-| Taste 1       | ⏱️ 5 Sek.     | Konfigurationsmodus öffnen     |
-| Taste 2       | ⏱️ 5 Sek.     | Geräteinformationen anzeigen   |
-| Taste 3       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
-| Taste 1 + 2   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
+| die grüne Taste       | ⏱️ 5 Sek.     | Konfigurationsmodus öffnen     |
+| die rechte weiße Taste       | ⏱️ 5 Sek.     | Geräteinformationen anzeigen   |
+| die linke weiße Taste       | ⏱️ 5 Sek.     | Softwareupdate auslösen        |
+| die grüne + rechte weiße Taste   | ⏱️ 5 Sek.     | Werksreset (löscht alles)      |
 
-### Haltestelle, Standort oder Einstellungen ändern — Taste 1 halten
+### Haltestelle, Standort oder Einstellungen ändern — die grüne Taste halten
 
 MyStation-Go öffnet den **Konfigurationsmodus**:
 
@@ -253,7 +264,7 @@ MyStation-Go öffnet den **Konfigurationsmodus**:
 
 Vollständige Anleitung: [Einstellungen ändern](configure-mode.md)
 
-### Geräteinformationen und aktuelle Einstellungen sehen — Taste 2 halten
+### Geräteinformationen und aktuelle Einstellungen sehen — die rechte weiße Taste halten
 
 Das Display zeigt **Geräteinformationen**:
 
@@ -263,7 +274,7 @@ Das Display zeigt **Geräteinformationen**:
 - WLAN-Status und IP-Adresse
 - Akkustand
 
-### Software manuell aktualisieren — Taste 3 halten
+### Software manuell aktualisieren — die linke weiße Taste halten
 
 Startet sofort ein **Softwareupdate**:
 
@@ -274,7 +285,7 @@ Startet sofort ein **Softwareupdate**:
 > 💡 Normalerweise musst du das nicht tun — Updates erfolgen automatisch über Nacht.
 > Nutze dies, wenn du ein sofortiges Update erzwingen möchtest.
 
-### Werksreset — Taste 1 + Taste 2 halten
+### Werksreset — die grüne + rechte weiße Taste halten
 
 Führt einen **Werksreset** durch:
 

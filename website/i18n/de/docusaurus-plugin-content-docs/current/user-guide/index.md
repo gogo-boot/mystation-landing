@@ -46,12 +46,12 @@ Weitere Details: [Display & Tasten](button-controls.md)
 
 Dein MyStation-Go hat **3 Tasten** an der Seite:
 
-| Taste                | Kurz drücken                         | 5 Sekunden halten                          |
-|----------------------|--------------------------------------|--------------------------------------------|
-| **Taste 1** (Links)  | Wetter + Abfahrten zusammen anzeigen | Einstellungen öffnen (Konfigurationsmodus) |
-| **Taste 2** (Mitte)  | Nur Wetter anzeigen                  | Geräteinformationen anzeigen               |
-| **Taste 3** (Rechts) | Nur Abfahrten anzeigen               | Softwareupdate prüfen                      |
-| **Taste 1 + 2**      | —                                    | Alle Einstellungen löschen (Werksreset)    |
+| Taste                         | Kurz drücken                         | 5 Sekunden halten                          |
+|-------------------------------|--------------------------------------|--------------------------------------------|
+| 🟢 **Grüne Taste**            | Wetter + Abfahrten zusammen anzeigen | Einstellungen öffnen (Konfigurationsmodus) |
+| ⬜ **Rechte weiße Taste**     | Nur Wetter anzeigen                  | Geräteinformationen anzeigen               |
+| ⬜ **Linke weiße Taste**      | Nur Abfahrten anzeigen               | Softwareupdate prüfen                      |
+| 🟢 **Grüne + rechte weiße**   | —                                    | Alle Einstellungen löschen (Werksreset)    |
 
 Kurze Tastendrücke wechseln die Ansicht **vorübergehend für 2 Minuten**, dann kehrt das Gerät zur normalen Einstellung
 zurück.

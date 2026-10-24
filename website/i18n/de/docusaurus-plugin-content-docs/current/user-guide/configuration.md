@@ -2,7 +2,7 @@
 
 Diese Seite erklärt jede Einstellung im MyStation-Go-Einstellungsbildschirm.
 
-Um den Einstellungsbildschirm zu öffnen, halte **Taste 1 für 5 Sekunden** gedrückt.
+Um den Einstellungsbildschirm zu öffnen, halte **die grüne Taste für 5 Sekunden** gedrückt.
 Nicht sicher wie? Siehe [Einstellungen ändern](configure-mode.md).
 
 ---
@@ -189,7 +189,7 @@ oder falsche Werte anzeigen.
 
 > 💡 Updates erfolgen ruhig in den frühen Morgenstunden. Das Gerät lädt das Update herunter,
 > installiert es und startet von selbst neu. Die aktualisierte Softwareversion siehst du beim
-> nächsten Mal, wenn du die Geräteinformationen aufrufst (Taste 2 für 5 Sekunden halten).
+> nächsten Mal, wenn du die Geräteinformationen aufrufst (die rechte weiße Taste für 5 Sekunden halten).
 
 Wir empfehlen, automatische Updates **eingeschaltet** zu lassen.
 
