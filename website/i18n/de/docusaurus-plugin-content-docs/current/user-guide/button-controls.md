@@ -8,7 +8,7 @@ und **was die Tasten tun**, während du in diesem Modus bist.
 
 ## Tastenübersicht
 
-![Gerätetasten: die grüne Taste und zwei weiße Tasten (linke und rechte weiße Taste)](/img/user-guide/IMG_0870-b123.jpeg)
+![Gerätetasten: die grüne Taste und zwei weiße Tasten (linke und rechte weiße Taste)](/img/IMG_1404.jpeg)
 
 > 💡 Die Tasten befinden sich an der Oberkante. Es gibt **eine grüne Taste** und **zwei weiße
 > Tasten**. Mit Blick auf das Display sitzen die **linke weiße Taste** und die **rechte weiße
@@ -52,11 +52,17 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 | die rechte weiße Taste | 👆 tippen    | Wetter-Vollbild                          |
 | die linke weiße Taste | 👆 tippen    | Abfahrt-Vollbild                         |
 
-> 💡 **Wettervorschau aus Halb & Halb durchblättern.** Sobald das **Wetter-Vollbild**
-> angezeigt wird (mit **die rechte weiße Taste** dorthin wechseln), öffnet ein **erneuter Druck auf die rechte weiße Taste**
-> die **mehrtägige Wettervorschau** — genau wie im Modus „Nur Wetter". Danach wechselt
-> **die rechte weiße Taste** zum nächsten Tag, **die linke weiße Taste** zum vorherigen Tag, und **die grüne Taste** kehrt zur
-> Halb & Halb-Ansicht zurück. (Die Solar-Ansicht *Sonnenstrom* gibt es nur im Modus „Nur Wetter".)
+> 💡 **Wettervorschau aus Halb & Halb durchblättern.** Tippe zuerst **die rechte weiße Taste**,
+> um das Wetter-Vollbild anzuzeigen, und nutze dann die Tasten unten. (Die Solar-Ansicht
+> *Sonnenstrom* gibt es nur im Modus „Nur Wetter".)
+
+| Schritt | Taste | Kurz drücken | Ergebnis |
+|---------|-------|--------------|----------|
+| 1 | die rechte weiße Taste | 👆 tippen | Wetter-Vollbild |
+| 2 | die rechte weiße Taste erneut | 👆 tippen | Mehrtägige Wettervorschau öffnen |
+| dann | die rechte weiße Taste | 👆 tippen | Nächster Tag |
+| dann | die linke weiße Taste | 👆 tippen | Vorheriger Tag |
+| zurück | die grüne Taste | 👆 tippen | Zurück zur Halb & Halb-Ansicht |
 
 ### Was du siehst
 
@@ -189,9 +195,21 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 | Taste   | Kurz drücken | Ergebnis                                 |
 |---------|--------------|------------------------------------------|
-| die grüne Taste | 👆 tippen    | Halb & Halb-Ansicht (Wetter + Abfahrten) |
+| die grüne Taste | 👆 tippen    | Abfahrtstafel                            |
 | die rechte weiße Taste | 👆 tippen    | Wetter-Vollbild                          |
-| die linke weiße Taste | 👆 tippen    | Abfahrt-Vollbild                         |
+| die linke weiße Taste | 👆 tippen    | Abfahrtstafel                            |
+
+> 💡 **Wettervorschau aus der Abfahrtstafel durchblättern.** Tippe zuerst **die rechte weiße
+> Taste**, um das Wetter-Vollbild anzuzeigen, und nutze dann die Tasten unten. (Die Solar-Ansicht
+> *Sonnenstrom* gibt es nur im Modus „Nur Wetter".)
+
+| Schritt | Taste | Kurz drücken | Ergebnis |
+|---------|-------|--------------|----------|
+| 1 | die rechte weiße Taste | 👆 tippen | Wetter-Vollbild |
+| 2 | die rechte weiße Taste erneut | 👆 tippen | Mehrtägige Wettervorschau öffnen |
+| dann | die rechte weiße Taste | 👆 tippen | Nächster Tag |
+| dann | die linke weiße Taste | 👆 tippen | Vorheriger Tag |
+| zurück | die grüne Taste | 👆 tippen | Zurück zur Abfahrtstafel |
 
 ### Was du siehst
 
@@ -216,10 +234,10 @@ Ein kurzer Druck wechselt vorübergehend die Ansicht (**2 Minuten**, danach zur�
 
 **Zeitanzeige:**
 
-- „jetzt" — Fährt sofort ab
-- „in X Min" — Minuten bis zur Abfahrt
-- „+X Min" — X Minuten Verspätung
-- Genaue Uhrzeit (z.B. „14:35")
+- Spalte **Zeit** — die tatsächliche Abfahrtszeit (z.B. „14:35"). Meldet das Fahrzeug keine
+  Echtzeitdaten, wird die Fahrplanzeit mit einem **\*** gekennzeichnet.
+- Spalte **In** — Minuten bis zur Abfahrt (z.B. „7'"). Bleibt leer bei Abfahrten, die mehr als
+  99 Minuten entfernt sind.
 
 **Am besten geeignet für:**
 
