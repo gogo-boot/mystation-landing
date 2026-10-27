@@ -8,7 +8,7 @@ see** and **what the buttons do** while you are in that mode.
 
 ## Button Overview
 
-![Device buttons: the green button, and two white buttons (left white and right white)](/img/user-guide/IMG_0870-b123.jpeg)
+![Device buttons: the green button, and two white buttons (left white and right white)](/img/IMG_1404.jpeg)
 
 > 💡 The buttons are on the top edge. There is **one green button** and **two white buttons**.
 > Facing the display, the **left white button** and the **right white button** sit next to the

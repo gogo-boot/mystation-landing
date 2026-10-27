@@ -8,7 +8,7 @@ und **was die Tasten tun**, während du in diesem Modus bist.
 
 ## Tastenübersicht
 
-![Gerätetasten: die grüne Taste und zwei weiße Tasten (linke und rechte weiße Taste)](/img/user-guide/IMG_0870-b123.jpeg)
+![Gerätetasten: die grüne Taste und zwei weiße Tasten (linke und rechte weiße Taste)](/img/IMG_1404.jpeg)
 
 > 💡 Die Tasten befinden sich an der Oberkante. Es gibt **eine grüne Taste** und **zwei weiße
 > Tasten**. Mit Blick auf das Display sitzen die **linke weiße Taste** und die **rechte weiße
