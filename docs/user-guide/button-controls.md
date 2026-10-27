@@ -50,11 +50,17 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 | the right white button | 👆 tap      | Weather full screen                      |
 | the left white button | 👆 tap      | Departure full screen                    |
 
-> 💡 **Browse the weather forecast from Half & Half.** Once the **weather full screen** is
-> showing (tap **the right white button** to switch to it), tap **the right white button again** to open the
-> **multi-day weather forecast** — exactly like in Weather Only mode. Then **the right white button** goes
-> to the next day, **the left white button** the previous day, and **the green button** returns to your Half & Half
-> view. (Solar *Sonnenstrom* browsing is only available in Weather Only mode.)
+> 💡 **Browse the weather forecast from Half & Half.** First tap **the right white button** to
+> show the weather full screen, then use the buttons below. (Solar *Sonnenstrom* browsing is only
+> available in Weather Only mode.)
+
+| Step | Button | Brief press | Result |
+|------|--------|-------------|--------|
+| 1 | the right white button | 👆 tap | Weather full screen |
+| 2 | the right white button again | 👆 tap | Open the multi-day weather forecast |
+| then | the right white button | 👆 tap | Next day |
+| then | the left white button | 👆 tap | Previous day |
+| exit | the green button | 👆 tap | Back to your Half & Half view |
 
 ### What you see
 
@@ -189,9 +195,21 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 | Button   | Brief press | Result                                   |
 |----------|-------------|------------------------------------------|
-| the green button | 👆 tap      | Half & Half view (weather + departures)  |
+| the green button | 👆 tap      | Departure board                          |
 | the right white button | 👆 tap      | Weather full screen                      |
-| the left white button | 👆 tap      | Departure full screen                    |
+| the left white button | 👆 tap      | Departure board                          |
+
+> 💡 **Browse the weather forecast from the departure board.** First tap **the right white button**
+> to show the weather full screen, then use the buttons below. (Solar *Sonnenstrom* browsing is
+> only available in Weather Only mode.)
+
+| Step | Button | Brief press | Result |
+|------|--------|-------------|--------|
+| 1 | the right white button | 👆 tap | Weather full screen |
+| 2 | the right white button again | 👆 tap | Open the multi-day weather forecast |
+| then | the right white button | 👆 tap | Next day |
+| then | the left white button | 👆 tap | Previous day |
+| exit | the green button | 👆 tap | Back to the departure board |
 
 ### What you see
 
@@ -216,10 +234,10 @@ A brief press temporarily switches the view (**2 minutes**, then it returns to y
 
 **Time Display**:
 
-- "now" - Departing immediately
-- "in X min" - Minutes until departure
-- "+X min" - Delayed by X minutes
-- Exact time (e.g., "14:35")
+- **Zeit** column — the actual departure time (e.g. "14:35"). If the vehicle reports no
+  real-time data, the scheduled time is shown with a **\*** marker.
+- **In** column — minutes until departure (e.g. "7'"). Left blank for departures more than
+  99 minutes away.
 
 **Best For**:
 
